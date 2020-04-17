@@ -1,0 +1,5075 @@
+- name: '乳白'
+  pinyin: 'rǔ bái'
+  hex: '#F9F4DC'
+  rgb: [249, 244, 220]
+  cmyk: [4, 5, 18, 0]
+
+- name: '杏仁黄'
+  pinyin: 'xìng rén huáng'
+  hex: '#F7E8AA'
+  rgb: [249, 236, 195]
+  cmyk: [3, 8, 30, 0]
+
+- name: '茉莉黄'
+  pinyin: 'mò lì huáng'
+  hex: '#F8DF72'
+  rgb: [248, 223, 114]
+  cmyk: [4, 13, 67, 0]
+
+- name: '麦秆黄'
+  pinyin: 'mài gǎn huáng'
+  hex: '#F8DF70'
+  rgb: [248, 223, 112]
+  cmyk: [5, 14, 68, 1]
+
+- name: '油菜花黄'
+  pinyin: 'yóu cài huā huáng'
+  hex: '#FBDA41'
+  rgb: [251, 218, 65]
+  cmyk: [2, 16, 84, 0]
+
+- name: '佛手黄'
+  pinyin: 'fó shǒu huáng'
+  hex: '#FED71A'
+  rgb: [254, 215, 26]
+  cmyk: [1, 18, 94, 0]
+
+- name: '篾黄'
+  pinyin: 'miè huáng'
+  hex: '#F7DE98'
+  rgb: [247, 222, 152]
+  cmyk: [3, 16, 50, 0]
+
+- name: '葵扇黄'
+  pinyin: 'kuí shàn huáng'
+  hex: '#F8D86A'
+  rgb: [248, 216, 106]
+  cmyk: [3, 17, 69, 0]
+
+- name: '柠檬黄'
+  pinyin: 'níng méng huáng'
+  hex: '#FCD337'
+  rgb: [252, 211, 55]
+  cmyk: [0, 20, 87, 0]
+
+- name: '金瓜黄'
+  pinyin: 'jīn guā huáng'
+  hex: '#FCD217'
+  rgb: [252, 210, 23]
+  cmyk: [0, 20, 95, 0]
+
+- name: '藤黄'
+  pinyin: 'téng huáng'
+  hex: '#FFD111'
+  rgb: [254, 209, 16]
+  cmyk: [0, 21, 94, 0]
+
+- name: '酪黄'
+  pinyin: 'lào huáng'
+  hex: '#F6DEAD'
+  rgb: [246, 222, 173]
+  cmyk: [2, 16, 39, 0]
+
+- name: '香水玫瑰黄'
+  pinyin: 'xiāng shuǐ méi guī huáng'
+  hex: '#F7DA94'
+  rgb: [247, 218, 148]
+  cmyk: [1, 17, 50, 0]
+
+- name: '淡密黄'
+  pinyin: 'dàn mì huáng'
+  hex: '#F9D367'
+  rgb: [249, 211, 103]
+  cmyk: [1, 21, 70, 0]
+
+- name: '大豆黄'
+  pinyin: 'dà dòu huáng'
+  hex: '#FBCD31'
+  rgb: [251, 205, 49]
+  cmyk: [0, 23, 88, 0]
+
+- name: '素馨黄'
+  pinyin: 'sù xīn huáng'
+  hex: '#FCCB16'
+  rgb: [252, 203, 22]
+  cmyk: [0, 24, 94, 0]
+
+- name: '向日葵黄'
+  pinyin: 'xiàng rì kuí huáng'
+  hex: '#FECC11'
+  rgb: [254, 204, 17]
+  cmyk: [0, 24, 94, 0]
+
+- name: '雅梨黄'
+  pinyin: 'yǎ lí huáng'
+  hex: '#FBC82F'
+  rgb: [251, 200, 47]
+  cmyk: [0, 27, 88, 0]
+
+- name: '黄连黄'
+  pinyin: 'huáng lián huáng'
+  hex: '#FCC515'
+  rgb: [252, 197, 21]
+  cmyk: [0, 28, 94, 0]
+
+- name: '金盏黄'
+  pinyin: 'jīn zhǎn huáng'
+  hex: '#FCC307'
+  rgb: [252, 195, 7]
+  cmyk: [0, 29, 95, 0]
+
+- name: '蛋壳黄'
+  pinyin: 'dàn ké huáng'
+  hex: '#F8C387'
+  rgb: [248, 195, 135]
+  cmyk: [0, 32, 52, 0]
+
+- name: '肉色'
+  pinyin: 'ròu sè'
+  hex: '#F7C173'
+  rgb: [247, 193, 115]
+  cmyk: [0, 32, 52, 0]
+
+- name: '鹅掌黄'
+  pinyin: 'é zhǎng huáng'
+  hex: '#FBB929'
+  rgb: [251, 185, 41]
+  cmyk: [0, 35, 89, 0]
+
+- name: '鸡蛋黄'
+  pinyin: 'jī dàn huáng'
+  hex: '#FBB612'
+  rgb: [251, 182, 18]
+  cmyk: [0, 36, 93, 0]
+
+- name: '鼬黄'
+  pinyin: 'yòu huáng'
+  hex: '#FCB70A'
+  rgb: [252, 183, 10]
+  cmyk: [0, 35, 94, 0]
+
+- name: '榴萼黄'
+  pinyin: 'liú è huáng'
+  hex: '#F9A633'
+  rgb: [249, 166, 51]
+  cmyk: [0, 44, 84, 0]
+
+- name: '淡橘橙'
+  pinyin: 'dàn jú chéng'
+  hex: '#FBA414'
+  rgb: [251, 164, 20]
+  cmyk: [0, 45, 92, 0]
+
+- name: '枇杷黄'
+  pinyin: 'pí pá huáng'
+  hex: '#FCA106'
+  rgb: [252, 161, 6]
+  cmyk: [0, 47, 92, 0]
+
+- name: '橙皮黄'
+  pinyin: 'chéng pí huáng'
+  hex: '#FCA104'
+  rgb: [252, 161, 4]
+  cmyk: [0, 47, 92, 0]
+
+- name: '北瓜黄'
+  pinyin: 'běi guā huáng'
+  hex: '#FC8C23'
+  rgb: [252, 140, 35]
+  cmyk: [0, 56, 87, 0]
+
+- name: '杏黄'
+  pinyin: 'xìng huáng'
+  hex: '#F28E16'
+  rgb: [250, 142, 22]
+  cmyk: [0, 54, 92, 0]
+
+- name: '雄黄'
+  pinyin: 'xióng huáng'
+  hex: '#FF9900'
+  rgb: [255, 153, 0]
+  cmyk: [0, 51, 91, 0]
+
+- name: '万寿菊黄'
+  pinyin: 'wàn shòu jú huáng'
+  hex: '#FB8B05'
+  rgb: [251, 139, 5]
+  cmyk: [0, 56, 91, 0]
+
+- name: '菊蕾白'
+  pinyin: 'jú lěi bái'
+  hex: '#E9DDB6'
+  rgb: [233, 221, 182]
+  cmyk: [10, 13, 35, 1]
+
+- name: '秋葵黄'
+  pinyin: 'qiū kuí huáng'
+  hex: '#EED045'
+  rgb: [238, 208, 69]
+  cmyk: [8, 19, 84, 1]
+
+- name: '硫华黄'
+  pinyin: 'liú huá huáng'
+  hex: '#F2CE2B'
+  rgb: [242, 206, 43]
+  cmyk: [6, 20, 92, 1]
+
+- name: '柚黄'
+  pinyin: 'yòu huáng'
+  hex: '#F1CA17'
+  rgb: [241, 202, 23]
+  cmyk: [6, 22, 92, 0]
+
+- name: '芒果黄'
+  pinyin: 'máng guǒ huáng'
+  hex: '#DDC871'
+  rgb: [221, 200, 113]
+  cmyk: [15, 20, 66, 2]
+
+- name: '蒿黄'
+  pinyin: 'hāo huáng'
+  hex: '#DFC243'
+  rgb: [223, 194, 67]
+  cmyk: [14, 22, 85, 2]
+
+- name: '姜黄'
+  pinyin: 'jiāng huáng'
+  hex: '#E2C027'
+  rgb: [226, 192, 39]
+  cmyk: [12, 24, 95, 2]
+
+- name: '香蕉黄'
+  pinyin: 'xiāng jiāo huáng'
+  hex: '#E4BF11'
+  rgb: [228, 191, 17]
+  cmyk: [11, 25, 99, 1]
+
+- name: '草黄'
+  pinyin: 'cǎo huáng'
+  hex: '#D2B42C'
+  rgb: [210, 180, 44]
+  cmyk: [17, 27, 94, 4]
+
+- name: '新禾绿'
+  pinyin: 'xīn hé lǜ'
+  hex: '#D2B116'
+  rgb: [210, 177, 22]
+  cmyk: [17, 29, 100, 4]
+
+- name: '月灰'
+  pinyin: 'yuè huī'
+  hex: '#B7AE8F'
+  rgb: [183, 174, 143]
+  cmyk: [28, 26, 45, 7]
+
+- name: '淡灰绿'
+  pinyin: 'dàn huī lǜ'
+  hex: '#AD9E5F'
+  rgb: [173, 158, 85]
+  cmyk: [30, 30, 70, 12]
+
+- name: '草灰绿'
+  pinyin: 'cǎo huī lǜ'
+  hex: '#8E804B'
+  rgb: [142, 128, 75]
+  cmyk: [38, 38, 76, 24]
+
+- name: '苔绿'
+  pinyin: 'tái lǜ'
+  hex: '#887322'
+  rgb: [136, 115, 34]
+  cmyk: [36, 42, 100, 29]
+
+- name: '碧螺春绿'
+  pinyin: 'bì luó chūn lǜ'
+  hex: '#867018'
+  rgb: [134, 112, 24]
+  cmyk: [36, 42, 100, 30]
+
+- name: '燕羽灰'
+  pinyin: 'yàn yǔ huī'
+  hex: '#685E48'
+  rgb: [104, 94, 72]
+  cmyk: [47, 47, 65, 42]
+
+- name: '蟹壳灰'
+  pinyin: 'xiè ké huī'
+  hex: '#695E45'
+  rgb: [105, 94, 69]
+  cmyk: [46, 47, 69, 42]
+
+- name: '潭水绿'
+  pinyin: 'tán shuǐ lǜ'
+  hex: '#645822'
+  rgb: [100, 88, 34]
+  cmyk: [48, 48, 100, 45]
+
+- name: '橄榄绿'
+  pinyin: 'gǎn lǎn lǜ'
+  hex: '#5E5314'
+  rgb: [94, 83, 20]
+  cmyk: [50, 50, 10, 48]
+
+- name: '蚌肉白'
+  pinyin: 'bàng ròu bái'
+  hex: '#F9F1DB'
+  rgb: [249, 241, 219]
+  cmyk: [2, 6, 18, 0]
+
+- name: '豆汁黄'
+  pinyin: 'dòu zhī huáng'
+  hex: '#F8E8C1'
+  rgb: [248, 232, 193]
+  cmyk: [3, 10, 31, 0]
+
+- name: '淡茧黄'
+  pinyin: 'dàn jiǎn huáng'
+  hex: '#F9D770'
+  rgb: [249, 215, 112]
+  cmyk: [1, 19, 66, 0]
+
+- name: '乳鸭黄'
+  pinyin: 'rǔ yā huáng'
+  hex: '#FFC90C'
+  rgb: [255, 201, 12]
+  cmyk: [0, 26, 94, 0]
+
+- name: '荔肉白'
+  pinyin: 'lì ròu bái'
+  hex: '#F2E6CE'
+  rgb: [242, 230, 206]
+  cmyk: [5, 11, 22, 0]
+
+- name: '象牙黄'
+  pinyin: 'xiàng yá huáng'
+  hex: '#F0D695'
+  rgb: [240, 214, 149]
+  cmyk: [5, 19, 50, 0]
+
+- name: '炒米黄'
+  pinyin: 'chǎo mǐ huáng'
+  hex: '#F4CE69'
+  rgb: [244, 206, 105]
+  cmyk: [3, 23, 69, 0]
+
+- name: '鹦鹉冠黄'
+  pinyin: 'yīng wǔ guān huáng'
+  hex: '#F6C430'
+  rgb: [246, 196, 48]
+  cmyk: [1, 28, 89, 0]
+
+- name: '木瓜黄'
+  pinyin: 'mù guā huáng'
+  hex: '#F9C116'
+  rgb: [249, 193, 22]
+  cmyk: [0, 30, 95, 0]
+
+- name: '浅烙黄'
+  pinyin: 'qiǎn lào huáng'
+  hex: '#F9BD10'
+  rgb: [249, 189, 16]
+  cmyk: [0, 32, 95, 0]
+
+- name: '莲子白'
+  pinyin: 'lián zi bái'
+  hex: '#E5D3AA'
+  rgb: [229, 211, 170]
+  cmyk: [11, 18, 39, 1]
+
+- name: '谷黄'
+  pinyin: 'gǔ huáng'
+  hex: '#E8B004'
+  rgb: [232, 176, 4]
+  cmyk: [5, 35, 99, 0]
+
+- name: '栀子黄'
+  pinyin: 'zhī zi huáng'
+  hex: '#EBB10D'
+  rgb: [235, 177, 13]
+  cmyk: [3, 36, 99, 0]
+
+- name: '芥黄'
+  pinyin: 'jiè huáng'
+  hex: '#D9A40E'
+  rgb: [217, 164, 14]
+  cmyk: [11, 39, 100, 2]
+
+- name: '银鼠灰'
+  pinyin: 'yín shǔ huī'
+  hex: '#B5AA90'
+  rgb: [181, 170, 144]
+  cmyk: [28, 27, 43, 8]
+
+- name: '尘灰'
+  pinyin: 'chén huī'
+  hex: '#B6A476'
+  rgb: [182, 164, 118]
+  cmyk: [26, 31, 57, 10]
+
+- name: '枯绿'
+  pinyin: 'kū lǜ'
+  hex: '#B78D12'
+  rgb: [183, 141, 18]
+  cmyk: [21, 43, 100, 11]
+
+- name: '鲛青'
+  pinyin: 'jiāo qīng'
+  hex: '#87723E'
+  rgb: [135, 114, 62]
+  cmyk: [35, 44, 80, 30]
+
+- name: '粽叶绿'
+  pinyin: 'zòng yè lǜ'
+  hex: '#876818'
+  rgb: [135, 104, 24]
+  cmyk: [32, 50, 100, 31]
+
+- name: '灰绿'
+  pinyin: 'huī lǜ'
+  hex: '#8A6913'
+  rgb: [138, 105, 19]
+  cmyk: [31, 51, 100, 30]
+
+- name: '鹤灰'
+  pinyin: 'hè huī'
+  hex: '#4A4035'
+  rgb: [74, 64, 53]
+  cmyk: [52, 56, 64, 62]
+
+- name: '淡松烟'
+  pinyin: 'dàn sōng yān'
+  hex: '#4D4030'
+  rgb: [77, 64, 48]
+  cmyk: [48, 58, 70, 62]
+
+- name: '暗海水绿'
+  pinyin: 'àn hǎi shuǐ lǜ'
+  hex: '#584717'
+  rgb: [88, 71, 23]
+  cmyk: [45, 56, 100, 56]
+
+- name: '棕榈绿'
+  pinyin: 'zōng lǘ lǜ'
+  hex: '#5B4913'
+  rgb: [91, 73, 19]
+  cmyk: [45, 55, 100, 54]
+
+- name: '米色'
+  pinyin: 'mǐ sè'
+  hex: '#F9E9CD'
+  rgb: [249, 223, 205]
+  cmyk: [1, 11, 24, 0]
+
+- name: '淡肉色'
+  pinyin: 'dàn ròu sè'
+  hex: '#F8E0B0'
+  rgb: [248, 224, 176]
+  cmyk: [1, 15, 38, 0]
+
+- name: '麦芽糖黄'
+  pinyin: 'mài yá táng huáng'
+  hex: '#F9D27D'
+  rgb: [249, 210, 125]
+  cmyk: [0, 23, 59, 0]
+
+- name: '琥珀黄'
+  pinyin: 'hǔ pò huáng'
+  hex: '#FEBA07'
+  rgb: [254, 186, 7]
+  cmyk: [0, 34, 93, 0]
+
+- name: '甘草黄'
+  pinyin: 'gān cǎo huáng'
+  hex: '#F3BF4C'
+  rgb: [243, 191, 76]
+  cmyk: [1, 31, 79, 0]
+
+- name: '初熟杏黄'
+  pinyin: 'chū shú xìng huáng'
+  hex: '#F8BC31'
+  rgb: [248, 188, 49]
+  cmyk: [0, 33, 83, 0]
+
+- name: '浅驼色'
+  pinyin: 'qiǎn tuó sè'
+  hex: '#E2C17C'
+  rgb: [226, 193, 124]
+  cmyk: [10, 27, 59, 1]
+
+- name: '沙石黄'
+  pinyin: 'shā shí huáng'
+  hex: '#E5B751'
+  rgb: [229, 183, 81]
+  cmyk: [7, 32, 78, 1]
+
+- name: '虎皮黄'
+  pinyin: 'hǔ pí huáng'
+  hex: '#EAAD1A'
+  rgb: [234, 173, 26]
+  cmyk: [3, 38, 97, 0]
+
+- name: '土黄'
+  pinyin: 'tǔ huáng'
+  hex: '#D6A01D'
+  rgb: [214, 160, 29]
+  cmyk: [12, 41, 98, 2]
+
+- name: '百灵鸟灰'
+  pinyin: 'bǎi líng niǎo huī'
+  hex: '#B4A992'
+  rgb: [180, 169, 146]
+  cmyk: [28, 28, 41, 9]
+
+- name: '山鸡黄'
+  pinyin: 'shān jī huáng'
+  hex: '#B78B26'
+  rgb: [183, 139, 38]
+  cmyk: [21, 44, 97, 11]
+
+- name: '龟背黄'
+  pinyin: 'guī bèi huáng'
+  hex: '#826B48'
+  rgb: [130, 107, 72]
+  cmyk: [35, 47, 71, 33]
+
+- name: '苍黄'
+  pinyin: 'cāng huáng'
+  hex: '#806332'
+  rgb: [128, 99, 50]
+  cmyk: [34, 52, 85, 35]
+
+- name: '莱阳梨黄'
+  pinyin: 'lái yáng lí huáng'
+  hex: '#815F25'
+  rgb: [129, 95, 37]
+  cmyk: [32, 56, 96, 34]
+
+- name: '蜴蜊绿'
+  pinyin: 'yì lí lǜ'
+  hex: '#835E1D'
+  rgb: [131, 94, 29]
+  cmyk: [31, 57, 100, 33]
+
+- name: '松鼠灰'
+  pinyin: 'sōng shǔ huī'
+  hex: '#4F4032'
+  rgb: [79, 64, 50]
+  cmyk: [46, 59, 68, 61]
+
+- name: '橄榄灰'
+  pinyin: 'gǎn lǎn huī'
+  hex: '#503E2A'
+  rgb: [80, 62, 42]
+  cmyk: [44, 61, 76, 62]
+
+- name: '蟹壳绿'
+  pinyin: 'xiè ké lǜ'
+  hex: '#513C20'
+  rgb: [81, 60, 32]
+  cmyk: [43, 63, 88, 61]
+
+- name: '古铜绿'
+  pinyin: 'gǔ tóng lǜ'
+  hex: '#533C1B'
+  rgb: [83, 60, 27]
+  cmyk: [42, 64, 94, 60]
+
+- name: '焦茶绿'
+  pinyin: 'jiāo chá lǜ'
+  hex: '#553B18'
+  rgb: [85, 59, 24]
+  cmyk: [41, 66, 94, 60]
+
+- name: '粉白'
+  pinyin: 'fěn bái'
+  hex: '#FBF2E3'
+  rgb: [251, 242, 227]
+  cmyk: [1, 7, 13, 0]
+
+- name: '落英淡粉'
+  pinyin: 'luò yīng dàn fěn'
+  hex: '#F9E8D0'
+  rgb: [249, 232, 208]
+  cmyk: [1, 12, 22, 0]
+
+- name: '瓜瓤粉'
+  pinyin: 'guā ráng fěn'
+  hex: '#F9CB8B'
+  rgb: [249, 203, 139]
+  cmyk: [0, 27, 51, 0]
+
+- name: '蜜黄'
+  pinyin: 'mì huáng'
+  hex: '#FBB957'
+  rgb: [251, 185, 87]
+  cmyk: [0, 36, 72, 0]
+
+- name: '金叶黄'
+  pinyin: 'jīn yè huáng'
+  hex: '#FFA60F'
+  rgb: [255, 166, 15]
+  cmyk: [0, 44, 91, 0]
+
+- name: '金莺黄'
+  pinyin: 'jīn yīng huáng'
+  hex: '#F4A83A'
+  rgb: [244, 168, 58]
+  cmyk: [0, 43, 82, 0]
+
+- name: '鹿角棕'
+  pinyin: 'lù jiǎo zōng'
+  hex: '#E3BD8D'
+  rgb: [227, 189, 141]
+  cmyk: [8, 31, 50, 1]
+
+- name: '凋叶棕'
+  pinyin: 'diāo yè zōng'
+  hex: '#E7A23F'
+  rgb: [231, 162, 63]
+  cmyk: [2, 44, 83, 0]
+
+- name: '玳瑁黄'
+  pinyin: 'dài mào huáng'
+  hex: '#DAA45A'
+  rgb: [218, 164, 90]
+  cmyk: [10, 41, 72, 1]
+
+- name: '软木黄'
+  pinyin: 'ruǎn mù huáng'
+  hex: '#DE9E44'
+  rgb: [222, 158, 68]
+  cmyk: [7, 45, 82, 1]
+
+- name: '风帆黄'
+  pinyin: 'fēng fān huáng'
+  hex: '#DC9123'
+  rgb: [220, 145, 35]
+  cmyk: [6, 51, 95, 1]
+
+- name: '桂皮淡棕'
+  pinyin: 'guì pí dàn zōng'
+  hex: '#C09351'
+  rgb: [192, 147, 81]
+  cmyk: [19, 44, 75, 7]
+
+- name: '猴毛灰'
+  pinyin: 'hóu máo huī'
+  hex: '#97846C'
+  rgb: [151, 132, 108]
+  cmyk: [32, 40, 53, 22]
+
+- name: '山鸡褐'
+  pinyin: 'shān jī hè'
+  hex: '#986524'
+  rgb: [152, 101, 36]
+  cmyk: [27, 60, 97, 21]
+
+- name: '驼色'
+  pinyin: 'tuó sè'
+  hex: '#66462A'
+  rgb: [102, 70, 42]
+  cmyk: [37, 65, 84, 49]
+
+- name: '茶褐'
+  pinyin: 'chá hè'
+  hex: '#5D3D21'
+  rgb: [93, 61, 33]
+  cmyk: [38, 69, 90, 54]
+
+- name: '古铜褐'
+  pinyin: 'gǔ tóng hè'
+  hex: '#5C3719'
+  rgb: [92, 55, 25]
+  cmyk: [37, 74, 96, 55]
+
+- name: '荷花白'
+  pinyin: 'hé huā bái'
+  hex: '#FBECDE'
+  rgb: [251, 236, 222]
+  cmyk: [0, 10, 14, 0]
+
+- name: '玫瑰粉'
+  pinyin: 'méi guī fěn'
+  hex: '#F8B37F'
+  rgb: [248, 179, 127]
+  cmyk: [0, 40, 52, 0]
+
+- name: '橘橙'
+  pinyin: 'jú chéng'
+  hex: '#F97D1C'
+  rgb: [249, 125, 28]
+  cmyk: [0, 62, 88, 0]
+
+- name: '美人焦橙'
+  pinyin: 'měi rén jiāo chéng'
+  hex: '#FA7E23'
+  rgb: [250, 126, 35]
+  cmyk: [0, 62, 85, 0]
+
+- name: '润红'
+  pinyin: 'rùn hóng'
+  hex: '#F7CDBC'
+  rgb: [247, 205, 188]
+  cmyk: [0, 28, 25, 0]
+
+- name: '淡桃红'
+  pinyin: 'dàn táo hóng'
+  hex: '#F6CEC1'
+  rgb: [246, 206, 193]
+  cmyk: [0, 28, 22, 0]
+
+- name: '海螺橙'
+  pinyin: 'hǎi luó chéng'
+  hex: '#F0945D'
+  rgb: [240, 148, 93]
+  cmyk: [0, 53, 65, 0]
+
+- name: '桃红'
+  pinyin: 'táo hóng'
+  hex: '#F0ADA0'
+  rgb: [240, 173, 160]
+  cmyk: [0, 44, 32, 0]
+
+- name: '颊红'
+  pinyin: 'jiá hóng'
+  hex: '#EEAA9C'
+  rgb: [238, 170, 156]
+  cmyk: [0, 45, 34, 0]
+
+- name: '淡罂粟红'
+  pinyin: 'dàn yīng sù hóng'
+  hex: '#EEA08C'
+  rgb: [238, 160, 140]
+  cmyk: [0, 49, 41, 0]
+
+- name: '晨曦红'
+  pinyin: 'chén xī hóng'
+  hex: '#EA8958'
+  rgb: [234, 137, 88]
+  cmyk: [0, 58, 67, 0]
+
+- name: '蟹壳红'
+  pinyin: 'xiè ké hóng'
+  hex: '#F27635'
+  rgb: [242, 118, 53]
+  cmyk: [0, 65, 80, 0]
+
+- name: '金莲花橙'
+  pinyin: 'jīn lián huā chéng'
+  hex: '#F86B1D'
+  rgb: [248, 107, 29]
+  cmyk: [0, 69, 86, 0]
+
+- name: '草莓红'
+  pinyin: 'cǎo méi hóng'
+  hex: '#EF6F48'
+  rgb: [239, 111, 72]
+  cmyk: [0, 69, 70, 0]
+
+- name: '龙睛鱼红'
+  pinyin: 'lóng jīng yú hóng'
+  hex: '#EF632B'
+  rgb: [239, 99, 43]
+  cmyk: [0, 72, 82, 0]
+
+- name: '蜻蜓红'
+  pinyin: 'qīng tíng hóng'
+  hex: '#F1441D'
+  rgb: [241, 68, 29]
+  cmyk: [0, 81, 84, 0]
+
+- name: '大红'
+  pinyin: 'dà hóng'
+  hex: '#F04B22'
+  rgb: [240, 75, 34]
+  cmyk: [0, 80, 83, 0]
+
+- name: '柿红'
+  pinyin: 'shì hóng'
+  hex: '#F2481B'
+  rgb: [242, 72, 27]
+  cmyk: [0, 80, 85, 0]
+
+- name: '榴花红'
+  pinyin: 'liú huā hóng'
+  hex: '#F34718'
+  rgb: [243, 71, 24]
+  cmyk: [0, 80, 85, 0]
+
+- name: '银朱'
+  pinyin: 'yín zhū'
+  hex: '#F43E06'
+  rgb: [244, 62, 6]
+  cmyk: [0, 83, 87, 0]
+
+- name: '朱红'
+  pinyin: 'zhū hóng'
+  hex: '#ED5126'
+  rgb: [237, 81, 38]
+  cmyk: [0, 78, 83, 0]
+
+- name: '鲑鱼红'
+  pinyin: 'guī yú hóng'
+  hex: '#F09C5A'
+  rgb: [240, 156, 90]
+  cmyk: [0, 50, 68, 0]
+
+- name: '金黄'
+  pinyin: 'jīn huáng'
+  hex: '#F26B1F'
+  rgb: [242, 123, 31]
+  cmyk: [5, 69, 87, 0]
+
+- name: '鹿皮褐'
+  pinyin: 'lù pí hè'
+  hex: '#D99156'
+  rgb: [217, 145, 86]
+  cmyk: [7, 52, 71, 1]
+
+- name: '醉瓜肉'
+  pinyin: 'zuì guā ròu'
+  hex: '#DB8540'
+  rgb: [219, 133, 64]
+  cmyk: [4, 57, 82, 1]
+
+- name: '麂棕'
+  pinyin: 'jǐ zōng'
+  hex: '#DE7622'
+  rgb: [222, 118, 34]
+  cmyk: [0, 64, 93, 0]
+
+- name: '淡银灰'
+  pinyin: 'dàn yín huī'
+  hex: '#C1B2A3'
+  rgb: [193, 178, 163]
+  cmyk: [22, 28, 34, 6]
+
+- name: '淡赭'
+  pinyin: 'dàn zhě'
+  hex: '#BE7E4A'
+  rgb: [190, 126, 74]
+  cmyk: [18, 57, 76, 6]
+
+- name: '槟榔综'
+  pinyin: 'bīng láng zōng'
+  hex: '#C1651A'
+  rgb: [193, 101, 26]
+  cmyk: [14, 69, 100, 4]
+
+- name: '银灰'
+  pinyin: 'yín huī'
+  hex: '#918072'
+  rgb: [145, 128, 114]
+  cmyk: [34, 42, 46, 23]
+
+- name: '海鸥灰'
+  pinyin: 'hǎi ōu huī'
+  hex: '#9A8878'
+  rgb: [154, 136, 120]
+  cmyk: [42, 40, 46, 20]
+
+- name: '淡咖啡'
+  pinyin: 'dàn kā fēi'
+  hex: '#945833'
+  rgb: [148, 88, 51]
+  cmyk: [27, 69, 85, 22]
+
+- name: '岩石棕'
+  pinyin: 'yán shí zōng'
+  hex: '#964D22'
+  rgb: [150, 77, 34]
+  cmyk: [26, 76, 97, 20]
+
+- name: '芒果棕'
+  pinyin: 'máng guǒ zōng'
+  hex: '#954416'
+  rgb: [149, 68, 22]
+  cmyk: [25, 80, 100, 20]
+
+- name: '石板灰'
+  pinyin: 'shí bǎn huī'
+  hex: '#624941'
+  rgb: [98, 73, 65]
+  cmyk: [39, 60, 58, 51]
+
+- name: '珠母灰'
+  pinyin: 'zhū mǔ huī'
+  hex: '#64483D'
+  rgb: [100, 72, 61]
+  cmyk: [38, 63, 63, 50]
+
+- name: '丁香棕'
+  pinyin: 'dīng xiāng zōng'
+  hex: '#71361D'
+  rgb: [113, 54, 29]
+  cmyk: [32, 83, 96, 41]
+
+- name: '咖啡'
+  pinyin: 'kā fēi'
+  hex: '#753117'
+  rgb: [117, 49, 23]
+  cmyk: [30, 87, 100, 38]
+
+- name: '筍皮棕'
+  pinyin: 'sǔn pí zōng'
+  hex: '#732E12'
+  rgb: [115, 46, 18]
+  cmyk: [30, 89, 100, 39]
+
+- name: '燕颔红'
+  pinyin: 'yàn hàn hóng'
+  hex: '#FC6315'
+  rgb: [252, 99, 21]
+  cmyk: [0, 72, 86, 0]
+
+- name: '玉粉红'
+  pinyin: 'yù fěn hóng'
+  hex: '#E8B49A'
+  rgb: [232, 180, 154]
+  cmyk: [3, 38, 39, 0]
+
+- name: '金驼'
+  pinyin: 'jīn tuó'
+  hex: '#E46828'
+  rgb: [228, 104, 40]
+  cmyk: [0, 70, 87, 0]
+
+- name: '铁棕'
+  pinyin: 'tiě zōng'
+  hex: '#D85916'
+  rgb: [216, 89, 22]
+  cmyk: [0, 76, 97, 0]
+
+- name: '蛛网灰'
+  pinyin: 'zhū wǎng huī'
+  hex: '#B7A091'
+  rgb: [183, 160, 145]
+  cmyk: [23, 35, 38, 10]
+
+- name: '淡可可棕'
+  pinyin: 'dàn kě kě zōng'
+  hex: '#B7511D'
+  rgb: [183, 81, 29]
+  cmyk: [16, 77, 100, 6]
+
+- name: '中红灰'
+  pinyin: 'zhōng hóng huī'
+  hex: '#8B614D'
+  rgb: [139, 97, 77]
+  cmyk: [31, 63, 66, 31]
+
+- name: '淡土黄'
+  pinyin: 'dàn tǔ huáng'
+  hex: '#8C4B31'
+  rgb: [140, 75, 49]
+  cmyk: [28, 76, 82, 26]
+
+- name: '淡豆沙'
+  pinyin: 'dàn dòu shā'
+  hex: '#873D24'
+  rgb: [135, 61, 36]
+  cmyk: [28, 83, 92, 28]
+
+- name: '椰壳棕'
+  pinyin: 'yē ké zōng'
+  hex: '#883A1E'
+  rgb: [136, 58, 30]
+  cmyk: [27, 85, 98, 27]
+
+- name: '淡铁灰'
+  pinyin: 'dàn tiě huī'
+  hex: '#5B423A'
+  rgb: [91, 66, 58]
+  cmyk: [40, 64, 61, 56]
+
+- name: '中灰驼'
+  pinyin: 'zhōng huī tuó'
+  hex: '#603D30'
+  rgb: [96, 61, 48]
+  cmyk: [37, 72, 72, 52]
+
+- name: '淡栗棕'
+  pinyin: 'dàn lì zōng'
+  hex: '#673424'
+  rgb: [103, 52, 36]
+  cmyk: [34, 82, 85, 47]
+
+- name: '可可棕'
+  pinyin: 'kě kě zōng'
+  hex: '#652B1C'
+  rgb: [101, 43, 28]
+  cmyk: [33, 89, 92, 48]
+
+- name: '柞叶棕'
+  pinyin: 'zhà yè zōng'
+  hex: '#692A1B'
+  rgb: [105, 42, 27]
+  cmyk: [32, 90, 95, 45]
+
+- name: '野蔷薇红'
+  pinyin: 'yě qiáng wēi hóng'
+  hex: '#FB9968'
+  rgb: [251, 153, 104]
+  cmyk: [0, 53, 59, 0]
+
+- name: '菠萝红'
+  pinyin: 'bō luó hóng'
+  hex: '#FC7930'
+  rgb: [252, 121, 48]
+  cmyk: [0, 65, 79, 0]
+
+- name: '藕荷'
+  pinyin: 'ǒu hé'
+  hex: '#EDC3AE'
+  rgb: [237, 195, 174]
+  cmyk: [2, 31, 31, 0]
+
+- name: '陶瓷红'
+  pinyin: 'táo cí hóng'
+  hex: '#E16723'
+  rgb: [225, 103, 35]
+  cmyk: [0, 70, 91, 0]
+
+- name: '晓灰'
+  pinyin: 'xiǎo huī'
+  hex: '#D4C4B7'
+  rgb: [212, 196, 183]
+  cmyk: [16, 23, 27, 2]
+
+- name: '余烬红'
+  pinyin: 'yú jìn hóng'
+  hex: '#CF7543'
+  rgb: [207, 117, 67]
+  cmyk: [9, 64, 78, 1]
+
+- name: '火砖红'
+  pinyin: 'huǒ zhuān hóng'
+  hex: '#CD6227'
+  rgb: [205, 98, 39]
+  cmyk: [8, 72, 93, 1]
+
+- name: '火泥棕'
+  pinyin: 'huǒ ní zōng'
+  hex: '#AA6A4C'
+  rgb: [170, 106, 76]
+  cmyk: [22, 64, 71, 12]
+
+- name: '绀红'
+  pinyin: 'gàn hóng'
+  hex: '#A6522C'
+  rgb: [166, 82, 44]
+  cmyk: [20, 76, 92, 9]
+
+- name: '橡树棕'
+  pinyin: 'xiàng shù zōng'
+  hex: '#773D31'
+  rgb: [119, 61, 49]
+  cmyk: [31, 79, 77, 37]
+
+- name: '海报灰'
+  pinyin: 'hǎi bào huī'
+  hex: '#483332'
+  rgb: [72, 51, 50]
+  cmyk: [45, 68, 57, 66]
+
+- name: '玫瑰灰'
+  pinyin: 'méi guī huī'
+  hex: '#4B2E2B'
+  rgb: [175, 46, 43]
+  cmyk: [41, 76, 64, 65]
+
+- name: '火山棕'
+  pinyin: 'huǒ shān zōng'
+  hex: '#482522'
+  rgb: [72, 37, 34]
+  cmyk: [41, 84, 71, 67]
+
+- name: '豆沙'
+  pinyin: 'dòu shā'
+  hex: '#481E1C'
+  rgb: [72, 30, 28]
+  cmyk: [40, 92, 78, 66]
+
+- name: '淡米粉'
+  pinyin: 'dàn mǐ fěn'
+  hex: '#FBEEE2'
+  rgb: [251, 238, 226]
+  cmyk: [0, 9, 12, 0]
+
+- name: '初桃粉红'
+  pinyin: 'chū táo fěn hóng'
+  hex: '#F6DCCE'
+  rgb: [246, 220, 206]
+  cmyk: [0, 19, 19, 0]
+
+- name: '介壳淡粉红'
+  pinyin: 'jiè ké dàn fěn hóng'
+  hex: '#F7CFBA'
+  rgb: [247, 207, 186]
+  cmyk: [0, 27, 27, 0]
+
+- name: '淡藏花红'
+  pinyin: 'dàn cáng huā hóng'
+  hex: '#F6AD8F'
+  rgb: [246, 173, 143]
+  cmyk: [0, 43, 43, 0]
+
+- name: '瓜瓤红'
+  pinyin: 'guā ráng hóng'
+  hex: '#F68C60'
+  rgb: [246, 140, 96]
+  cmyk: [0, 58, 61, 0]
+
+- name: '芙蓉红'
+  pinyin: 'fú róng hóng'
+  hex: '#F9723D'
+  rgb: [249, 114, 61]
+  cmyk: [0, 67, 74, 0]
+
+- name: '莓酱红'
+  pinyin: 'méi jiàng hóng'
+  hex: '#FA5D19'
+  rgb: [250, 93, 25]
+  cmyk: [0, 74, 85, 0]
+
+- name: '法螺红'
+  pinyin: 'fǎ luó hóng'
+  hex: '#EE8055'
+  rgb: [238, 128, 85]
+  cmyk: [0, 62, 66, 0]
+
+- name: '落霞红'
+  pinyin: 'luò xiá hóng'
+  hex: '#CF4813'
+  rgb: [207, 72, 19]
+  cmyk: [4, 82, 99, 0]
+
+- name: '淡玫瑰灰'
+  pinyin: 'dàn méi guī huī'
+  hex: '#B89485'
+  rgb: [184, 148, 133]
+  cmyk: [21, 43, 43, 9]
+
+- name: '蟹蝥红'
+  pinyin: 'xiè máo hóng'
+  hex: '#B14B28'
+  rgb: [177, 75, 40]
+  cmyk: [18, 80, 92, 7]
+
+- name: '火岩棕'
+  pinyin: 'huǒ yán zōng'
+  hex: '#863020'
+  rgb: [134, 48, 32]
+  cmyk: [27, 91, 95, 28]
+
+- name: '赭石'
+  pinyin: 'zhě shí'
+  hex: '#862617'
+  rgb: [134, 38, 23]
+  cmyk: [27, 96, 100, 27]
+
+- name: '暗驼棕'
+  pinyin: 'àn tuó zōng'
+  hex: '#592620'
+  rgb: [89, 38, 32]
+  cmyk: [36, 90, 82, 56]
+
+- name: '酱棕'
+  pinyin: 'jiàng zōng'
+  hex: '#5A1F1B'
+  rgb: [90, 31, 27]
+  cmyk: [35, 96, 88, 55]
+
+- name: '栗棕'
+  pinyin: 'lì zōng'
+  hex: '#5C1E19'
+  rgb: [92, 30, 25]
+  cmyk: [34, 98, 91, 53]
+
+- name: '洋水仙红'
+  pinyin: 'yáng shuǐ xiān hóng'
+  hex: '#F4C7BA'
+  rgb: [244, 199, 186]
+  cmyk: [0, 31, 24, 0]
+
+- name: '谷鞘红'
+  pinyin: 'gǔ qiào hóng'
+  hex: '#F17666'
+  rgb: [241, 118, 102]
+  cmyk: [0, 67, 55, 0]
+
+- name: '苹果红'
+  pinyin: 'píng guǒ hóng'
+  hex: '#F15642'
+  rgb: [241, 86, 66]
+  cmyk: [0, 77, 69, 0]
+
+- name: '铁水红'
+  pinyin: 'tiě shuǐ hóng'
+  hex: '#F5391C'
+  rgb: [245, 57, 28]
+  cmyk: [0, 84, 82, 0]
+
+- name: '桂红'
+  pinyin: 'guì hóng'
+  hex: '#F25A47'
+  rgb: [242, 90, 71]
+  cmyk: [0, 76, 67, 0]
+
+- name: '极光红'
+  pinyin: 'jí guāng hóng'
+  hex: '#F33B1F'
+  rgb: [243, 59, 31]
+  cmyk: [0, 84, 82, 0]
+
+- name: '粉红'
+  pinyin: 'fěn hóng'
+  hex: '#F2B9B2'
+  rgb: [242, 185, 178]
+  cmyk: [0, 38, 25, 0]
+
+- name: '舌红'
+  pinyin: 'shé hóng'
+  hex: '#F19790'
+  rgb: [241, 151, 144]
+  cmyk: [0, 53, 36, 0]
+
+- name: '曲红'
+  pinyin: 'qū hóng'
+  hex: '#F05A46'
+  rgb: [240, 90, 70]
+  cmyk: [0, 76, 68, 0]
+
+- name: '红汞红'
+  pinyin: 'hóng gǒng hóng'
+  hex: '#F23E23'
+  rgb: [242, 62, 35]
+  cmyk: [0, 83, 81, 0]
+
+- name: '淡绯'
+  pinyin: 'dàn fēi'
+  hex: '#F2CAC9'
+  rgb: [242, 202, 201]
+  cmyk: [0, 29, 16, 0]
+
+- name: '无花果红'
+  pinyin: 'wú huā guǒ hóng'
+  hex: '#EFAFAD'
+  rgb: [239, 175, 173]
+  cmyk: [0, 43, 24, 0]
+
+- name: '榴子红'
+  pinyin: 'liú zi hóng'
+  hex: '#F1908C'
+  rgb: [241, 144, 140]
+  cmyk: [0, 57, 36, 0]
+
+- name: '胭脂红'
+  pinyin: 'yān zhī hóng'
+  hex: '#F03F24'
+  rgb: [240, 63, 36]
+  cmyk: [0, 83, 81, 0]
+
+- name: '合欢红'
+  pinyin: 'hé huān hóng'
+  hex: '#F0A1A8'
+  rgb: [240, 161, 168]
+  cmyk: [0, 50, 23, 0]
+
+- name: '春梅红'
+  pinyin: 'chūn méi hóng'
+  hex: '#F1939C'
+  rgb: [241, 147, 156]
+  cmyk: [0, 56, 27, 0]
+
+- name: '香叶红'
+  pinyin: 'xiāng yè hóng'
+  hex: '#F07C82'
+  rgb: [240, 124, 130]
+  cmyk: [0, 65, 38, 0]
+
+- name: '珊瑚红'
+  pinyin: 'shān hú hóng'
+  hex: '#F04A3A'
+  rgb: [240, 74, 58]
+  cmyk: [0, 80, 72, 0]
+
+- name: '萝卜红'
+  pinyin: 'luó bo hóng'
+  hex: '#F13C22'
+  rgb: [241, 60, 34]
+  cmyk: [0, 84, 82, 0]
+
+- name: '淡茜红'
+  pinyin: 'dàn qiàn hóng'
+  hex: '#E77C8E'
+  rgb: [231, 124, 142]
+  cmyk: [0, 65, 29, 0]
+
+- name: '艳红'
+  pinyin: 'yàn hóng'
+  hex: '#ED5A65'
+  rgb: [237, 90, 101]
+  cmyk: [0, 77, 49, 0]
+
+- name: '淡菽红'
+  pinyin: 'dàn shū hóng'
+  hex: '#ED4845'
+  rgb: [237, 72, 69]
+  cmyk: [0, 81, 66, 0]
+
+- name: '鱼鳃红'
+  pinyin: 'yú sāi hóng'
+  hex: '#ED3B2F'
+  rgb: [237, 59, 47]
+  cmyk: [0, 84, 76, 0]
+
+- name: '樱桃红'
+  pinyin: 'yīng táo hóng'
+  hex: '#ED3321'
+  rgb: [237, 51, 33]
+  cmyk: [0, 86, 82, 0]
+
+- name: '淡蕊香红'
+  pinyin: 'dàn ruǐ xiāng hóng'
+  hex: '#EE4866'
+  rgb: [238, 72, 102]
+  cmyk: [0, 82, 44, 0]
+
+- name: '石竹红'
+  pinyin: 'shí zhú hóng'
+  hex: '#EE4863'
+  rgb: [238, 72, 99]
+  cmyk: [0, 82, 46, 0]
+
+- name: '草茉莉红'
+  pinyin: 'cǎo mò lì hóng'
+  hex: '#EF475D'
+  rgb: [239, 71, 93]
+  cmyk: [0, 82, 50, 0]
+
+- name: '茶花红'
+  pinyin: 'chá huā hóng'
+  hex: '#EE3F4D'
+  rgb: [238, 63, 77]
+  cmyk: [0, 84, 60, 0]
+
+- name: '枸枢红'
+  pinyin: 'gǒu shū hóng'
+  hex: '#ED3333'
+  rgb: [237, 51, 51]
+  cmyk: [0, 86, 74, 0]
+
+- name: '秋海棠红'
+  pinyin: 'qiū hǎi táng hóng'
+  hex: '#EC2B24'
+  rgb: [236, 43, 36]
+  cmyk: [0, 88, 81, 0]
+
+- name: '丽春红'
+  pinyin: 'lì chūn hóng'
+  hex: '#EB261A'
+  rgb: [235, 38, 26]
+  cmyk: [0, 89, 84, 0]
+
+- name: '夕阳红'
+  pinyin: 'xī yáng hóng'
+  hex: '#DE2A18'
+  rgb: [222, 42, 24]
+  cmyk: [0, 90, 90, 0]
+
+- name: '鹤顶红'
+  pinyin: 'hè dǐng hóng'
+  hex: '#D42517'
+  rgb: [212, 37, 23]
+  cmyk: [0, 92, 95, 0]
+
+- name: '鹅血石红'
+  pinyin: 'é xuè shí hóng'
+  hex: '#AB372F'
+  rgb: [171, 55, 47]
+  cmyk: [19, 89, 85, 9]
+
+- name: '覆盆子红'
+  pinyin: 'fù pén zi hóng'
+  hex: '#AC1F18'
+  rgb: [172, 31, 24]
+  cmyk: [17, 98, 100, 8]
+
+- name: '貂紫'
+  pinyin: 'diāo zǐ'
+  hex: '#5D3131'
+  rgb: [93, 49, 49]
+  cmyk: [36, 81, 64, 54]
+
+- name: '暗玉紫'
+  pinyin: 'àn yù zǐ'
+  hex: '#5C2223'
+  rgb: [92, 34, 35]
+  cmyk: [35, 94, 77, 53]
+
+- name: '栗紫'
+  pinyin: 'lì zǐ'
+  hex: '#5A191B'
+  rgb: [90, 25, 27]
+  cmyk: [35, 100, 85, 54]
+
+- name: '葡萄酱紫'
+  pinyin: 'pú táo jiàng zǐ'
+  hex: '#5A1216'
+  rgb: [90, 18, 22]
+  cmyk: [35, 100, 80, 54]
+
+- name: '牡丹粉红'
+  pinyin: 'mǔ dān fěn hóng'
+  hex: '#EEA2A4'
+  rgb: [238, 162, 164]
+  cmyk: [0, 49, 27, 0]
+
+- name: '山茶红'
+  pinyin: 'shān chá hóng'
+  hex: '#ED556A'
+  rgb: [237, 85, 106]
+  cmyk: [0, 78, 44, 0]
+
+- name: '海棠红'
+  pinyin: 'hǎi táng hóng'
+  hex: '#F03752'
+  rgb: [240, 55, 82]
+  cmyk: [0, 86, 55, 0]
+
+- name: '玉红'
+  pinyin: 'yù hóng'
+  hex: '#C04851'
+  rgb: [192, 72, 81]
+  cmyk: [13, 83, 62, 3]
+
+- name: '高粱红'
+  pinyin: 'gāo liáng hóng'
+  hex: '#C02C38'
+  rgb: [192, 44, 56]
+  cmyk: [11, 93, 77, 2]
+
+- name: '满江红'
+  pinyin: 'mǎn jiāng hóng'
+  hex: '#A7535A'
+  rgb: [167, 83, 90]
+  cmyk: [22, 76, 54, 12]
+
+- name: '枣红'
+  pinyin: 'zǎo hóng'
+  hex: '#7C1823'
+  rgb: [124, 24, 35]
+  cmyk: [28, 100, 86, 33]
+
+- name: '葡萄紫'
+  pinyin: 'pú táo zǐ'
+  hex: '#4C1F24'
+  rgb: [76, 31, 36]
+  cmyk: [39, 92, 67, 64]
+
+- name: '酱紫'
+  pinyin: 'jiàng zǐ'
+  hex: '#4D1018'
+  rgb: [77, 16, 24]
+  cmyk: [39, 100, 79, 63]
+
+- name: '淡曙红'
+  pinyin: 'dàn shǔ hóng'
+  hex: '#EE2746'
+  rgb: [238, 39, 70]
+  cmyk: [0, 89, 62, 0]
+
+- name: '唐菖蒲红'
+  pinyin: 'táng chāng pú hóng'
+  hex: '#DE1C31'
+  rgb: [222, 28, 49]
+  cmyk: [0, 93, 76, 0]
+
+- name: '鹅冠红'
+  pinyin: 'é guān hóng'
+  hex: '#D11A2D'
+  rgb: [209, 26, 45]
+  cmyk: [1, 95, 82, 0]
+
+- name: '莓红'
+  pinyin: 'méi hóng'
+  hex: '#C45A65'
+  rgb: [196, 90, 101]
+  cmyk: [13, 76, 50, 2]
+
+- name: '枫叶红'
+  pinyin: 'fēng yè hóng'
+  hex: '#C21F30'
+  rgb: [194, 31, 48]
+  cmyk: [10, 96, 82, 2]
+
+- name: '苋菜红'
+  pinyin: 'xiàn cài hóng'
+  hex: '#A61B29'
+  rgb: [166, 27, 41]
+  cmyk: [19, 99, 86, 11]
+
+- name: '烟红'
+  pinyin: 'yān hóng'
+  hex: '#894E54'
+  rgb: [137, 78, 84]
+  cmyk: [29, 73, 51, 28]
+
+- name: '暗紫苑红'
+  pinyin: 'àn zǐ yuàn hóng'
+  hex: '#82202B'
+  rgb: [130, 32, 43]
+  cmyk: [27, 98, 79, 30]
+
+- name: '殷红'
+  pinyin: 'yān hóng'
+  hex: '#82111F'
+  rgb: [130, 17, 31]
+  cmyk: [27, 100, 90, 29]
+
+- name: '猪肝紫'
+  pinyin: 'zhū gān zǐ'
+  hex: '#541E24'
+  rgb: [84, 30, 36]
+  cmyk: [36, 95, 71, 59]
+
+- name: '金鱼紫'
+  pinyin: 'jīn yú zǐ'
+  hex: '#500A16'
+  rgb: [80, 10, 22]
+  cmyk: [38, 100, 81, 61]
+
+- name: '草珠红'
+  pinyin: 'cǎo zhū hóng'
+  hex: '#F8EBE6'
+  rgb: [248, 235, 230]
+  cmyk: [1, 11, 9, 0]
+
+- name: '淡绛红'
+  pinyin: 'dàn jiàng hóng'
+  hex: '#EC7696'
+  rgb: [236, 118, 150]
+  cmyk: [0, 68, 21, 0]
+
+- name: '品红'
+  pinyin: 'pǐn hóng'
+  hex: '#EF3473'
+  rgb: [239, 52, 115]
+  cmyk: [0, 86, 30, 0]
+
+- name: '凤仙花红'
+  pinyin: 'fèng xiān huā hóng'
+  hex: '#EA7293'
+  rgb: [234, 114, 147]
+  cmyk: [0, 69, 22, 0]
+
+- name: '粉团花红'
+  pinyin: 'fěn tuán huā hóng'
+  hex: '#EC9BAD'
+  rgb: [236, 155, 173]
+  cmyk: [0, 52, 18, 0]
+
+- name: '夹竹桃红'
+  pinyin: 'jiā zhú táo hóng'
+  hex: '#EB507E'
+  rgb: [235, 80, 126]
+  cmyk: [0, 80, 28, 0]
+
+- name: '榲桲红'
+  pinyin: 'wēn po hóng'
+  hex: '#ED2F6A'
+  rgb: [237, 47, 106]
+  cmyk: [0, 88, 36, 0]
+
+- name: '姜红'
+  pinyin: 'jiāng hóng'
+  hex: '#EEB8C3'
+  rgb: [238, 184, 195]
+  cmyk: [0, 39, 14, 0]
+
+- name: '莲瓣红'
+  pinyin: 'lián bàn hóng'
+  hex: '#EA517F'
+  rgb: [234, 81, 127]
+  cmyk: [0, 80, 27, 0]
+
+- name: '水红'
+  pinyin: 'shuǐ hóng'
+  hex: '#F1C4CD'
+  rgb: [241, 196, 205]
+  cmyk: [0, 33, 11, 0]
+
+- name: '报春红'
+  pinyin: 'bào chūn hóng'
+  hex: '#EC8AA4'
+  rgb: [236, 138, 164]
+  cmyk: [0, 60, 18, 0]
+
+- name: '月季红'
+  pinyin: 'yuè jì hóng'
+  hex: '#CE5777'
+  rgb: [206, 87, 109]
+  cmyk: [8, 78, 35, 1]
+
+- name: '豇豆红'
+  pinyin: 'jiāng dòu hóng'
+  hex: '#ED9DB2'
+  rgb: [237, 157, 178]
+  cmyk: [0, 52, 15, 0]
+
+- name: '霞光红'
+  pinyin: 'xiá guāng hóng'
+  hex: '#EF82A0'
+  rgb: [239, 130, 160]
+  cmyk: [0, 63, 18, 0]
+
+- name: '松叶牡丹红'
+  pinyin: 'sōng yè mǔ dān hóng'
+  hex: '#EB3C70'
+  rgb: [235, 60, 112]
+  cmyk: [0, 85, 33, 0]
+
+- name: '喜蛋红'
+  pinyin: 'xǐ dàn hóng'
+  hex: '#EC2C64'
+  rgb: [236, 44, 100]
+  cmyk: [0, 88, 40, 0]
+
+- name: '鼠鼻红'
+  pinyin: 'shǔ bí hóng'
+  hex: '#E3B4B8'
+  rgb: [227, 180, 184]
+  cmyk: [5, 38, 20, 0]
+
+- name: '尖晶玉红'
+  pinyin: 'jiān jīng yù hóng'
+  hex: '#CC163A'
+  rgb: [204, 22, 58]
+  cmyk: [5, 96, 73, 1]
+
+- name: '山黎豆红'
+  pinyin: 'shān lí dòu hóng'
+  hex: '#C27C88'
+  rgb: [194, 124, 136]
+  cmyk: [16, 61, 34, 4]
+
+- name: '锦葵红'
+  pinyin: 'jǐn kuí hóng'
+  hex: '#BF3553'
+  rgb: [191, 53, 83]
+  cmyk: [13, 90, 56, 3]
+
+- name: '鼠背灰'
+  pinyin: 'shǔ bèi huī'
+  hex: '#73575C'
+  rgb: [115, 87, 92]
+  cmyk: [41, 64, 44, 36]
+
+- name: '甘蔗紫'
+  pinyin: 'gān zhè zǐ'
+  hex: '#621624'
+  rgb: [98, 22, 36]
+  cmyk: [33, 100, 75, 49]
+
+- name: '石竹紫'
+  pinyin: 'shí zhú zǐ'
+  hex: '#63071C'
+  rgb: [99, 7, 28]
+  cmyk: [32, 100, 84, 49]
+
+- name: '苍蝇灰'
+  pinyin: 'cāng yíng huī'
+  hex: '#36282B'
+  rgb: [54, 40, 43]
+  cmyk: [57, 72, 54, 74]
+
+- name: '卵石紫'
+  pinyin: 'luǎn shí zǐ'
+  hex: '#30161C'
+  rgb: [48, 22, 28]
+  cmyk: [52, 88, 58, 81]
+
+- name: '李紫'
+  pinyin: 'lǐ zǐ'
+  hex: '#2B1216'
+  rgb: [43, 18, 22]
+  cmyk: [56, 88, 62, 84]
+
+- name: '茄皮紫'
+  pinyin: 'jiā pí zǐ'
+  hex: '#2D0C13'
+  rgb: [45, 12, 19]
+  cmyk: [58, 90, 63, 83]
+
+- name: '吊钟花红'
+  pinyin: 'diào zhōng huā hóng'
+  hex: '#CE5E8A'
+  rgb: [206, 94, 138]
+  cmyk: [0, 76, 16, 0]
+
+- name: '兔眼红'
+  pinyin: 'tù yǎn hóng'
+  hex: '#EC4E8A'
+  rgb: [236, 78, 138]
+  cmyk: [0, 81, 18, 0]
+
+- name: '紫荆红'
+  pinyin: 'zǐ jīng hóng'
+  hex: '#EE2C79'
+  rgb: [238, 44, 121]
+  cmyk: [0, 87, 24, 0]
+
+- name: '菜头紫'
+  pinyin: 'cài tóu zǐ'
+  hex: '#951C48'
+  rgb: [149, 28, 72]
+  cmyk: [24, 99, 52, 19]
+
+- name: '鹞冠紫'
+  pinyin: 'yào guān zǐ'
+  hex: '#621D34'
+  rgb: [98, 29, 52]
+  cmyk: [34, 97, 54, 50]
+
+- name: '葡萄酒红'
+  pinyin: 'pú táo jiǔ hóng'
+  hex: '#62102E'
+  rgb: [98, 16, 46]
+  cmyk: [33, 100, 58, 60]
+
+- name: '磨石紫'
+  pinyin: 'mó shí zǐ'
+  hex: '#382129'
+  rgb: [56, 33, 41]
+  cmyk: [53, 81, 50, 74]
+
+- name: '檀紫'
+  pinyin: 'tán zǐ'
+  hex: '#381924'
+  rgb: [56, 25, 36]
+  cmyk: [48, 90, 50, 76]
+
+- name: '火鹅紫'
+  pinyin: 'huǒ é zǐ'
+  hex: '#33141E'
+  rgb: [51, 20, 30]
+  cmyk: [50, 91, 54, 79]
+
+- name: '墨紫'
+  pinyin: 'mò zǐ'
+  hex: '#310F1B'
+  rgb: [49, 15, 27]
+  cmyk: [53, 92, 55, 81]
+
+- name: '晶红'
+  pinyin: 'jīng hóng'
+  hex: '#EEA6B7'
+  rgb: [238, 166, 183]
+  cmyk: [0, 48, 15, 0]
+
+- name: '扁豆花红'
+  pinyin: 'biǎn dòu huā hóng'
+  hex: '#EF498B'
+  rgb: [239, 73, 139]
+  cmyk: [0, 82, 16, 0]
+
+- name: '白芨红'
+  pinyin: 'bái jī hóng'
+  hex: '#DE7897'
+  rgb: [222, 120, 151]
+  cmyk: [2, 66, 22, 0]
+
+- name: '嫩菱红'
+  pinyin: 'nèn líng hóng'
+  hex: '#DE3F7C'
+  rgb: [222, 63, 124]
+  cmyk: [0, 85, 24, 0]
+
+- name: '菠根红'
+  pinyin: 'bō gēn hóng'
+  hex: '#D13C74'
+  rgb: [209, 60, 116]
+  cmyk: [5, 87, 30, 1]
+
+- name: '酢酱草红'
+  pinyin: 'cù jiàng cǎo hóng'
+  hex: '#C5708B'
+  rgb: [197, 112, 139]
+  cmyk: [15, 68, 28, 2]
+
+- name: '洋葱紫'
+  pinyin: 'yáng cōng zǐ'
+  hex: '#A8456B'
+  rgb: [168, 69, 107]
+  cmyk: [22, 83, 34, 11]
+
+- name: '海象紫'
+  pinyin: 'hǎi xiàng zǐ'
+  hex: '#4B1E2F'
+  rgb: [75, 30, 47]
+  cmyk: [40, 92, 47, 64]
+
+- name: '绀紫'
+  pinyin: 'gàn zǐ'
+  hex: '#461629'
+  rgb: [70, 22, 41]
+  cmyk: [41, 97, 49, 68]
+
+- name: '古铜紫'
+  pinyin: 'gǔ tóng zǐ'
+  hex: '#440E25'
+  rgb: [68, 14, 37]
+  cmyk: [42, 99, 51, 69]
+
+- name: '石蕊红'
+  pinyin: 'shí ruǐ hóng'
+  hex: '#F0C9CF'
+  rgb: [240, 201, 207]
+  cmyk: [0, 30, 12, 0]
+
+- name: '芍药耕红'
+  pinyin: 'sháo yào gēng hóng'
+  hex: '#EBA0B3'
+  rgb: [235, 160, 179]
+  cmyk: [0, 50, 16, 0]
+
+- name: '藏花红'
+  pinyin: 'cáng huā hóng'
+  hex: '#EC2D7A'
+  rgb: [236, 45, 122]
+  cmyk: [0, 88, 23, 0]
+
+- name: '初荷红'
+  pinyin: 'chū hé hóng'
+  hex: '#E16C96'
+  rgb: [225, 108, 150]
+  cmyk: [0, 71, 18, 0]
+
+- name: '马鞭草紫'
+  pinyin: 'mǎ biān cǎo zǐ'
+  hex: '#EDE3E7'
+  rgb: [237, 227, 231]
+  cmyk: [6, 13, 7, 0]
+
+- name: '丁香淡紫'
+  pinyin: 'dīng xiāng dàn zǐ'
+  hex: '#E9D7DF'
+  rgb: [233, 215, 223]
+  cmyk: [7, 20, 8, 0]
+
+- name: '丹紫红'
+  pinyin: 'dān zǐ hóng'
+  hex: '#D2568C'
+  rgb: [210, 86, 140]
+  cmyk: [7, 79, 18, 0]
+
+- name: '玫瑰红'
+  pinyin: 'méi guī hóng'
+  hex: '#D2357D'
+  rgb: [210, 53, 125]
+  cmyk: [4, 89, 21, 0]
+
+- name: '淡牵牛紫'
+  pinyin: 'dàn qiān niú zǐ'
+  hex: '#D1C2D3'
+  rgb: [209, 194, 211]
+  cmyk: [19, 27, 9, 0]
+
+- name: '凤信紫'
+  pinyin: 'fèng xìn zǐ'
+  hex: '#C8ADC4'
+  rgb: [200, 173, 196]
+  cmyk: [21, 37, 12, 0]
+
+- name: '萝兰紫'
+  pinyin: 'luó lán zǐ'
+  hex: '#C08EAF'
+  rgb: [192, 142, 175]
+  cmyk: [23, 53, 14, 1]
+
+- name: '玫瑰紫'
+  pinyin: 'méi guī zǐ'
+  hex: '#BA2F7B'
+  rgb: [186, 47, 123]
+  cmyk: [18, 91, 18, 2]
+
+- name: '藤萝紫'
+  pinyin: 'téng luó zǐ'
+  hex: '#8076A3'
+  rgb: [128, 118, 163]
+  cmyk: [58, 56, 17, 2]
+
+- name: '槿紫'
+  pinyin: 'jǐn zǐ'
+  hex: '#806D9E'
+  rgb: [128, 109, 158]
+  cmyk: [57, 62, 16, 2]
+
+- name: '蕈紫'
+  pinyin: 'xùn zǐ'
+  hex: '#815C94'
+  rgb: [129, 92, 148]
+  cmyk: [56, 72, 15, 1]
+
+- name: '桔梗紫'
+  pinyin: 'jié gěng zǐ'
+  hex: '#813C85'
+  rgb: [129, 60, 133]
+  cmyk: [54, 89, 12, 1]
+
+- name: '魏紫'
+  pinyin: 'wèi zǐ'
+  hex: '#7E1671'
+  rgb: [126, 22, 113]
+  cmyk: [52, 100, 17, 7]
+
+- name: '芝兰紫'
+  pinyin: 'zhī lán zǐ'
+  hex: '#E9CCD3'
+  rgb: [233, 204, 211]
+  cmyk: [3, 26, 10, 0]
+
+- name: '菱锰红'
+  pinyin: 'líng měng hóng'
+  hex: '#D276A3'
+  rgb: [210, 118, 163]
+  cmyk: [10, 67, 12, 0]
+
+- name: '龙须红'
+  pinyin: 'lóng xū hóng'
+  hex: '#CC5595'
+  rgb: [204, 85, 149]
+  cmyk: [11, 97, 10, 0]
+
+- name: '蓟粉红'
+  pinyin: 'jì fěn hóng'
+  hex: '#E6D2D5'
+  rgb: [230, 210, 213]
+  cmyk: [8, 22, 12, 0]
+
+- name: '电气石红'
+  pinyin: 'diàn qì shí hóng'
+  hex: '#C35691'
+  rgb: [195, 86, 145]
+  cmyk: [16, 79, 14, 1]
+
+- name: '樱草紫'
+  pinyin: 'yīng cǎo zǐ'
+  hex: '#C06F98'
+  rgb: [192, 111, 152]
+  cmyk: [19, 68, 18, 1]
+
+- name: '芦穗灰'
+  pinyin: 'lú suì huī'
+  hex: '#BDAEAD'
+  rgb: [189, 174, 173]
+  cmyk: [25, 31, 26, 5]
+
+- name: '隐红灰'
+  pinyin: 'yǐn hóng huī'
+  hex: '#B598A1'
+  rgb: [181, 152, 161]
+  cmyk: [26, 43, 26, 6]
+
+- name: '苋菜紫'
+  pinyin: 'xiàn cài zǐ'
+  hex: '#9B1E64'
+  rgb: [155, 30, 100]
+  cmyk: [27, 97, 27, 14]
+
+- name: '芦灰'
+  pinyin: 'lú huī'
+  hex: '#856D72'
+  rgb: [133, 109, 114]
+  cmyk: [39, 53, 38, 25]
+
+- name: '暮云灰'
+  pinyin: 'mù yún huī'
+  hex: '#4F383E'
+  rgb: [79, 56, 62]
+  cmyk: [49, 71, 49, 58]
+
+- name: '斑鸠灰'
+  pinyin: 'bān jiū huī'
+  hex: '#482936'
+  rgb: [72, 41, 54]
+  cmyk: [49, 82, 46, 63]
+
+- name: '淡藤萝紫'
+  pinyin: 'dàn téng luó zǐ'
+  hex: '#F2E7E5'
+  rgb: [242, 231, 229]
+  cmyk: [4, 11, 9, 0]
+
+- name: '淡青紫'
+  pinyin: 'dàn qīng zǐ'
+  hex: '#E0C8D1'
+  rgb: [224, 200, 209]
+  cmyk: [10, 27, 11, 0]
+
+- name: '青蛤壳紫'
+  pinyin: 'qīng há ké zǐ'
+  hex: '#BC84A8'
+  rgb: [188, 132, 168]
+  cmyk: [24, 58, 15, 1]
+
+- name: '豆蔻紫'
+  pinyin: 'dòu kòu zǐ'
+  hex: '#AD6598'
+  rgb: [173, 101, 152]
+  cmyk: [31, 71, 15, 1]
+
+- name: '扁豆紫'
+  pinyin: 'biǎn dòu zǐ'
+  hex: '#A35C8F'
+  rgb: [163, 92, 143]
+  cmyk: [35, 75, 18, 2]
+
+- name: '芥花紫'
+  pinyin: 'jiè huā zǐ'
+  hex: '#983680'
+  rgb: [152, 54, 128]
+  cmyk: [39, 91, 15, 3]
+
+- name: '青莲'
+  pinyin: 'qīng lián'
+  hex: '#8B2671'
+  rgb: [139, 38, 113]
+  cmyk: [43, 97, 19, 8]
+
+- name: '芓紫'
+  pinyin: 'zì zǐ'
+  hex: '#894276'
+  rgb: [137, 66, 118]
+  cmyk: [44, 85, 24, 10]
+
+- name: '葛巾紫'
+  pinyin: 'gé jīn zǐ'
+  hex: '#7E2065'
+  rgb: [126, 32, 101]
+  cmyk: [45, 99, 24, 16]
+
+- name: '牵牛紫'
+  pinyin: 'qiān niú zǐ'
+  hex: '#681752'
+  rgb: [104, 23, 82]
+  cmyk: [49, 100, 29, 32]
+
+- name: '紫灰'
+  pinyin: 'zǐ huī'
+  hex: '#5D3F51'
+  rgb: [93, 63, 81]
+  cmyk: [53, 75, 41, 41]
+
+- name: '龙睛鱼紫'
+  pinyin: 'lóng jīng yú zǐ'
+  hex: '#4E2A40'
+  rgb: [78, 42, 64]
+  cmyk: [55, 87, 41, 52]
+
+- name: '荸荠紫'
+  pinyin: 'bí qí zǐ'
+  hex: '#411C35'
+  rgb: [65, 28, 53]
+  cmyk: [58, 96, 40, 61]
+
+- name: '古鼎灰'
+  pinyin: 'gǔ dǐng huī'
+  hex: '#36292F'
+  rgb: [54, 41, 47]
+  cmyk: [63, 74, 52, 70]
+
+- name: '乌梅紫'
+  pinyin: 'wū méi zǐ'
+  hex: '#1E131D'
+  rgb: [30, 19, 29]
+  cmyk: [81, 87, 54, 84]
+
+- name: '深牵牛紫'
+  pinyin: 'shēn qiān niú zǐ'
+  hex: '#1C0D1A'
+  rgb: [28, 13, 26]
+  cmyk: [83, 87, 55, 86]
+
+- name: '银白'
+  pinyin: 'yín bái'
+  hex: '#F1F0ED'
+  rgb: [241, 240, 237]
+  cmyk: [7, 5, 7, 0]
+
+- name: '芡食白'
+  pinyin: 'qiàn shí bái'
+  hex: '#E2E1E4'
+  rgb: [226, 225, 228]
+  cmyk: [13, 10, 9, 0]
+
+- name: '远山紫'
+  pinyin: 'yuǎn shān zǐ'
+  hex: '#CCCCD6'
+  rgb: [204, 204, 214]
+  cmyk: [23, 18, 12, 1]
+
+- name: '淡蓝紫'
+  pinyin: 'dàn lán zǐ'
+  hex: '#A7A8BD'
+  rgb: [167, 168, 189]
+  cmyk: [39, 31, 17, 2]
+
+- name: '山梗紫'
+  pinyin: 'shān gěng zǐ'
+  hex: '#61649F'
+  rgb: [97, 100, 159]
+  cmyk: [74, 64, 14, 1]
+
+- name: '螺甸紫'
+  pinyin: 'luó diān zǐ'
+  hex: '#74759B'
+  rgb: [116, 117, 155]
+  cmyk: [63, 53, 22, 5]
+
+- name: '玛瑙灰'
+  pinyin: 'mǎ nǎo huī'
+  hex: '#CFCCC9'
+  rgb: [207, 204, 201]
+  cmyk: [21, 17, 19, 1]
+
+- name: '野菊紫'
+  pinyin: 'yě jú zǐ'
+  hex: '#525288'
+  rgb: [82, 82, 136]
+  cmyk: [80, 73, 21, 6]
+
+- name: '满天星紫'
+  pinyin: 'mǎn tiān xīng zǐ'
+  hex: '#2E317C'
+  rgb: [46, 49, 124]
+  cmyk: [100, 93, 21, 5]
+
+- name: '锌灰'
+  pinyin: 'xīn huī'
+  hex: '#7A7374'
+  rgb: [122, 115, 116]
+  cmyk: [48, 45, 40, 26]
+
+- name: '野葡萄紫'
+  pinyin: 'yě pú táo zǐ'
+  hex: '#302F4B'
+  rgb: [48, 47, 75]
+  cmyk: [91, 84, 40, 43]
+
+- name: '剑锋紫'
+  pinyin: 'jiàn fēng zǐ'
+  hex: '#3E3841'
+  rgb: [62, 56, 65]
+  cmyk: [70, 69, 49, 56]
+
+- name: '龙葵紫'
+  pinyin: 'lóng kuí zǐ'
+  hex: '#322F3B'
+  rgb: [50, 47, 59]
+  cmyk: [79, 74, 49, 60]
+
+- name: '暗龙胆紫'
+  pinyin: 'àn lóng dǎn zǐ'
+  hex: '#22202E'
+  rgb: [34, 32, 46]
+  cmyk: [90, 84, 50, 69]
+
+- name: '晶石紫'
+  pinyin: 'jīng shí zǐ'
+  hex: '#1F2040'
+  rgb: [31, 32, 64]
+  cmyk: [98, 93, 48, 73]
+
+- name: '暗蓝紫'
+  pinyin: 'àn lán zǐ'
+  hex: '#131124'
+  rgb: [19, 17, 36]
+  cmyk: [100, 94, 52, 77]
+
+- name: '景泰蓝'
+  pinyin: 'jǐng tài lán'
+  hex: '#2775B6'
+  rgb: [39, 117, 182]
+  cmyk: [95, 46, 10, 1]
+
+- name: '尼罗蓝'
+  pinyin: 'ní luó lán'
+  hex: '#2474B5'
+  rgb: [36, 116, 181]
+  cmyk: [96, 47, 11, 1]
+
+- name: '远天蓝'
+  pinyin: 'yuǎn tiān lán'
+  hex: '#D0DFE6'
+  rgb: [208, 223, 230]
+  cmyk: [25, 6, 10, 0]
+
+- name: '星蓝'
+  pinyin: 'xīng lán'
+  hex: '#93B5CF'
+  rgb: [147, 181, 207]
+  cmyk: [53, 19, 15, 1]
+
+- name: '羽扇豆蓝'
+  pinyin: 'yǔ shàn dòu lán'
+  hex: '#619AC3'
+  rgb: [97, 154, 195]
+  cmyk: [74, 27, 16, 2]
+
+- name: '花青'
+  pinyin: 'huā qīng'
+  hex: '#2376B7'
+  rgb: [35, 118, 183]
+  cmyk: [95, 45, 10, 1]
+
+- name: '睛蓝'
+  pinyin: 'jīng lán'
+  hex: '#5698C3'
+  rgb: [86, 152, 195]
+  cmyk: [78, 27, 17, 2]
+
+- name: '虹蓝'
+  pinyin: 'hóng lán'
+  hex: '#2177B8'
+  rgb: [33, 119, 184]
+  cmyk: [99, 44, 10, 1]
+
+- name: '湖水蓝'
+  pinyin: 'hú shuǐ lán'
+  hex: '#B0D5DF'
+  rgb: [176, 213, 223]
+  cmyk: [43, 4, 16, 0]
+
+- name: '秋波蓝'
+  pinyin: 'qiū bō lán'
+  hex: '#8ABCD1'
+  rgb: [138, 188, 209]
+  cmyk: [59, 12, 19, 0]
+
+- name: '涧石蓝'
+  pinyin: 'jiàn shí lán'
+  hex: '#66A9C9'
+  rgb: [102, 169, 201]
+  cmyk: [73, 17, 20, 1]
+
+- name: '潮蓝'
+  pinyin: 'cháo lán'
+  hex: '#2983BB'
+  rgb: [41, 131, 187]
+  cmyk: [93, 36, 15, 2]
+
+- name: '群青'
+  pinyin: 'qún qīng'
+  hex: '#1772B4'
+  rgb: [23, 114, 180]
+  cmyk: [99, 48, 11, 1]
+
+- name: '霁青'
+  pinyin: 'jì qīng'
+  hex: '#63BBD0'
+  rgb: [99, 187, 208]
+  cmyk: [74, 2, 24, 0]
+
+- name: '碧青'
+  pinyin: 'bì qīng'
+  hex: '#5CB3CC'
+  rgb: [92, 179, 204]
+  cmyk: [77, 7, 24, 0]
+
+- name: '宝石蓝'
+  pinyin: 'bǎo shí lán'
+  hex: '#2486B9'
+  rgb: [36, 134, 185]
+  cmyk: [94, 32, 17, 3]
+
+- name: '天蓝'
+  pinyin: 'tiān lán'
+  hex: '#1677B3'
+  rgb: [22, 119, 179]
+  cmyk: [98, 43, 14, 2]
+
+- name: '柏林蓝'
+  pinyin: 'bó lín lán'
+  hex: '#126BAE'
+  rgb: [18, 107, 174]
+  cmyk: [100, 52, 11, 1]
+
+- name: '海青'
+  pinyin: 'hǎi qīng'
+  hex: '#22A2C3'
+  rgb: [34, 162, 195]
+  cmyk: [92, 10, 25, 1]
+
+- name: '钴蓝'
+  pinyin: 'gǔ lán'
+  hex: '#1A94BC'
+  rgb: [26, 148, 188]
+  cmyk: [94, 16, 23, 3]
+
+- name: '鸢尾蓝'
+  pinyin: 'yuān wěi lán'
+  hex: '#158BB8'
+  rgb: [21, 139, 184]
+  cmyk: [95, 25, 20, 4]
+
+- name: '牵牛花蓝'
+  pinyin: 'qiān niú huā lán'
+  hex: '#1177B0'
+  rgb: [17, 119, 176]
+  cmyk: [98, 42, 16, 3]
+
+- name: '飞燕草蓝'
+  pinyin: 'fēi yàn cǎo lán'
+  hex: '#0F59A4'
+  rgb: [15, 89, 164]
+  cmyk: [100, 65, 11, 1]
+
+- name: '品蓝'
+  pinyin: 'pǐn lán'
+  hex: '#2B73AF'
+  rgb: [43, 115, 175]
+  cmyk: [95, 47, 14, 2]
+
+- name: '银鱼白'
+  pinyin: 'yín yú bái'
+  hex: '#CDD1D3'
+  rgb: [205, 209, 211]
+  cmyk: [24, 14, 16, 1]
+
+- name: '安安蓝'
+  pinyin: 'ān ān lán'
+  hex: '#3170A7'
+  rgb: [49, 112, 167]
+  cmyk: [93, 49, 17, 3]
+
+- name: '鱼尾灰'
+  pinyin: 'yú wěi huī'
+  hex: '#5E616D'
+  rgb: [94, 97, 109]
+  cmyk: [64, 52, 39, 28]
+
+- name: '鲸鱼灰'
+  pinyin: 'jīng yú huī'
+  hex: '#475164'
+  rgb: [71, 81, 100]
+  cmyk: [78, 60, 40, 31]
+
+- name: '海参灰'
+  pinyin: 'hǎi shēn huī'
+  hex: '#FFFEFA'
+  rgb: [255, 254, 250]
+  cmyk: [69, 64, 52, 59]
+
+- name: '沙鱼灰'
+  pinyin: 'shā yú huī'
+  hex: '#35333C'
+  rgb: [53, 51, 60]
+  cmyk: [76, 70, 51, 60]
+
+- name: '钢蓝'
+  pinyin: 'gāng lán'
+  hex: '#0F1423'
+  rgb: [15, 20, 35]
+  cmyk: [100, 89, 54, 79]
+
+- name: '云水蓝'
+  pinyin: 'yún shuǐ lán'
+  hex: '#BACCD9'
+  rgb: [186, 204, 217]
+  cmyk: [35, 13, 13, 0]
+
+- name: '晴山蓝'
+  pinyin: 'qíng shān lán'
+  hex: '#8FB2C9'
+  rgb: [143, 178, 201]
+  cmyk: [55, 20, 18, 1]
+
+- name: '靛青'
+  pinyin: 'diàn qīng'
+  hex: '#1661AB'
+  rgb: [22, 97, 171]
+  cmyk: [100, 60, 8, 1]
+
+- name: '大理石灰'
+  pinyin: 'dà lǐ shí huī'
+  hex: '#C4CBCF'
+  rgb: [196, 203, 207]
+  cmyk: [29, 16, 17, 1]
+
+- name: '海涛蓝'
+  pinyin: 'hǎi tāo lán'
+  hex: '#15559A'
+  rgb: [21, 85, 154]
+  cmyk: [100, 67, 16, 3]
+
+- name: '蝶翅蓝'
+  pinyin: 'dié chì lán'
+  hex: '#4E7CA1'
+  rgb: [78, 124, 161]
+  cmyk: [81, 41, 24, 8]
+
+- name: '海军蓝'
+  pinyin: 'hǎi jūn lán'
+  hex: '#346C9C'
+  rgb: [52, 108, 156]
+  cmyk: [93, 50, 21, 6]
+
+- name: '水牛灰'
+  pinyin: 'shuǐ niú huī'
+  hex: '#2F2F35'
+  rgb: [47, 47, 53]
+  cmyk: [77, 68, 54, 66]
+
+- name: '牛角灰'
+  pinyin: 'niú jiǎo huī'
+  hex: '#2D2E36'
+  rgb: [45, 46, 54]
+  cmyk: [80, 70, 53, 65]
+
+- name: '燕颔蓝'
+  pinyin: 'yàn hàn lán'
+  hex: '#131824'
+  rgb: [19, 24, 36]
+  cmyk: [100, 86, 54, 78]
+
+- name: '云峰白'
+  pinyin: 'yún fēng bái'
+  hex: '#D8E3E7'
+  rgb: [216, 227, 231]
+  cmyk: [21, 6, 10, 0]
+
+- name: '井天蓝'
+  pinyin: 'jǐng tiān lán'
+  hex: '#C3D7DF'
+  rgb: [195, 215, 223]
+  cmyk: [32, 8, 13, 0]
+
+- name: '云山蓝'
+  pinyin: 'yún shān lán'
+  hex: '#2F90B9'
+  rgb: [47, 144, 185]
+  cmyk: [91, 24, 22, 4]
+
+- name: '釉蓝'
+  pinyin: 'yòu lán'
+  hex: '#1781B5'
+  rgb: [23, 129, 181]
+  cmyk: [96, 34, 18, 4]
+
+- name: '鸥蓝'
+  pinyin: 'ōu lán'
+  hex: '#C7D2D4'
+  rgb: [199, 210, 212]
+  cmyk: [28, 12, 17, 0]
+
+- name: '搪磁蓝'
+  pinyin: 'táng cí lán'
+  hex: '#11659A'
+  rgb: [17, 101, 154]
+  cmyk: [100, 53, 21, 6]
+
+- name: '月影白'
+  pinyin: 'yuè yǐng bái'
+  hex: '#C0C4C3'
+  rgb: [192, 196, 195]
+  cmyk: [29, 18, 21, 2]
+
+- name: '星灰'
+  pinyin: 'xīng huī'
+  hex: '#B2BBBE'
+  rgb: [178, 187, 190]
+  cmyk: [36, 20, 23, 2]
+
+- name: '淡蓝灰'
+  pinyin: 'dàn lán huī'
+  hex: '#5E7987'
+  rgb: [94, 121, 135]
+  cmyk: [70, 38, 36, 18]
+
+- name: '鷃蓝'
+  pinyin: 'yàn lán'
+  hex: '#144A74'
+  rgb: [20, 74, 116]
+  cmyk: [100, 68, 32, 20]
+
+- name: '嫩灰'
+  pinyin: 'nèn huī'
+  hex: '#74787A'
+  rgb: [116, 120, 122]
+  cmyk: [55, 40, 40, 23]
+
+- name: '战舰灰'
+  pinyin: 'zhàn jiàn huī'
+  hex: '#495C69'
+  rgb: [73, 92, 105]
+  cmyk: [77, 50, 41, 31]
+
+- name: '瓦罐灰'
+  pinyin: 'wǎ guàn huī'
+  hex: '#47484C'
+  rgb: [71, 72, 76]
+  cmyk: [67, 57, 49, 49]
+
+- name: '青灰'
+  pinyin: 'qīng huī'
+  hex: '#2B333E'
+  rgb: [43, 51, 62]
+  cmyk: [87, 69, 51, 58]
+
+- name: '鸽蓝'
+  pinyin: 'gē lán'
+  hex: '#1C2938'
+  rgb: [28, 41, 56]
+  cmyk: [100, 77, 50, 62]
+
+- name: '钢青'
+  pinyin: 'gāng qīng'
+  hex: '#142334'
+  rgb: [20, 35, 52]
+  cmyk: [100, 82, 51, 64]
+
+- name: '暗蓝'
+  pinyin: 'àn lán'
+  hex: '#101F30'
+  rgb: [16, 31, 48]
+  cmyk: [100, 84, 51, 68]
+
+- name: '月白'
+  pinyin: 'yuè bái'
+  hex: '#EEF7F2'
+  rgb: [238, 247, 242]
+  cmyk: [11, 0, 8, 0]
+
+- name: '海天蓝'
+  pinyin: 'hǎi tiān lán'
+  hex: '#C6E6E8'
+  rgb: [198, 230, 232]
+  cmyk: [33, 0, 14, 0]
+
+- name: '清水蓝'
+  pinyin: 'qīng shuǐ lán'
+  hex: '#93D5DC'
+  rgb: [147, 213, 220]
+  cmyk: [57, 0, 22, 0]
+
+- name: '瀑布蓝'
+  pinyin: 'pù bù lán'
+  hex: '#51C4D3'
+  rgb: [81, 196, 211]
+  cmyk: [79, 0, 27, 0]
+
+- name: '蔚蓝'
+  pinyin: 'wèi lán'
+  hex: '#29B7CB'
+  rgb: [41, 183, 203]
+  cmyk: [89, 0, 29, 0]
+
+- name: '孔雀蓝'
+  pinyin: 'kǒng què lán'
+  hex: '#0EB0C9'
+  rgb: [14, 176, 201]
+  cmyk: [92, 0, 28, 0]
+
+- name: '甸子蓝'
+  pinyin: 'diàn zǐ lán'
+  hex: '#10AEC2'
+  rgb: [16, 174, 194]
+  cmyk: [93, 0, 31, 0]
+
+- name: '石绿'
+  pinyin: 'shí lǜ'
+  hex: '#57C3C2'
+  rgb: [87, 195, 194]
+  cmyk: [78, 36, 0, 0]
+
+- name: '竹篁绿'
+  pinyin: 'zhú huáng lǜ'
+  hex: '#B9DEC9'
+  rgb: [185, 222, 201]
+  cmyk: [40, 0, 30, 0]
+
+- name: '粉绿'
+  pinyin: 'fěn lǜ'
+  hex: '#83CBAC'
+  rgb: [131, 203, 172]
+  cmyk: [64, 0, 46, 0]
+
+- name: '美蝶绿'
+  pinyin: 'měi dié lǜ'
+  hex: '#12AA9C'
+  rgb: [18, 170, 156]
+  cmyk: [95, 0, 52, 0]
+
+- name: '毛绿'
+  pinyin: 'máo lǜ'
+  hex: '#66C18C'
+  rgb: [102, 193, 140]
+  cmyk: [75, 0, 61, 0]
+
+- name: '蔻梢绿'
+  pinyin: 'kòu shāo lǜ'
+  hex: '#5DBE8A'
+  rgb: [93, 190, 138]
+  cmyk: [78, 0, 62, 0]
+
+- name: '麦苗绿'
+  pinyin: 'mài miáo lǜ'
+  hex: '#55BB8A'
+  rgb: [85, 187, 138]
+  cmyk: [81, 0, 62, 0]
+
+- name: '蛙绿'
+  pinyin: 'wā lǜ'
+  hex: '#45B787'
+  rgb: [69, 183, 135]
+  cmyk: [86, 0, 63, 0]
+
+- name: '铜绿'
+  pinyin: 'tóng lǜ'
+  hex: '#2BAE85'
+  rgb: [43, 174, 133]
+  cmyk: [92, 0, 64, 0]
+
+- name: '竹绿'
+  pinyin: 'zhú lǜ'
+  hex: '#1BA784'
+  rgb: [27, 167, 132]
+  cmyk: [96, 0, 64, 0]
+
+- name: '蓝绿'
+  pinyin: 'lán lǜ'
+  hex: '#12A182'
+  rgb: [18, 161, 130]
+  cmyk: [98, 2, 64, 0]
+
+- name: '穹灰'
+  pinyin: 'qióng huī'
+  hex: '#C4D7D6'
+  rgb: [196, 215, 214]
+  cmyk: [32, 7, 18, 0]
+
+- name: '翠蓝'
+  pinyin: 'cuì lán'
+  hex: '#1E9EB3'
+  rgb: [30, 158, 179]
+  cmyk: [94, 11, 33, 1]
+
+- name: '胆矾蓝'
+  pinyin: 'dǎn fán lán'
+  hex: '#0F95B0'
+  rgb: [15, 149, 176]
+  cmyk: [96, 16, 31, 3]
+
+- name: '樫鸟蓝'
+  pinyin: 'jiān niǎo lán'
+  hex: '#1491A8'
+  rgb: [20, 145, 168]
+  cmyk: [96, 18, 34, 4]
+
+- name: '闪蓝'
+  pinyin: 'shǎn lán'
+  hex: '#7CABB1'
+  rgb: [124, 171, 177]
+  cmyk: [64, 18, 32, 2]
+
+- name: '冰山蓝'
+  pinyin: 'bīng shān lán'
+  hex: '#A4ACA7'
+  rgb: [164, 172, 167]
+  cmyk: [40, 24, 32, 6]
+
+- name: '虾壳青'
+  pinyin: 'xiā ké qīng'
+  hex: '#869D9D'
+  rgb: [134, 157, 157]
+  cmyk: [56, 26, 36, 7]
+
+- name: '晚波蓝'
+  pinyin: 'wǎn bō lán'
+  hex: '#648E93'
+  rgb: [100, 142, 147]
+  cmyk: [71, 28, 39, 10]
+
+- name: '蜻蜓蓝'
+  pinyin: 'qīng tíng lán'
+  hex: '#3B818C'
+  rgb: [59, 129, 140]
+  cmyk: [89, 27, 41, 13]
+
+- name: '玉鈫蓝'
+  pinyin: 'yù qín lán'
+  hex: '#126E82'
+  rgb: [18, 110, 130]
+  cmyk: [99, 33, 38, 21]
+
+- name: '垩灰'
+  pinyin: 'è huī'
+  hex: '#737C7B'
+  rgb: [115, 124, 123]
+  cmyk: [57, 37, 42, 21]
+
+- name: '夏云灰'
+  pinyin: 'xià yún huī'
+  hex: '#617172'
+  rgb: [97, 113, 114]
+  cmyk: [65, 40, 44, 26]
+
+- name: '苍蓝'
+  pinyin: 'cāng lán'
+  hex: '#134857'
+  rgb: [19, 72, 87]
+  cmyk: [100, 52, 46, 43]
+
+- name: '黄昏灰'
+  pinyin: 'huáng hūn huī'
+  hex: '#474B4C'
+  rgb: [71, 75, 76]
+  cmyk: [67, 53, 51, 50]
+
+- name: '灰蓝'
+  pinyin: 'huī lán'
+  hex: '#21373D'
+  rgb: [33, 55, 61]
+  cmyk: [94, 58, 54, 60]
+
+- name: '深灰蓝'
+  pinyin: 'shēn huī lán'
+  hex: '#132C33'
+  rgb: [19, 44, 51]
+  cmyk: [100, 64, 56, 68]
+
+- name: '玉簪绿'
+  pinyin: 'yù zān lǜ'
+  hex: '#A4CAB6'
+  rgb: [164, 202, 182]
+  cmyk: [49, 5, 37, 0]
+
+- name: '青矾绿'
+  pinyin: 'qīng fán lǜ'
+  hex: '#2C9678'
+  rgb: [44, 150, 120]
+  cmyk: [96, 12, 66, 2]
+
+- name: '草原远绿'
+  pinyin: 'cǎo yuán yuǎn lǜ'
+  hex: '#9ABEAF'
+  rgb: [154, 190, 175]
+  cmyk: [52, 11, 37, 0]
+
+- name: '梧枝绿'
+  pinyin: 'wú zhī lǜ'
+  hex: '#69A794'
+  rgb: [105, 167, 148]
+  cmyk: [74, 14, 51, 1]
+
+- name: '浪花绿'
+  pinyin: 'làng huā lǜ'
+  hex: '#92B3A5'
+  rgb: [146, 179, 165]
+  cmyk: [55, 16, 40, 1]
+
+- name: '海王绿'
+  pinyin: 'hǎi wáng lǜ'
+  hex: '#248067'
+  rgb: [36, 128, 103]
+  cmyk: [99, 23, 70, 10]
+
+- name: '亚丁绿'
+  pinyin: 'yà dīng lǜ'
+  hex: '#428675'
+  rgb: [66, 134, 117]
+  cmyk: [88, 24, 61, 9]
+
+- name: '镍灰'
+  pinyin: 'niè huī'
+  hex: '#9FA39A'
+  rgb: [159, 163, 154]
+  cmyk: [40, 27, 36, 8]
+
+- name: '明灰'
+  pinyin: 'míng huī'
+  hex: '#8A988E'
+  rgb: [138, 152, 142]
+  cmyk: [52, 28, 42, 10]
+
+- name: '淡绿灰'
+  pinyin: 'dàn lǜ huī'
+  hex: '#70887D'
+  rgb: [112, 136, 125]
+  cmyk: [63, 31, 50, 14]
+
+- name: '飞泉绿'
+  pinyin: 'fēi quán lǜ'
+  hex: '#497568'
+  rgb: [73, 117, 104]
+  cmyk: [82, 32, 60, 20]
+
+- name: '狼烟灰'
+  pinyin: 'láng yān huī'
+  hex: '#5D655F'
+  rgb: [93, 101, 95]
+  cmyk: [62, 43, 52, 34]
+
+- name: '绿灰'
+  pinyin: 'lǜ huī'
+  hex: '#314A43'
+  rgb: [49, 74, 67]
+  cmyk: [85, 44, 64, 52]
+
+- name: '苍绿'
+  pinyin: 'cāng lǜ'
+  hex: '#223E36'
+  rgb: [34, 62, 54]
+  cmyk: [93, 46, 70, 61]
+
+- name: '深海绿'
+  pinyin: 'shēn hǎi lǜ'
+  hex: '#1A3B32'
+  rgb: [26, 59, 50]
+  cmyk: [98, 46, 73, 63]
+
+- name: '长石灰'
+  pinyin: 'cháng shí huī'
+  hex: '#363433'
+  rgb: [54, 52, 51]
+  cmyk: [67, 60, 57, 68]
+
+- name: '苷蓝绿'
+  pinyin: 'gān lán lǜ'
+  hex: '#1F2623'
+  rgb: [31, 38, 35]
+  cmyk: [82, 60, 65, 80]
+
+- name: '莽丛绿'
+  pinyin: 'mǎng cóng lǜ'
+  hex: '#141E1B'
+  rgb: [20, 30, 27]
+  cmyk: [90, 62, 67, 86]
+
+- name: '淡翠绿'
+  pinyin: 'dàn cuì lǜ'
+  hex: '#C6DFC8'
+  rgb: [198, 223, 200]
+  cmyk: [33, 1, 29, 0]
+
+- name: '明绿'
+  pinyin: 'míng lǜ'
+  hex: '#9ECCAB'
+  rgb: [158, 204, 171]
+  cmyk: [53, 1, 44, 0]
+
+- name: '田园绿'
+  pinyin: 'tián yuán lǜ'
+  hex: '#68B88E'
+  rgb: [104, 184, 142]
+  cmyk: [75, 0, 59, 0]
+
+- name: '翠绿'
+  pinyin: 'cuì lǜ'
+  hex: '#20A162'
+  rgb: [32, 161, 98]
+  cmyk: [98, 0, 82, 0]
+
+- name: '淡绿'
+  pinyin: 'dàn lǜ'
+  hex: '#61AC85'
+  rgb: [97, 172, 133]
+  cmyk: [78, 6, 62, 0]
+
+- name: '葱绿'
+  pinyin: 'cōng lǜ'
+  hex: '#40A070'
+  rgb: [64, 160, 112]
+  cmyk: [90, 7, 73, 0]
+
+- name: '孔雀绿'
+  pinyin: 'kǒng què lǜ'
+  hex: '#229453'
+  rgb: [34, 148, 83]
+  cmyk: [99, 10, 91, 2]
+
+- name: '艾绿'
+  pinyin: 'ài lǜ'
+  hex: '#CAD3C3'
+  rgb: [202, 211, 195]
+  cmyk: [27, 11, 27, 1]
+
+- name: '蟾绿'
+  pinyin: 'chán lǜ'
+  hex: '#3C9566'
+  rgb: [60, 149, 102]
+  cmyk: [92, 14, 76, 2]
+
+- name: '宫殿绿'
+  pinyin: 'gōng diàn lǜ'
+  hex: '#20894D'
+  rgb: [32, 137, 77]
+  cmyk: [100, 17, 92, 5]
+
+- name: '松霜绿'
+  pinyin: 'sōng shuāng lǜ'
+  hex: '#83A78D'
+  rgb: [131, 167, 141]
+  cmyk: [61, 19, 52, 3]
+
+- name: '蛋白石绿'
+  pinyin: 'dàn bái shí lǜ'
+  hex: '#579572'
+  rgb: [87, 149, 114]
+  cmyk: [81, 19, 67, 4]
+
+- name: '薄荷绿'
+  pinyin: 'bò he lǜ'
+  hex: '#207F4C'
+  rgb: [32, 127, 76]
+  cmyk: [100, 22, 90, 10]
+
+- name: '瓦松绿'
+  pinyin: 'wǎ sōng lǜ'
+  hex: '#6E8B74'
+  rgb: [110, 139, 116]
+  cmyk: [66, 29, 58, 12]
+
+- name: '荷叶绿'
+  pinyin: 'hé yè lǜ'
+  hex: '#1A6840'
+  rgb: [26, 104, 64]
+  cmyk: [100, 31, 91, 25]
+
+- name: '田螺绿'
+  pinyin: 'tián luó lǜ'
+  hex: '#5E665B'
+  rgb: [94, 102, 91]
+  cmyk: [62, 42, 56, 34]
+
+- name: '白屈菜绿'
+  pinyin: 'bái qū cài lǜ'
+  hex: '#485B4D'
+  rgb: [72, 91, 77]
+  cmyk: [74, 42, 65, 40]
+
+- name: '河豚灰'
+  pinyin: 'hé tún huī'
+  hex: '#393733'
+  rgb: [57, 55, 51]
+  cmyk: [64, 57, 60, 67]
+
+- name: '蒽油绿'
+  pinyin: 'ēn yóu lǜ'
+  hex: '#373834'
+  rgb: [55, 56, 52]
+  cmyk: [68, 56, 60, 66]
+
+- name: '槲寄生绿'
+  pinyin: 'hú jì shēng lǜ'
+  hex: '#2B312C'
+  rgb: [43, 49, 44]
+  cmyk: [76, 56, 75, 72]
+
+- name: '云杉绿'
+  pinyin: 'yún shān lǜ'
+  hex: '#15231B'
+  rgb: [21, 35, 27]
+  cmyk: [91, 60, 76, 83]
+
+- name: '嫩菊绿'
+  pinyin: 'nèn jú lǜ'
+  hex: '#F0F5E5'
+  rgb: [240, 245, 229]
+  cmyk: [9, 1, 14, 0]
+
+- name: '艾背绿'
+  pinyin: 'ài bèi lǜ'
+  hex: '#DFECD5'
+  rgb: [223, 236, 213]
+  cmyk: [20, 1, 23, 0]
+
+- name: '嘉陵水绿'
+  pinyin: 'jiā líng shuǐ lǜ'
+  hex: '#ADD5A2'
+  rgb: [173, 213, 162]
+  cmyk: [47, 0, 49, 0]
+
+- name: '玉髓绿'
+  pinyin: 'yù suǐ lǜ'
+  hex: '#41B349'
+  rgb: [65, 179, 73]
+  cmyk: [89, 0, 96, 0]
+
+- name: '鲜绿'
+  pinyin: 'xiān lǜ'
+  hex: '#43B244'
+  rgb: [67, 178, 68]
+  cmyk: [88, 0, 99, 0]
+
+- name: '宝石绿'
+  pinyin: 'bǎo shí lǜ'
+  hex: '#41AE3C'
+  rgb: [65, 174, 60]
+  cmyk: [90, 0, 100, 0]
+
+- name: '海沬绿'
+  pinyin: 'hǎi mèi lǜ'
+  hex: '#E2E7BF'
+  rgb: [226, 231, 191]
+  cmyk: [18, 4, 33, 0]
+
+- name: '姚黄'
+  pinyin: 'yáo huáng'
+  hex: '#D0DEAA'
+  rgb: [208, 222, 170]
+  cmyk: [28, 4, 44, 0]
+
+- name: '橄榄石绿'
+  pinyin: 'gǎn lǎn shí lǜ'
+  hex: '#B2CF87'
+  rgb: [178, 207, 135]
+  cmyk: [44, 3, 61, 0]
+
+- name: '水绿'
+  pinyin: 'shuǐ lǜ'
+  hex: '#8CC269'
+  rgb: [140, 194, 105]
+  cmyk: [62, 0, 76, 0]
+
+- name: '芦苇绿'
+  pinyin: 'lú wěi lǜ'
+  hex: '#B7D07A'
+  rgb: [183, 208, 122]
+  cmyk: [42, 3, 67, 0]
+
+- name: '槐花黄绿'
+  pinyin: 'huái huā huáng lǜ'
+  hex: '#D2D97A'
+  rgb: [210, 217, 122]
+  cmyk: [28, 6, 66, 0]
+
+- name: '苹果绿'
+  pinyin: 'píng guǒ lǜ'
+  hex: '#BACF65'
+  rgb: [186, 207, 101]
+  cmyk: [41, 4, 76, 0]
+
+- name: '芽绿'
+  pinyin: 'yá lǜ'
+  hex: '#96C24E'
+  rgb: [150, 194, 78]
+  cmyk: [58, 1, 88, 0]
+
+- name: '蝶黄'
+  pinyin: 'dié huáng'
+  hex: '#E2D849'
+  rgb: [226, 216, 73]
+  cmyk: [19, 9, 84, 1]
+
+- name: '橄榄黄绿'
+  pinyin: 'gǎn lǎn huáng lǜ'
+  hex: '#BEC936'
+  rgb: [190, 201, 54]
+  cmyk: [38, 8, 94, 1]
+
+- name: '鹦鹉绿'
+  pinyin: 'yīng wǔ lǜ'
+  hex: '#5BAE23'
+  rgb: [91, 174, 35]
+  cmyk: [81, 0, 100, 0]
+
+- name: '油绿'
+  pinyin: 'yóu lǜ'
+  hex: '#253D24'
+  rgb: [37, 61, 36]
+  cmyk: [84, 64, 94, 45]
+
+- name: '象牙白'
+  pinyin: 'xiàng yá bái'
+  hex: '#FFFEF8'
+  rgb: [255, 254, 248]
+  cmyk: [0, 1, 4, 0]
+
+- name: '汉白玉'
+  pinyin: 'hàn bái yù'
+  hex: '#F8F4ED'
+  rgb: [248, 244, 237]
+  cmyk: [3, 5, 8, 0]
+
+- name: '雪白'
+  pinyin: 'xuě bái'
+  hex: '#FFFEF9'
+  rgb: [255, 254, 249]
+  cmyk: [0, 1, 3, 0]
+
+- name: '鱼肚白'
+  pinyin: 'yú dǔ bái'
+  hex: '#F7F4ED'
+  rgb: [247, 244, 237]
+  cmyk: [4, 4, 8, 0]
+
+- name: '珍珠灰'
+  pinyin: 'zhēn zhū huī'
+  hex: '#E4DFD7'
+  rgb: [228, 223, 215]
+  cmyk: [12, 12, 16, 0]
+
+- name: '浅灰'
+  pinyin: 'qiǎn huī'
+  hex: '#DAD4CB'
+  rgb: [218, 212, 203]
+  cmyk: [16, 15, 20, 1]
+
+- name: '铅灰'
+  pinyin: 'qiān huī'
+  hex: '#BBB5AC'
+  rgb: [187, 181, 172]
+  cmyk: [28, 5, 30, 5]
+
+- name: '中灰'
+  pinyin: 'zhōng huī'
+  hex: '#BBB5AC'
+  rgb: [187, 181, 172]
+  cmyk: [28, 25, 30, 5]
+
+- name: '瓦灰'
+  pinyin: 'wǎ huī'
+  hex: '#867E76'
+  rgb: [134, 126, 118]
+  cmyk: [42, 40, 43, 23]
+
+- name: '夜灰'
+  pinyin: 'yè huī'
+  hex: '#847C74'
+  rgb: [132, 124, 116]
+  cmyk: [43, 40, 44, 42]
+
+- name: '雁灰'
+  pinyin: 'yàn huī'
+  hex: '#80766E'
+  rgb: [128, 118, 110]
+  cmyk: [42, 42, 45, 27]
+
+- name: '深灰'
+  pinyin: 'shēn huī'
+  hex: '#81776E'
+  rgb: [129, 119, 110]
+  cmyk: [42, 42, 46, 27]
+
+- name: '粉凤仙'
+  pinyin: 'fěn fèng xiān'
+  hex: '#EAC0CE'
+  rgb: [234, 192, 206]
+  cmyk: [0, 18, 12, 8]
+
+- name: '浅粉'
+  pinyin: 'qiǎn fěn'
+  hex: '#E5B8C3'
+  rgb: [229, 184, 195]
+  cmyk: [0, 20, 15, 10]
+
+- name: '淡粉'
+  pinyin: 'dàn fěn'
+  hex: '#E8AFC5'
+  rgb: [232, 175, 197]
+  cmyk: [0, 25, 15, 9]
+
+- name: '紫薇花'
+  pinyin: 'zǐ wéi huā'
+  hex: '#EEA5D1'
+  rgb: [238, 165, 209]
+  cmyk: [0, 31, 12, 7]
+
+- name: '暗粉'
+  pinyin: 'àn fěn'
+  hex: '#E18DAC'
+  rgb: [225, 141, 172]
+  cmyk: [0, 37, 24, 12]
+
+- name: '荷花红'
+  pinyin: 'hé huā hóng'
+  hex: '#EB7FAF'
+  rgb: [235, 127, 175]
+  cmyk: [0, 46, 26, 8]
+
+- name: '紫水晶'
+  pinyin: 'zǐ shǔi jīng'
+  hex: '#C3A6CB'
+  rgb: [195, 166, 203]
+  cmyk: [4, 18, 0, 20]
+
+- name: '浅石英紫'
+  pinyin: 'qiǎn shí yīng zǐ'
+  hex: '#AB96C5'
+  rgb: [171, 150, 197]
+  cmyk: [13, 24, 0, 23]
+
+- name: '浅凤仙紫'
+  pinyin: 'qiǎn fèng xiān zǐ'
+  hex: '#D294D3'
+  rgb: [210, 148, 211]
+  cmyk: [0, 30, 0, 17]
+
+- name: '木槿紫'
+  pinyin: 'mù jǐn zǐ'
+  hex: '#A381BA'
+  rgb: [163, 129, 186]
+  cmyk: [12, 31, 0, 27]
+
+- name: '长春花色'
+  pinyin: 'cháng chūn huā sè'
+  hex: '#DE7AB1'
+  rgb: [222, 122, 177]
+  cmyk: [0, 45, 20, 13]
+
+- name: '洋葱紫'
+  pinyin: 'yáng cōng zǐ'
+  hex: '#9C6680'
+  rgb: [156, 102, 128]
+  cmyk: [0, 35, 18, 39]
+
+- name: '紫罗蓝'
+  pinyin: 'zǐ luó lán'
+  hex: '#732E7E'
+  rgb: [115, 46, 126]
+  cmyk: [9, 63, 0, 51]
+
+- name: '龙胆紫'
+  pinyin: 'lóng dǎn zǐ'
+  hex: '#423171'
+  rgb: [66, 49, 113]
+  cmyk: [42, 57, 0, 56]
+
+- name: '雪紫'
+  pinyin: 'xuě zǐ'
+  hex: '#79485A'
+  rgb: [121, 72, 90]
+  cmyk: [0, 40, 26, 53]
+
+- name: '红莲灰'
+  pinyin: 'hóng lián hūi'
+  hex: '#C76079'
+  rgb: [199, 96, 121]
+  cmyk: [0, 52, 39, 22]
+
+- name: '艶粉'
+  pinyin: 'yàn fěn'
+  hex: '#D3547E'
+  rgb: [211, 84, 126]
+  cmyk: [0, 60, 40, 17]
+
+- name: '紫粉'
+  pinyin: 'zǐ fěn'
+  hex: '#A54358'
+  rgb: [165, 67, 88]
+  cmyk: [0, 59, 47, 35]
+
+- name: '鶏冠花红'
+  pinyin: 'jī guān huā hóng'
+  hex: '#A52664'
+  rgb: [165, 38, 100]
+  cmyk: [0, 77, 39, 35]
+
+- name: '青莲紫'
+  pinyin: 'qīng lián zǐ'
+  hex: '#95509F'
+  rgb: [149, 80, 159]
+  cmyk: [6, 50, 0, 38]
+
+- name: '牵牛紫'
+  pinyin: 'qiān níu zǐ'
+  hex: '#A22076'
+  rgb: [162, 32, 118]
+  cmyk: [0, 80, 27, 36]
+
+- name: '品红'
+  pinyin: 'pǐn hóng'
+  hex: '#A71368'
+  rgb: [167, 19, 104]
+  cmyk: [0, 89, 38, 35]
+
+- name: '苏木色'
+  pinyin: 'sū mù sè'
+  hex: '#AE506B'
+  rgb: [174, 80, 107]
+  cmyk: [0, 54, 39, 32]
+
+- name: '玫瑰红'
+  pinyin: 'méi gūi hóng'
+  hex: '#973444'
+  rgb: [151, 52, 68]
+  cmyk: [0, 66, 55, 41]
+
+- name: '玫瑰灰'
+  pinyin: 'méi gūi hūi'
+  hex: '#793D56'
+  rgb: [121, 61, 86]
+  cmyk: [0, 50, 29, 53]
+
+- name: '臙脂'
+  pinyin: 'yān zhī'
+  hex: '#952E3A'
+  rgb: [149, 46, 58]
+  cmyk: [0, 69, 61, 42]
+
+- name: '辰沙'
+  pinyin: 'chén shā'
+  hex: '#AF5E53'
+  rgb: [175, 94, 83]
+  cmyk: [0, 46, 53, 31]
+
+- name: '砖红'
+  pinyin: 'zhuān hóng'
+  hex: '#AA4D3D'
+  rgb: [170, 77, 61]
+  cmyk: [0, 55, 64, 33]
+
+- name: '殷红'
+  pinyin: 'yīn hóng'
+  hex: '#A4414F'
+  rgb: [164, 65, 79]
+  cmyk: [0, 60, 52, 36]
+
+- name: '银红'
+  pinyin: 'yín hóng'
+  hex: '#C56978'
+  rgb: [197, 105, 120]
+  cmyk: [0, 47, 39, 23]
+
+- name: '肉红'
+  pinyin: 'ròu hóng'
+  hex: '#C17886'
+  rgb: [193, 120, 134]
+  cmyk: [0, 38, 31, 24]
+
+- name: '妃红'
+  pinyin: 'fēi hóng'
+  hex: '#C35655'
+  rgb: [195, 86, 85]
+  cmyk: [0, 56, 56, 24]
+
+- name: '猩红'
+  pinyin: 'xīng hóng'
+  hex: '#C43739'
+  rgb: [196, 55, 57]
+  cmyk: [0, 72, 71, 23]
+
+- name: '血红'
+  pinyin: 'xiě hóng'
+  hex: '#A03E28'
+  rgb: [160, 62, 40]
+  cmyk: [0, 61, 75, 37]
+
+- name: '月季红'
+  pinyin: 'yuè jì hóng'
+  hex: '#BB1C33'
+  rgb: [187, 28, 51]
+  cmyk: [0, 85, 73, 27]
+
+- name: '茉莉花红'
+  pinyin: 'mò lì huā hóng'
+  hex: '#B31F45'
+  rgb: [179, 31, 69]
+  cmyk: [0, 83, 61, 30]
+
+- name: '乌罗松红'
+  pinyin: 'wū luó sōng hóng'
+  hex: '#C5283D'
+  rgb: [197, 40, 61]
+  cmyk: [0, 80, 69, 23]
+
+- name: '银星海棠'
+  pinyin: 'yín xīng hǎi táng'
+  hex: '#D13559'
+  rgb: [209, 53, 89]
+  cmyk: [0, 75, 57, 18]
+
+- name: '象牙红'
+  pinyin: 'xiàng yá hóng'
+  hex: '#BC343C'
+  rgb: [188, 52, 60]
+  cmyk: [0, 72, 68, 26]
+
+- name: '曙红'
+  pinyin: 'shù hóng'
+  hex: '#935458'
+  rgb: [147, 84, 88]
+  cmyk: [0, 43, 40, 42]
+
+- name: '牡丹红'
+  pinyin: 'mǔ dān hóng'
+  hex: '#B80233'
+  rgb: [184, 2, 51]
+  cmyk: [0, 99, 72, 28]
+
+- name: '艶红'
+  pinyin: 'yàn hóng'
+  hex: '#CC3536'
+  rgb: [204, 53, 54]
+  cmyk: [0, 74, 74, 20]
+
+- name: '蕉红色'
+  pinyin: 'jiāo hóng sè'
+  hex: '#CF292F'
+  rgb: [207, 41, 47]
+  cmyk: [0, 80, 77, 19]
+
+- name: '银朱'
+  pinyin: 'yín zhū'
+  hex: '#D15D5E'
+  rgb: [209, 93, 94]
+  cmyk: [0, 56, 55, 18]
+
+- name: '朱砂'
+  pinyin: 'zhū shā'
+  hex: '#B84B48'
+  rgb: [184, 75, 72]
+  cmyk: [0, 59, 61, 28]
+
+- name: '二朱'
+  pinyin: 'èr zhū'
+  hex: '#C6574B'
+  rgb: [198, 87, 75]
+  cmyk: [0, 56, 62, 22]
+
+- name: '朱膘'
+  pinyin: 'zhū piǎo'
+  hex: '#E35C3E'
+  rgb: [227, 92, 62]
+  cmyk: [0, 59, 73, 11]
+
+- name: '章丹'
+  pinyin: 'zhāng dān'
+  hex: '#EB652D'
+  rgb: [235, 101, 45]
+  cmyk: [0, 57, 81, 8]
+
+- name: '蕃茄红'
+  pinyin: 'fán qié hóng'
+  hex: '#C4473D'
+  rgb: [196, 71, 61]
+  cmyk: [0, 64, 69, 23]
+
+- name: '榴花红'
+  pinyin: 'líu huā hóng'
+  hex: '#D54B44'
+  rgb: [213, 75, 68]
+  cmyk: [0, 65, 68, 16]
+
+- name: '柿子色'
+  pinyin: 'shì zǐ sè'
+  hex: '#ED7A3D'
+  rgb: [237, 122, 61]
+  cmyk: [0, 49, 74, 7]
+
+- name: '桔红'
+  pinyin: 'jié hóng'
+  hex: '#E7693F'
+  rgb: [231, 105, 63]
+  cmyk: [0, 55, 73, 9]
+
+- name: '桔黄'
+  pinyin: 'jié huáng'
+  hex: '#E8853B'
+  rgb: [232, 133, 59]
+  cmyk: [0, 43, 75, 9]
+
+- name: '红扇贝色'
+  pinyin: 'hóng shàn bèi sè'
+  hex: '#E9745A'
+  rgb: [233, 116, 90]
+  cmyk: [0, 50, 61, 9]
+
+- name: '粉橙色'
+  pinyin: 'fěn chéng sè'
+  hex: '#F89155'
+  rgb: [248, 145, 85]
+  cmyk: [0, 42, 66, 3]
+
+- name: '金红'
+  pinyin: 'jīn hóng'
+  hex: '#F07544'
+  rgb: [240, 117, 68]
+  cmyk: [0, 51, 72, 6]
+
+- name: '雄精'
+  pinyin: 'xióng jīng'
+  hex: '#E47542'
+  rgb: [228, 117, 66]
+  cmyk: [0, 49, 71, 11]
+
+- name: '金黄'
+  pinyin: 'jīn huáng'
+  hex: '#C77A3A'
+  rgb: [199, 122, 58]
+  cmyk: [0, 39, 71, 22]
+
+- name: '雄黄'
+  pinyin: 'xióng huáng'
+  hex: '#D0853D'
+  rgb: [208, 133, 61]
+  cmyk: [0, 36, 71, 18]
+
+- name: '虾黄'
+  pinyin: 'xiā huáng'
+  hex: '#E1A14D'
+  rgb: [225, 161, 77]
+  cmyk: [0, 28, 66, 12]
+
+- name: '艶黄'
+  pinyin: 'yàn huáng'
+  hex: '#E1A105'
+  rgb: [225, 161, 5]
+  cmyk: [0, 28, 98, 12]
+
+- name: '鹅黄'
+  pinyin: 'é huáng'
+  hex: '#F5A31F'
+  rgb: [245, 163, 31]
+  cmyk: [0, 33, 87, 4]
+
+- name: '十様锦'
+  pinyin: 'shí yàng jǐn'
+  hex: '#FCB1AA'
+  rgb: [252, 177, 170]
+  cmyk: [0, 30, 33, 1]
+
+- name: '凤仙粉'
+  pinyin: 'fèng xiān fěn'
+  hex: '#F4A9AA'
+  rgb: [244, 169, 170]
+  cmyk: [0, 31, 30, 4]
+
+- name: '肉粉'
+  pinyin: 'ròu fěn'
+  hex: '#F1C7BE'
+  rgb: [241, 199, 190]
+  cmyk: [0, 17, 21, 5]
+
+- name: '肉黄'
+  pinyin: 'ròu huáng'
+  hex: '#F0B69D'
+  rgb: [240, 182, 157]
+  cmyk: [0, 24, 35, 6]
+
+- name: '釉红'
+  pinyin: 'yòu hóng'
+  hex: '#B65B46'
+  rgb: [182, 91, 70]
+  cmyk: [0, 50, 62, 29]
+
+- name: '红灰莲'
+  pinyin: 'hóng hūi lián'
+  hex: '#BB848C'
+  rgb: [187, 132, 140]
+  cmyk: [0, 29, 25, 27]
+
+- name: '蛤蜊粉'
+  pinyin: 'há lí fěn'
+  hex: '#DA9583'
+  rgb: [218, 149, 131]
+  cmyk: [0, 32, 40, 15]
+
+- name: '锈红'
+  pinyin: 'xìu hóng'
+  hex: '#4D1919'
+  rgb: [77, 25, 25]
+  cmyk: [0, 68, 68, 70]
+
+- name: '土红'
+  pinyin: 'tǔ hóng'
+  hex: '#A95352'
+  rgb: [169, 83, 82]
+  cmyk: [0, 51, 51, 34]
+
+- name: '玛瑙色'
+  pinyin: 'mǎ nǎo sè'
+  hex: '#C06B49'
+  rgb: [192, 107, 73]
+  cmyk: [0, 44, 62, 25]
+
+- name: '赭石色'
+  pinyin: 'zhě shí sè'
+  hex: '#C37E5F'
+  rgb: [195, 126, 95]
+  cmyk: [0, 35, 51, 24]
+
+- name: '赭红'
+  pinyin: 'zhě hóng'
+  hex: '#B56F58'
+  rgb: [181, 111, 88]
+  cmyk: [0, 39, 51, 29]
+
+- name: '红狐色'
+  pinyin: 'hóng hú sè'
+  hex: '#C18453'
+  rgb: [193, 132, 83]
+  cmyk: [0, 32, 57, 24]
+
+- name: '黄棕色'
+  pinyin: 'huáng zōng sè'
+  hex: '#A5855E'
+  rgb: [165, 133, 94]
+  cmyk: [0, 19, 43, 35]
+
+- name: '棕茶'
+  pinyin: 'zōng chá'
+  hex: '#B8844F'
+  rgb: [184, 132, 79]
+  cmyk: [0, 28, 57, 28]
+
+- name: '中驼'
+  pinyin: 'zhōng tuó'
+  hex: '#9B7E62'
+  rgb: [155, 126, 98]
+  cmyk: [0, 19, 37, 39]
+
+- name: '土黄'
+  pinyin: 'tǔ huáng'
+  hex: '#CE9335'
+  rgb: [206, 147, 53]
+  cmyk: [0, 29, 74, 19]
+
+- name: '树皮色'
+  pinyin: 'shù pí sè'
+  hex: '#B37349'
+  rgb: [179, 115, 73]
+  cmyk: [0, 36, 59, 30]
+
+- name: '桂皮色'
+  pinyin: 'gùi pí sè'
+  hex: '#BB855D'
+  rgb: [187, 133, 93]
+  cmyk: [0, 29, 50, 27]
+
+- name: '土布色'
+  pinyin: 'tǔ bù sè'
+  hex: '#E3B587'
+  rgb: [227, 181, 135]
+  cmyk: [0, 20, 41, 11]
+
+- name: '黄琉璃'
+  pinyin: 'huáng líu lí'
+  hex: '#E2AF45'
+  rgb: [226, 175, 69]
+  cmyk: [0, 23, 69, 11]
+
+- name: '琉璃色'
+  pinyin: 'líu lí sè'
+  hex: '#C48D39'
+  rgb: [196, 141, 57]
+  cmyk: [0, 28, 71, 23]
+
+- name: '檀香色'
+  pinyin: 'tán xiāng sè'
+  hex: '#DC943B'
+  rgb: [220, 148, 59]
+  cmyk: [0, 33, 73, 14]
+
+- name: '苍黄'
+  pinyin: 'cāng huáng'
+  hex: '#C65306'
+  rgb: [198, 83, 6]
+  cmyk: [0, 58, 97, 22]
+
+- name: '米红'
+  pinyin: 'mǐ hóng'
+  hex: '#E1BDA2'
+  rgb: [225, 189, 162]
+  cmyk: [0, 16, 28, 12]
+
+- name: '玛瑙粉'
+  pinyin: 'mǎ nǎo fěn'
+  hex: '#D79B75'
+  rgb: [215, 155, 117]
+  cmyk: [0, 28, 46, 16]
+
+- name: '向日黄'
+  pinyin: 'xiàng rì huáng'
+  hex: '#F4B974'
+  rgb: [244, 185, 116]
+  cmyk: [0, 24, 52, 4]
+
+- name: '浅黄棕'
+  pinyin: 'qiǎn huáng zōng'
+  hex: '#DEA87A'
+  rgb: [222, 168, 122]
+  cmyk: [0, 24, 45, 13]
+
+- name: '南瓜黄'
+  pinyin: 'nán guā huáng'
+  hex: '#F1B67F'
+  rgb: [241, 182, 127]
+  cmyk: [0, 24, 47, 5]
+
+- name: '骆驼色'
+  pinyin: 'luò tuó sè'
+  hex: '#D8AD85'
+  rgb: [216, 173, 133]
+  cmyk: [0, 20, 38, 15]
+
+- name: '芦黄'
+  pinyin: 'lú huáng'
+  hex: '#E2C2A4'
+  rgb: [226, 194, 164]
+  cmyk: [0, 14, 27, 11]
+
+- name: '浅桔黄'
+  pinyin: 'qiǎn jié huáng'
+  hex: '#DA9558'
+  rgb: [218, 149, 88]
+  cmyk: [0, 32, 60, 15]
+
+- name: '鹿皮色'
+  pinyin: 'lù pí sè'
+  hex: '#E7BB7C'
+  rgb: [231, 187, 124]
+  cmyk: [0, 19, 46, 9]
+
+- name: '鹿皮棕'
+  pinyin: 'lù pí zōng'
+  hex: '#BB9755'
+  rgb: [187, 151, 85]
+  cmyk: [0, 19, 55, 27]
+
+- name: '真丝绸色'
+  pinyin: 'zhēn sī chóu sè'
+  hex: '#F4D7B4'
+  rgb: [244, 215, 180]
+  cmyk: [0, 12, 26, 4]
+
+- name: '富春纺色'
+  pinyin: 'fù chūn fǎng sè'
+  hex: '#F0D6AC'
+  rgb: [240, 214, 172]
+  cmyk: [0, 11, 28, 6]
+
+- name: '乳白色'
+  pinyin: 'rǔ bái sè'
+  hex: '#EEE1CA'
+  rgb: [238, 225, 202]
+  cmyk: [0, 5, 15, 7]
+
+- name: '乳黄色'
+  pinyin: 'rǔ huáng sè'
+  hex: '#EFE0B9'
+  rgb: [239, 224, 185]
+  cmyk: [0, 6, 23, 6]
+
+- name: '甘石粉'
+  pinyin: 'gān shí fěn'
+  hex: '#EADCD6'
+  rgb: [234, 220, 214]
+  cmyk: [0, 6, 9, 8]
+
+- name: '浅血牙'
+  pinyin: 'qiǎn xiě yá'
+  hex: '#EACDD1'
+  rgb: [234, 205, 209]
+  cmyk: [0, 12, 11, 8]
+
+- name: '浅棕灰'
+  pinyin: 'qiǎn zōng hūi'
+  hex: '#E1DBCD'
+  rgb: [225, 219, 205]
+  cmyk: [0, 3, 9, 12]
+
+- name: '粉棕'
+  pinyin: 'fěn zōng'
+  hex: '#DAC5B3'
+  rgb: [218, 197, 179]
+  cmyk: [0, 10, 18, 15]
+
+- name: '浅肉粉'
+  pinyin: 'qiǎn ròu fěn'
+  hex: '#EEDECC'
+  rgb: [238, 222, 204]
+  cmyk: [0, 7, 14, 7]
+
+- name: '浅驼色'
+  pinyin: 'qiǎn tuó sè'
+  hex: '#C9AE8C'
+  rgb: [201, 174, 140]
+  cmyk: [0, 13, 30, 21]
+
+- name: '浅棕茶'
+  pinyin: 'qiǎn zōng chá'
+  hex: '#B0A085'
+  rgb: [176, 160, 133]
+  cmyk: [0, 9, 24, 31]
+
+- name: '肉棕灰'
+  pinyin: 'ròu zōng hūi'
+  hex: '#B89A83'
+  rgb: [184, 154, 131]
+  cmyk: [0, 16, 29, 28]
+
+- name: '肉棕'
+  pinyin: 'ròu zōng'
+  hex: '#D2AE8C'
+  rgb: [210, 174, 140]
+  cmyk: [0, 17, 33, 18]
+
+- name: '珈琲棕'
+  pinyin: 'jiā bèi zōng'
+  hex: '#896C50'
+  rgb: [137, 108, 80]
+  cmyk: [0, 21, 42, 46]
+
+- name: '黄鸭色'
+  pinyin: 'huáng yā sè'
+  hex: '#9B603F'
+  rgb: [155, 96, 63]
+  cmyk: [0, 38, 59, 39]
+
+- name: '烟色'
+  pinyin: 'yān sè'
+  hex: '#6E4D40'
+  rgb: [110, 77, 64]
+  cmyk: [0, 30, 42, 57]
+
+- name: '朱古力色'
+  pinyin: 'zhū gǔ lì sè'
+  hex: '#84624E'
+  rgb: [132, 98, 78]
+  cmyk: [0, 26, 41, 48]
+
+- name: '枣红'
+  pinyin: 'zǎo hóng'
+  hex: '#89303F'
+  rgb: [137, 48, 63]
+  cmyk: [0, 65, 54, 46]
+
+- name: '葡萄灰'
+  pinyin: 'pú táo hūi'
+  hex: '#6D4D56'
+  rgb: [109, 77, 86]
+  cmyk: [0, 29, 21, 57]
+
+- name: '紫绛色'
+  pinyin: 'zǐ jiàng sè'
+  hex: '#722E41'
+  rgb: [114, 46, 65]
+  cmyk: [0, 60, 43, 55]
+
+- name: '紫铜色'
+  pinyin: 'zǐ tóng sè'
+  hex: '#723D45'
+  rgb: [114, 61, 69]
+  cmyk: [0, 46, 39, 55]
+
+- name: '枣紫'
+  pinyin: 'zǎo zǐ'
+  hex: '#69282B'
+  rgb: [105, 40, 43]
+  cmyk: [0, 62, 59, 59]
+
+- name: '黒紫'
+  pinyin: 'hēi zǐ'
+  hex: '#50262B'
+  rgb: [80, 38, 43]
+  cmyk: [0, 52, 46, 69]
+
+- name: '棕红'
+  pinyin: 'zōng hóng'
+  hex: '#7C4B40'
+  rgb: [124, 75, 64]
+  cmyk: [0, 40, 48, 51]
+
+- name: '深釉红'
+  pinyin: 'shēn yòu hóng'
+  hex: '#773D38'
+  rgb: [119, 61, 56]
+  cmyk: [0, 49, 53, 53]
+
+- name: '紫扇贝色'
+  pinyin: 'zǐ shàn bèi sè'
+  hex: '#875A72'
+  rgb: [135, 90, 114]
+  cmyk: [0, 33, 16, 47]
+
+- name: '深烟红'
+  pinyin: 'shēn yān hóng'
+  hex: '#643441'
+  rgb: [100, 52, 65]
+  cmyk: [0, 48, 35, 61]
+
+- name: '珈琲色'
+  pinyin: 'jiā bèi sè'
+  hex: '#7B5650'
+  rgb: [123, 86, 80]
+  cmyk: [0, 30, 35, 52]
+
+- name: '豆棕'
+  pinyin: 'dòu zōng'
+  hex: '#795253'
+  rgb: [121, 82, 83]
+  cmyk: [0, 32, 31, 53]
+
+- name: '罗汉果色'
+  pinyin: 'luó hàn guǒ sè'
+  hex: '#7B563F'
+  rgb: [123, 86, 63]
+  cmyk: [0, 30, 49, 52]
+
+- name: '深栗色'
+  pinyin: 'shēn lì sè'
+  hex: '#6F5750'
+  rgb: [111, 87, 80]
+  cmyk: [0, 22, 28, 56]
+
+- name: '醤色'
+  pinyin: 'jiàng sè'
+  hex: '#725338'
+  rgb: [114, 83, 56]
+  cmyk: [0, 27, 51, 55]
+
+- name: '深褐色'
+  pinyin: 'shēn hé sè'
+  hex: '#55473B'
+  rgb: [85, 71, 59]
+  cmyk: [0, 16, 31, 67]
+
+- name: '绛紫'
+  pinyin: 'jiàng zǐ'
+  hex: '#704D4E'
+  rgb: [112, 77, 78]
+  cmyk: [0, 31, 30, 56]
+
+- name: '深烟'
+  pinyin: 'shēn yān'
+  hex: '#5A4C4C'
+  rgb: [90, 76, 76]
+  cmyk: [0, 16, 16, 65]
+
+- name: '茄皮紫'
+  pinyin: 'qié pí zǐ'
+  hex: '#674950'
+  rgb: [103, 73, 80]
+  cmyk: [0, 29, 22, 60]
+
+- name: '烟栗色'
+  pinyin: 'yān lì sè'
+  hex: '#544847'
+  rgb: [84, 72, 71]
+  cmyk: [0, 14, 15, 67]
+
+- name: '将校呢'
+  pinyin: 'jiāng xiào ní'
+  hex: '#241D00'
+  rgb: [36, 29, 0]
+  cmyk: [0, 19, 100, 86]
+
+- name: '将校呢'
+  pinyin: 'jiāng xiào ní'
+  hex: '#6D614A'
+  rgb: [109, 97, 74]
+  cmyk: [0, 11, 32, 57]
+
+- name: '中棕灰'
+  pinyin: 'zhōng zōng hūi'
+  hex: '#A9987C'
+  rgb: [169, 152, 124]
+  cmyk: [0, 10, 27, 34]
+
+- name: '姜黄'
+  pinyin: 'jiāng huáng'
+  hex: '#B49436'
+  rgb: [180, 148, 54]
+  cmyk: [0, 18, 70, 29]
+
+- name: '新芽色'
+  pinyin: 'xīn yá sè'
+  hex: '#B4A761'
+  rgb: [180, 167, 97]
+  cmyk: [0, 7, 46, 29]
+
+- name: '卡其黄'
+  pinyin: 'qiǎ qí huáng'
+  hex: '#D5B884'
+  rgb: [213, 184, 132]
+  cmyk: [0, 14, 38, 16]
+
+- name: '石黄'
+  pinyin: 'shí huáng'
+  hex: '#F2C04D'
+  rgb: [242, 192, 77]
+  cmyk: [0, 21, 68, 5]
+
+- name: '乳棕'
+  pinyin: 'rǔ zōng'
+  hex: '#C9B481'
+  rgb: [201, 180, 129]
+  cmyk: [0, 10, 36, 21]
+
+- name: '乳灰'
+  pinyin: 'rǔ hūi'
+  hex: '#C5BBA3'
+  rgb: [197, 187, 163]
+  cmyk: [0, 5, 17, 23]
+
+- name: '蝋黄'
+  pinyin: 'là huáng'
+  hex: '#EBE1BD'
+  rgb: [235, 225, 189]
+  cmyk: [0, 4, 20, 8]
+
+- name: '深银灰'
+  pinyin: 'shēn yín hūi'
+  hex: '#B2AE9B'
+  rgb: [178, 174, 155]
+  cmyk: [0, 2, 13, 30]
+
+- name: '米灰'
+  pinyin: 'mǐ hūi'
+  hex: '#C5BFAD'
+  rgb: [197, 191, 173]
+  cmyk: [0, 3, 12, 23]
+
+- name: '牙黄'
+  pinyin: 'yá huáng'
+  hex: '#EBE1B2'
+  rgb: [235, 225, 178]
+  cmyk: [0, 4, 24, 8]
+
+- name: '枝黄'
+  pinyin: 'zhī huáng'
+  hex: '#DBC7A6'
+  rgb: [219, 199, 166]
+  cmyk: [0, 9, 24, 14]
+
+- name: '丹东石'
+  pinyin: 'dān dōng shí'
+  hex: '#D7C16B'
+  rgb: [215, 193, 107]
+  cmyk: [0, 10, 50, 16]
+
+- name: '黄金色'
+  pinyin: 'huáng jīn sè'
+  hex: '#CCCC66'
+  rgb: [204, 204, 102]
+  cmyk: [0, 0, 50, 20]
+
+- name: '藤黄'
+  pinyin: 'téng huáng'
+  hex: '#F2DE76'
+  rgb: [242, 222, 118]
+  cmyk: [0, 8, 51, 5]
+
+- name: '蛋黄'
+  pinyin: 'dàn huáng'
+  hex: '#E7B55B'
+  rgb: [231, 181, 91]
+  cmyk: [0, 22, 61, 9]
+
+- name: '槐黄'
+  pinyin: 'huái huáng'
+  hex: '#EFE452'
+  rgb: [239, 228, 82]
+  cmyk: [0, 5, 66, 6]
+
+- name: '明黄'
+  pinyin: 'míng huáng'
+  hex: '#F0C649'
+  rgb: [240, 198, 73]
+  cmyk: [0, 17, 70, 6]
+
+- name: '丝瓜花黄'
+  pinyin: 'sī guā huā huáng'
+  hex: '#F7D550'
+  rgb: [247, 213, 80]
+  cmyk: [0, 14, 68, 3]
+
+- name: '嫩姜黄'
+  pinyin: 'nèn jiāng huáng'
+  hex: '#E2BD3B'
+  rgb: [226, 189, 59]
+  cmyk: [0, 16, 74, 11]
+
+- name: '甘草黄'
+  pinyin: 'gān cǎo huáng'
+  hex: '#E4CF8E'
+  rgb: [228, 207, 142]
+  cmyk: [0, 9, 38, 11]
+
+- name: '小鶏黄'
+  pinyin: 'xiǎo jī huáng'
+  hex: '#E3D289'
+  rgb: [227, 210, 137]
+  cmyk: [0, 7, 40, 11]
+
+- name: '芽灰'
+  pinyin: 'yá hūi'
+  hex: '#CCC3AA'
+  rgb: [204, 195, 170]
+  cmyk: [0, 4, 17, 20]
+
+- name: '柠檬黄'
+  pinyin: 'níng méng huáng'
+  hex: '#E9DB39'
+  rgb: [233, 219, 57]
+  cmyk: [0, 6, 76, 9]
+
+- name: '杨桃色'
+  pinyin: 'yáng táo sè'
+  hex: '#D4D570'
+  rgb: [212, 213, 112]
+  cmyk: [0, 0, 47, 16]
+
+- name: '淡黄'
+  pinyin: 'dàn huáng'
+  hex: '#EAE3B3'
+  rgb: [234, 227, 179]
+  cmyk: [0, 3, 24, 8]
+
+- name: '淡米色'
+  pinyin: 'dàn mǐ sè'
+  hex: '#E9E6C5'
+  rgb: [233, 230, 197]
+  cmyk: [0, 1, 15, 9]
+
+- name: '胡粉'
+  pinyin: 'hú fěn'
+  hex: '#EBE8DB'
+  rgb: [235, 232, 219]
+  cmyk: [0, 1, 7, 8]
+
+- name: '蛤粉'
+  pinyin: 'há fěn'
+  hex: '#EDEADC'
+  rgb: [237, 234, 220]
+  cmyk: [0, 1, 7, 7]
+
+- name: '立徳粉'
+  pinyin: 'lì dé fěn'
+  hex: '#EDEBE0'
+  rgb: [237, 235, 224]
+  cmyk: [0, 1, 5, 7]
+
+- name: '牙绿'
+  pinyin: 'yá lv̀'
+  hex: '#D9E396'
+  rgb: [217, 227, 150]
+  cmyk: [4, 0, 34, 11]
+
+- name: '苦瓜绿'
+  pinyin: 'kǔ guā lv̀'
+  hex: '#CDDB8F'
+  rgb: [205, 219, 143]
+  cmyk: [6, 0, 35, 14]
+
+- name: '草黄'
+  pinyin: 'cǎo huáng'
+  hex: '#DBCE54'
+  rgb: [219, 206, 84]
+  cmyk: [0, 6, 62, 14]
+
+- name: '枯绿'
+  pinyin: 'kū lv̀'
+  hex: '#B7B278'
+  rgb: [183, 178, 120]
+  cmyk: [0, 3, 34, 28]
+
+- name: '嫩草绿'
+  pinyin: 'nèn cǎo lv̀'
+  hex: '#7EA174'
+  rgb: [126, 161, 116]
+  cmyk: [22, 0, 28, 37]
+
+- name: '浅草绿'
+  pinyin: 'qiǎn cǎo lv̀'
+  hex: '#ABCC89'
+  rgb: [171, 204, 137]
+  cmyk: [16, 0, 33, 20]
+
+- name: '铜绿色'
+  pinyin: 'tóng lv̀ sè'
+  hex: '#A5B795'
+  rgb: [165, 183, 149]
+  cmyk: [10, 0, 19, 28]
+
+- name: '青豆色'
+  pinyin: 'qīng dòu sè'
+  hex: '#9BAE86'
+  rgb: [155, 174, 134]
+  cmyk: [11, 0, 23, 32]
+
+- name: '黄绿'
+  pinyin: 'huáng lv̀'
+  hex: '#94A657'
+  rgb: [148, 166, 87]
+  cmyk: [11, 0, 48, 35]
+
+- name: '深芽绿'
+  pinyin: 'shēn yá lv̀'
+  hex: '#8C9636'
+  rgb: [140, 150, 54]
+  cmyk: [7, 0, 64, 41]
+
+- name: '葱绿'
+  pinyin: 'cōng lv̀'
+  hex: '#94C66B'
+  rgb: [148, 198, 107]
+  cmyk: [25, 0, 46, 22]
+
+- name: '夜绿色'
+  pinyin: 'yè lv̀ sè'
+  hex: '#5A715F'
+  rgb: [90, 113, 95]
+  cmyk: [20, 0, 16, 56]
+
+- name: '军绿'
+  pinyin: 'jūn lv̀'
+  hex: '#CAD4BA'
+  rgb: [202, 212, 186]
+  cmyk: [5, 0, 12, 17]
+
+- name: '苍绿'
+  pinyin: 'cāng lv̀'
+  hex: '#4E5F45'
+  rgb: [78, 95, 69]
+  cmyk: [18, 0, 27, 63]
+
+- name: '橄榄绿'
+  pinyin: 'gǎn lǎn lv̀'
+  hex: '#6A6834'
+  rgb: [106, 104, 52]
+  cmyk: [0, 2, 51, 58]
+
+- name: '冬瓜绿'
+  pinyin: 'dōng guā lv̀'
+  hex: '#519670'
+  rgb: [81, 150, 112]
+  cmyk: [46, 0, 25, 41]
+
+- name: '荷茎绿'
+  pinyin: 'hé jīng lv̀'
+  hex: '#96BB8F'
+  rgb: [150, 187, 143]
+  cmyk: [20, 0, 24, 27]
+
+- name: '绿琉璃色'
+  pinyin: 'lv̀ líu lí sè'
+  hex: '#4F7E57'
+  rgb: [79, 126, 87]
+  cmyk: [37, 0, 31, 51]
+
+- name: '嫩葱绿'
+  pinyin: 'nèn cōng lv̀'
+  hex: '#93B469'
+  rgb: [147, 180, 105]
+  cmyk: [18, 0, 42, 29]
+
+- name: '鹦鹉绿'
+  pinyin: 'yīng wǔ lv̀'
+  hex: '#008E59'
+  rgb: [0, 142, 89]
+  cmyk: [100, 0, 37, 44]
+
+- name: '翠绿'
+  pinyin: 'cùi lv̀'
+  hex: '#006E5F'
+  rgb: [0, 110, 95]
+  cmyk: [100, 0, 14, 57]
+
+- name: '湖绿'
+  pinyin: 'hú lv̀'
+  hex: '#46817E'
+  rgb: [70, 129, 126]
+  cmyk: [46, 0, 2, 49]
+
+- name: '粗孔雀绿'
+  pinyin: 'cū kǒng què lv̀'
+  hex: '#168570'
+  rgb: [22, 133, 112]
+  cmyk: [83, 0, 16, 48]
+
+- name: '深绿宝石'
+  pinyin: 'shēn lv̀ bǎo shí'
+  hex: '#2F8F6D'
+  rgb: [47, 143, 109]
+  cmyk: [67, 0, 24, 44]
+
+- name: '灰绿'
+  pinyin: 'hūi lv̀'
+  hex: '#5C8987'
+  rgb: [92, 137, 135]
+  cmyk: [33, 0, 1, 46]
+
+- name: '冬绿'
+  pinyin: 'dōng lv̀'
+  hex: '#68927D'
+  rgb: [104, 146, 125]
+  cmyk: [29, 0, 14, 43]
+
+- name: '巴黎绿'
+  pinyin: 'bā lí lv̀'
+  hex: '#00B483'
+  rgb: [0, 180, 131]
+  cmyk: [100, 0, 27, 29]
+
+- name: '果绿'
+  pinyin: 'guǒ lv̀'
+  hex: '#8AC28E'
+  rgb: [138, 194, 142]
+  cmyk: [29, 0, 27, 24]
+
+- name: '玉绿'
+  pinyin: 'yù lv̀'
+  hex: '#88D5B9'
+  rgb: [136, 213, 185]
+  cmyk: [36, 0, 13, 16]
+
+- name: '果灰'
+  pinyin: 'guǒ hūi'
+  hex: '#88AEA3'
+  rgb: [136, 174, 163]
+  cmyk: [22, 0, 6, 32]
+
+- name: '碧玉石'
+  pinyin: 'bì yù shí'
+  hex: '#569597'
+  rgb: [86, 149, 151]
+  cmyk: [43, 1, 0, 41]
+
+- name: '浅松绿'
+  pinyin: 'qiǎn sōng lv̀'
+  hex: '#84C0BE'
+  rgb: [132, 192, 190]
+  cmyk: [31, 0, 1, 25]
+
+- name: '深松绿'
+  pinyin: 'shēn sōng lv̀'
+  hex: '#67B4B0'
+  rgb: [103, 180, 176]
+  cmyk: [43, 0, 2, 29]
+
+- name: '浅鲜绿'
+  pinyin: 'qiǎn xiān lv̀'
+  hex: '#A9E1D3'
+  rgb: [169, 225, 211]
+  cmyk: [25, 0, 6, 12]
+
+- name: '三绿'
+  pinyin: 'sān lv̀'
+  hex: '#90CAAF'
+  rgb: [144, 202, 175]
+  cmyk: [29, 0, 13, 21]
+
+- name: '枝绿'
+  pinyin: 'zhī lv̀'
+  hex: '#BADED1'
+  rgb: [186, 222, 209]
+  cmyk: [16, 0, 6, 13]
+
+- name: '淡灰绿'
+  pinyin: 'dàn hūi lv̀'
+  hex: '#AEC4B7'
+  rgb: [174, 196, 183]
+  cmyk: [11, 0, 7, 23]
+
+- name: '水黄'
+  pinyin: 'shǔi huáng'
+  hex: '#BED2B6'
+  rgb: [190, 210, 182]
+  cmyk: [10, 0, 13, 18]
+
+- name: '淡绿'
+  pinyin: 'dàn lv̀'
+  hex: '#B8D6C2'
+  rgb: [184, 214, 194]
+  cmyk: [14, 0, 9, 16]
+
+- name: '鸭蛋青'
+  pinyin: 'yā dàn qīng'
+  hex: '#D1E3DB'
+  rgb: [209, 227, 219]
+  cmyk: [8, 0, 4, 11]
+
+- name: '浅水绿'
+  pinyin: 'qiǎn shǔi lv̀'
+  hex: '#BBE2D6'
+  rgb: [187, 226, 214]
+  cmyk: [17, 0, 5, 11]
+
+- name: '浅青瓷釉色'
+  pinyin: 'qiǎn qīng cí yòu sè'
+  hex: '#CADDD5'
+  rgb: [202, 221, 213]
+  cmyk: [9, 0, 4, 13]
+
+- name: '龙泉青瓷釉色'
+  pinyin: 'lóng quán qīng cí yòu sè'
+  hex: '#B1C5B4'
+  rgb: [177, 197, 180]
+  cmyk: [10, 0, 9, 23]
+
+- name: '春绿'
+  pinyin: 'chūn lv̀'
+  hex: '#E3EFD1'
+  rgb: [227, 239, 209]
+  cmyk: [5, 0, 13, 6]
+
+- name: '月白色'
+  pinyin: 'yuè bái sè'
+  hex: '#D1E2DE'
+  rgb: [209, 226, 222]
+  cmyk: [8, 0, 2, 11]
+
+- name: '锈绿'
+  pinyin: 'xìu lv̀'
+  hex: '#B8C8B7'
+  rgb: [184, 200, 183]
+  cmyk: [8, 0, 8, 22]
+
+- name: '蝋白'
+  pinyin: 'là bái'
+  hex: '#E7E5D0'
+  rgb: [231, 229, 208]
+  cmyk: [0, 1, 10, 9]
+
+- name: '芦灰'
+  pinyin: 'lú hūi'
+  hex: '#A9B08F'
+  rgb: [169, 176, 143]
+  cmyk: [4, 0, 19, 31]
+
+- name: '虾灰'
+  pinyin: 'xiā hūi'
+  hex: '#B7B99C'
+  rgb: [183, 185, 156]
+  cmyk: [1, 0, 16, 27]
+
+- name: '大理石色'
+  pinyin: 'dà lǐ shí sè'
+  hex: '#A2B2A9'
+  rgb: [162, 178, 169]
+  cmyk: [9, 0, 5, 30]
+
+- name: '法国梧桐皮色'
+  pinyin: 'fǎ guó wú tóng pí sè'
+  hex: '#919481'
+  rgb: [145, 148, 129]
+  cmyk: [2, 0, 13, 42]
+
+- name: '中条虾绿'
+  pinyin: 'zhōng tiáo xiā lv̀'
+  hex: '#7F877A'
+  rgb: [127, 135, 122]
+  cmyk: [6, 0, 10, 47]
+
+- name: '灰米'
+  pinyin: 'hūi mǐ'
+  hex: '#B6B196'
+  rgb: [182, 177, 150]
+  cmyk: [0, 3, 18, 29]
+
+- name: '松绿色'
+  pinyin: 'sōng lv̀ sè'
+  hex: '#BEC5B5'
+  rgb: [190, 197, 181]
+  cmyk: [4, 0, 8, 23]
+
+- name: '暗灰'
+  pinyin: 'àn hūi'
+  hex: '#647372'
+  rgb: [100, 115, 114]
+  cmyk: [13, 0, 1, 55]
+
+- name: '卡其绿'
+  pinyin: 'qiǎ qí lv̀'
+  hex: '#647370'
+  rgb: [100, 115, 112]
+  cmyk: [13, 0, 3, 55]
+
+- name: '蟹青'
+  pinyin: 'xiè qīng'
+  hex: '#7A988E'
+  rgb: [122, 152, 142]
+  cmyk: [20, 0, 7, 40]
+
+- name: '青虾色'
+  pinyin: 'qīng xiā sè'
+  hex: '#7A988B'
+  rgb: [122, 152, 139]
+  cmyk: [20, 0, 9, 40]
+
+- name: '玉石蓝'
+  pinyin: 'yù shí lán'
+  hex: '#507883'
+  rgb: [80, 120, 131]
+  cmyk: [39, 8, 0, 49]
+
+- name: '橄榄灰'
+  pinyin: 'gǎn lǎn hūi'
+  hex: '#7C9283'
+  rgb: [124, 146, 131]
+  cmyk: [15, 0, 10, 43]
+
+- name: '老绿'
+  pinyin: 'lǎo lv̀'
+  hex: '#3D6E53'
+  rgb: [61, 110, 83]
+  cmyk: [45, 0, 25, 57]
+
+- name: '墨绿'
+  pinyin: 'mò lv̀'
+  hex: '#3F5B50'
+  rgb: [63, 91, 80]
+  cmyk: [31, 0, 12, 64]
+
+- name: '焦茶色'
+  pinyin: 'jiāo chá sè'
+  hex: '#5C5A46'
+  rgb: [92, 90, 70]
+  cmyk: [0, 2, 24, 64]
+
+- name: '茶绿'
+  pinyin: 'chá lv̀'
+  hex: '#5C614F'
+  rgb: [92, 97, 79]
+  cmyk: [5, 0, 19, 62]
+
+- name: '鉄绿'
+  pinyin: 'tiě lv̀'
+  hex: '#5E6042'
+  rgb: [94, 96, 66]
+  cmyk: [2, 0, 31, 62]
+
+- name: '油绿'
+  pinyin: 'yóu lv̀'
+  hex: '#45554A'
+  rgb: [69, 85, 74]
+  cmyk: [19, 0, 13, 67]
+
+- name: '草灰色'
+  pinyin: 'cǎo hūi sè'
+  hex: '#675B46'
+  rgb: [103, 91, 70]
+  cmyk: [0, 12, 32, 60]
+
+- name: '暗苔绿'
+  pinyin: 'àn tái lv̀'
+  hex: '#4A6F5D'
+  rgb: [74, 111, 93]
+  cmyk: [33, 0, 16, 56]
+
+- name: '毛绿'
+  pinyin: 'máo lv̀'
+  hex: '#155461'
+  rgb: [21, 84, 97]
+  cmyk: [78, 13, 0, 62]
+
+- name: '深灰'
+  pinyin: 'shēn hūi'
+  hex: '#576768'
+  rgb: [87, 103, 104]
+  cmyk: [16, 1, 0, 59]
+
+- name: '鹊灰'
+  pinyin: 'què hūi'
+  hex: '#455667'
+  rgb: [69, 86, 103]
+  cmyk: [33, 17, 0, 60]
+
+- name: '深瓦灰'
+  pinyin: 'shēn wǎ hūi'
+  hex: '#637179'
+  rgb: [99, 113, 121]
+  cmyk: [18, 7, 0, 53]
+
+- name: '苔灰'
+  pinyin: 'tái hūi'
+  hex: '#58665E'
+  rgb: [88, 102, 94]
+  cmyk: [14, 0, 8, 60]
+
+- name: '蟹蓝'
+  pinyin: 'xiè lán'
+  hex: '#658A98'
+  rgb: [101, 138, 152]
+  cmyk: [34, 9, 0, 40]
+
+- name: '冬灰色'
+  pinyin: 'dōng hūi sè'
+  hex: '#6D817D'
+  rgb: [109, 129, 125]
+  cmyk: [16, 0, 3, 49]
+
+- name: '云灰'
+  pinyin: 'yún hūi'
+  hex: '#AAC2C4'
+  rgb: [170, 194, 196]
+  cmyk: [13, 1, 0, 23]
+
+- name: '鸽灰'
+  pinyin: 'gē hūi'
+  hex: '#95B1BA'
+  rgb: [149, 177, 186]
+  cmyk: [20, 5, 0, 27]
+
+- name: '蓝灰色'
+  pinyin: 'lán hūi sè'
+  hex: '#8AA4A8'
+  rgb: [138, 164, 168]
+  cmyk: [18, 2, 0, 34]
+
+- name: '水貂灰'
+  pinyin: 'shǔi diāo hūi'
+  hex: '#949C97'
+  rgb: [148, 156, 151]
+  cmyk: [5, 0, 3, 39]
+
+- name: '春蓝'
+  pinyin: 'chūn lán'
+  hex: '#7BA1A8'
+  rgb: [123, 161, 168]
+  cmyk: [27, 4, 0, 34]
+
+- name: '灰蓝'
+  pinyin: 'hūi lán'
+  hex: '#5D828A'
+  rgb: [93, 130, 138]
+  cmyk: [33, 6, 0, 46]
+
+- name: '湖蓝灰'
+  pinyin: 'hú lán hūi'
+  hex: '#59808E'
+  rgb: [89, 128, 142]
+  cmyk: [37, 10, 0, 44]
+
+- name: '竹月色'
+  pinyin: 'zhú yuè sè'
+  hex: '#5E90B8'
+  rgb: [94, 144, 184]
+  cmyk: [49, 22, 0, 28]
+
+- name: '钴蓝'
+  pinyin: 'gǔ lán'
+  hex: '#6493AF'
+  rgb: [100, 147, 175]
+  cmyk: [43, 16, 0, 31]
+
+- name: '品绿'
+  pinyin: 'pǐn lv̀'
+  hex: '#00828B'
+  rgb: [0, 130, 139]
+  cmyk: [100, 6, 0, 45]
+
+- name: '深竹月'
+  pinyin: 'shēn zhú yuè'
+  hex: '#2578B5'
+  rgb: [37, 120, 181]
+  cmyk: [80, 34, 0, 29]
+
+- name: '琉璃蓝'
+  pinyin: 'líu lí lán'
+  hex: '#1A638A'
+  rgb: [26, 99, 138]
+  cmyk: [81, 28, 0, 46]
+
+- name: '毛月色'
+  pinyin: 'máo yuè sè'
+  hex: '#3A89B0'
+  rgb: [58, 137, 176]
+  cmyk: [67, 22, 0, 31]
+
+- name: '柏坊灰蓝'
+  pinyin: 'bǎi fāng hūi lán'
+  hex: '#4E1892'
+  rgb: [78, 24, 146]
+  cmyk: [47, 84, 0, 43]
+
+- name: '浅土蓝'
+  pinyin: 'qiǎn tǔ lán'
+  hex: '#1F5574'
+  rgb: [31, 85, 116]
+  cmyk: [73, 27, 0, 55]
+
+- name: '北京毛蓝'
+  pinyin: 'běi jīng máo lán'
+  hex: '#276893'
+  rgb: [39, 104, 147]
+  cmyk: [73, 29, 0, 42]
+
+- name: '绒蓝'
+  pinyin: 'róng lán'
+  hex: '#31678D'
+  rgb: [49, 103, 141]
+  cmyk: [65, 27, 0, 45]
+
+- name: '浅海昌蓝'
+  pinyin: 'qiǎn hǎi chāng lán'
+  hex: '#3C5E91'
+  rgb: [60, 94, 145]
+  cmyk: [59, 35, 0, 43]
+
+- name: '海蓝'
+  pinyin: 'hǎi lán'
+  hex: '#17507D'
+  rgb: [23, 80, 125]
+  cmyk: [82, 36, 0, 51]
+
+- name: '深毛月色'
+  pinyin: 'shēn máo yuè sè'
+  hex: '#2B5F8E'
+  rgb: [43, 95, 142]
+  cmyk: [70, 33, 0, 44]
+
+- name: '深毛蓝'
+  pinyin: 'shēn máo lán'
+  hex: '#244462'
+  rgb: [36, 68, 98]
+  cmyk: [63, 31, 0, 62]
+
+- name: '深蓝'
+  pinyin: 'shēn lán'
+  hex: '#213D62'
+  rgb: [33, 61, 98]
+  cmyk: [66, 38, 0, 62]
+
+- name: '靛蓝'
+  pinyin: 'diàn lán'
+  hex: '#293150'
+  rgb: [41, 49, 80]
+  cmyk: [49, 39, 0, 69]
+
+- name: '労働布色'
+  pinyin: 'láo dòng bù sè'
+  hex: '#25446B'
+  rgb: [37, 68, 107]
+  cmyk: [65, 36, 0, 58]
+
+- name: '黛蓝'
+  pinyin: 'dài lán'
+  hex: '#304758'
+  rgb: [48, 71, 88]
+  cmyk: [45, 19, 0, 65]
+
+- name: '蔵蓝'
+  pinyin: 'zāng lán'
+  hex: '#25386B'
+  rgb: [37, 56, 107]
+  cmyk: [65, 48, 0, 58]
+
+- name: '鲜蓝'
+  pinyin: 'xiān lán'
+  hex: '#004DB5'
+  rgb: [0, 77, 181]
+  cmyk: [100, 57, 0, 29]
+
+- name: '孔雀蓝'
+  pinyin: 'kǒng què lán'
+  hex: '#0041A5'
+  rgb: [0, 65, 165]
+  cmyk: [100, 61, 0, 35]
+
+- name: '群青'
+  pinyin: 'qún qīng'
+  hex: '#084495'
+  rgb: [8, 68, 149]
+  cmyk: [95, 54, 0, 42]
+
+- name: '宝石蓝'
+  pinyin: 'bǎo shí lán'
+  hex: '#1F3696'
+  rgb: [31, 54, 150]
+  cmyk: [79, 64, 0, 41]
+
+- name: '绀青'
+  pinyin: 'gàn qīng'
+  hex: '#3F486C'
+  rgb: [63, 72, 108]
+  cmyk: [42, 33, 0, 58]
+
+- name: '钛鉄'
+  pinyin: 'tài tiě'
+  hex: '#282E55'
+  rgb: [40, 46, 85]
+  cmyk: [53, 46, 0, 67]
+
+- name: '蔵黒蓝'
+  pinyin: 'zāng hēi lán'
+  hex: '#37344C'
+  rgb: [55, 52, 76]
+  cmyk: [28, 32, 0, 70]
+
+- name: '灯草灰'
+  pinyin: 'dēng cǎo hūi'
+  hex: '#363532'
+  rgb: [54, 53, 50]
+  cmyk: [0, 2, 7, 79]
+
+- name: '元青'
+  pinyin: 'yuán qīng'
+  hex: '#3E3C3D'
+  rgb: [62, 60, 61]
+  cmyk: [0, 3, 2, 76]
+
+- name: '粗晶皀'
+  pinyin: 'cū jīng bī'
+  hex: '#43454A'
+  rgb: [67, 69, 74]
+  cmyk: [9, 7, 0, 71]
+
+- name: '红皀'
+  pinyin: 'hóng bī'
+  hex: '#4F5355'
+  rgb: [79, 83, 85]
+  cmyk: [7, 2, 0, 67]
+
+- name: '鉄青'
+  pinyin: 'tiě qīng'
+  hex: '#404A57'
+  rgb: [64, 74, 87]
+  cmyk: [26, 15, 0, 66]
+
+- name: '鉄灰'
+  pinyin: 'tiě hūi'
+  hex: '#37444B'
+  rgb: [55, 68, 75]
+  cmyk: [27, 9, 0, 71]
+
+- name: '青金色'
+  pinyin: 'qīng jīn sè'
+  hex: '#687FA5'
+  rgb: [104, 127, 165]
+  cmyk: [37, 23, 0, 35]
+
+- name: '银蓝'
+  pinyin: 'yín lán'
+  hex: '#B5C1CF'
+  rgb: [181, 193, 207]
+  cmyk: [13, 7, 0, 19]
+
+- name: '雪灰'
+  pinyin: 'xuě hūi'
+  hex: '#CAD0D3'
+  rgb: [202, 208, 211]
+  cmyk: [4, 1, 0, 17]
+
+- name: '淡藕合'
+  pinyin: 'dàn ǒu hé'
+  hex: '#D5CCD3'
+  rgb: [213, 204, 211]
+  cmyk: [0, 4, 1, 16]
+
+- name: '浅藤紫'
+  pinyin: 'qiǎn téng zǐ'
+  hex: '#C4C3CB'
+  rgb: [196, 195, 203]
+  cmyk: [3, 4, 0, 20]
+
+- name: '莲灰'
+  pinyin: 'lián hūi'
+  hex: '#A8A6B9'
+  rgb: [168, 166, 185]
+  cmyk: [9, 10, 0, 27]
+
+- name: '雪青灰'
+  pinyin: 'xuě qīng hūi'
+  hex: '#9198AE'
+  rgb: [145, 152, 174]
+  cmyk: [17, 13, 0, 32]
+
+- name: '雪蓝'
+  pinyin: 'xuě lán'
+  hex: '#7991D1'
+  rgb: [121, 145, 209]
+  cmyk: [42, 31, 0, 18]
+
+- name: '紫藤灰'
+  pinyin: 'zǐ téng hūi'
+  hex: '#857E95'
+  rgb: [133, 126, 149]
+  cmyk: [11, 15, 0, 42]
+
+- name: '凤仙紫'
+  pinyin: 'fèng xiān zǐ'
+  hex: '#8B658B'
+  rgb: [139, 101, 139]
+  cmyk: [0, 27, 0, 45]
+
+- name: '青灰色'
+  pinyin: 'qīng hūi sè'
+  hex: '#575A5D'
+  rgb: [87, 90, 93]
+  cmyk: [6, 3, 0, 64]
+
+- name: '承徳皀'
+  pinyin: 'chéng dé bī'
+  hex: '#5A5C5B'
+  rgb: [90, 92, 91]
+  cmyk: [2, 0, 1, 64]
+
+- name: '承徳灰'
+  pinyin: 'chéng dé hūi'
+  hex: '#757570'
+  rgb: [117, 117, 112]
+  cmyk: [0, 0, 4, 54]
+
+- name: '庭院瓦灰色'
+  pinyin: 'tíng yuàn wǎ hūi sè'
+  hex: '#817C6E'
+  rgb: [129, 124, 110]
+  cmyk: [0, 4, 15, 49]
+
+- name: '相思灰'
+  pinyin: 'xiāng sī hūi'
+  hex: '#625C52'
+  rgb: [98, 92, 82]
+  cmyk: [0, 6, 16, 62]
+
+- name: '银鼠灰'
+  pinyin: 'yín shǔ hūi'
+  hex: '#71727A'
+  rgb: [113, 114, 122]
+  cmyk: [7, 7, 0, 52]
+
+- name: '花青'
+  pinyin: 'huā qīng'
+  hex: '#546B83'
+  rgb: [84, 107, 131]
+  cmyk: [36, 18, 0, 49]
+
+- name: '正灰'
+  pinyin: 'zhèng hūi'
+  hex: '#93A2A9'
+  rgb: [147, 162, 169]
+  cmyk: [13, 4, 0, 34]
+
+- name: '织绵灰'
+  pinyin: 'zhī mián hūi'
+  hex: '#748A8D'
+  rgb: [116, 138, 141]
+  cmyk: [18, 2, 0, 45]
+
+- name: '石板灰'
+  pinyin: 'shí bǎn hūi'
+  hex: '#6B7C87'
+  rgb: [107, 124, 135]
+  cmyk: [21, 8, 0, 47]
+
+- name: '银白色'
+  pinyin: 'yín bái sè'
+  hex: '#EBE5D5'
+  rgb: [235, 229, 213]
+  cmyk: [0, 3, 9, 8]
+
+- name: '罗蓝灰'
+  pinyin: 'luó lán hūi'
+  hex: '#4F506D'
+  rgb: [79, 80, 109]
+  cmyk: [28, 27, 0, 57]
+
+- name: '丁香紫'
+  pinyin: 'dīng xiāng zǐ'
+  hex: '#695776'
+  rgb: [105, 87, 118]
+  cmyk: [11, 26, 0, 54]
+
+- name: '百草霜'
+  pinyin: 'bǎi cǎo shuāng'
+  hex: '#303030'
+  rgb: [48, 48, 48]
+  cmyk: [0, 0, 0, 81]
+
+- name: '油烟墨'
+  pinyin: 'yóu yān mò'
+  hex: '#3F3F3C'
+  rgb: [63, 63, 60]
+  cmyk: [0, 0, 5, 75]
+
+- name: '沙青'
+  pinyin: 'shā qīng'
+  hex: '#2B5E7D'
+  rgb: [43, 94, 125]
+  cmyk: [66, 25, 0, 51]
+
+- name: '沙绿'
+  pinyin: 'shā lv̀'
+  hex: '#005B5A'
+  rgb: [0, 91, 90]
+  cmyk: [100, 0, 1, 64]
+
+- name: '大赤金'
+  pinyin: 'dà chì jīn'
+  hex: '#6D7358'
+  rgb: [109, 115, 88]
+  cmyk: [5, 0, 23, 55]
+
+- name: '库金'
+  pinyin: 'kù jīn'
+  hex: '#85794F'
+  rgb: [133, 121, 79]
+  cmyk: [0, 9, 41, 48]
+
+- name: '银箔'
+  pinyin: 'yín bó'
+  hex: '#585A57'
+  rgb: [88, 90, 87]
+  cmyk: [2, 0, 3, 65]
+
+- name: '选金'
+  pinyin: 'xuǎn jīn'
+  hex: '#796F54'
+  rgb: [121, 111, 84]
+  cmyk: [0, 8, 31, 53]
+
+- name: '獣皮色'
+  pinyin: '獣 pí sè'
+  hex: '#B9986D'
+  rgb: [185, 152, 109]
+  cmyk: [0, 18, 41, 27]
+
+- name: '橙色'
+  pinyin: 'chéng sè'
+  hex: '#E67A2A'
+  rgb: [230, 122, 42]
+  cmyk: [0, 47, 82, 10]
+
+- name: '蝶粉'
+  pinyin: 'dié fěn'
+  hex: '#F5C19B'
+  rgb: [245, 193, 155]
+  cmyk: [0, 21, 37, 4]
+
+- name: '果肉色'
+  pinyin: 'guǒ ròu sè'
+  hex: '#F5CEBE'
+  rgb: [245, 206, 190]
+  cmyk: [0, 16, 22, 4]
+
+- name: '纸棕'
+  pinyin: 'zhǐ zōng'
+  hex: '#BCA590'
+  rgb: [188, 165, 144]
+  cmyk: [0, 12, 23, 26]
+
+- name: '奶棕'
+  pinyin: 'nǎi zōng'
+  hex: '#C1A299'
+  rgb: [193, 162, 153]
+  cmyk: [0, 16, 21, 24]
+
+- name: '红灰'
+  pinyin: 'hóng hūi'
+  hex: '#82878C'
+  rgb: [130, 135, 140]
+  cmyk: [7, 4, 0, 45]
+
+- name: '闪蝶紫'
+  pinyin: 'shǎn dié zǐ'
+  hex: '#8C90B9'
+  rgb: [140, 144, 185]
+  cmyk: [24, 22, 0, 27]
+
+- name: '黄灰'
+  pinyin: 'huáng hūi'
+  hex: '#B0B7AC'
+  rgb: [176, 183, 172]
+  cmyk: [4, 0, 6, 28]
+
+- name: '奶绿'
+  pinyin: 'nǎi lv̀'
+  hex: '#AFC8BA'
+  rgb: [175, 200, 186]
+  cmyk: [12, 0, 7, 22]

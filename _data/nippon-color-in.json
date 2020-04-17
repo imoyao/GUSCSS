@@ -1,0 +1,3252 @@
+[
+  {
+    "name": "\u64ab\u5b50",
+    "cmyk": "002043003000",
+    "rgb": "DC9FB4",
+    "color": "NADESHIKO",
+    "Drgb": [
+      220,
+      159,
+      180
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u7d05\u6885",
+    "cmyk": "000073024000",
+    "rgb": "E16B8C",
+    "color": "KOHBAI",
+    "Drgb": [
+      225,
+      107,
+      140
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u8607\u82b3",
+    "cmyk": "051093058010",
+    "rgb": "8E354A",
+    "color": "SUOH",
+    "Drgb": [
+      142,
+      53,
+      74
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u9000\u7d05",
+    "cmyk": "000031009000",
+    "rgb": "F8C3CD",
+    "color": "TAIKOH",
+    "Drgb": [
+      248,
+      195,
+      205
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u4e00\u65a5\u67d3",
+    "cmyk": "000048015000",
+    "rgb": "F4A7B9",
+    "color": "IKKONZOME",
+    "Drgb": [
+      244,
+      167,
+      185
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u6851\u67d3",
+    "cmyk": "069086065035",
+    "rgb": "64363C",
+    "color": "KUWAZOME",
+    "Drgb": [
+      100,
+      54,
+      60
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u6843",
+    "cmyk": "000055019000",
+    "rgb": "F596AA",
+    "color": "MOMO",
+    "Drgb": [
+      245,
+      150,
+      170
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u82fa",
+    "cmyk": "002070038030",
+    "rgb": "B5495B",
+    "color": "ICHIGO",
+    "Drgb": [
+      181,
+      73,
+      91
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u8584\u7d05",
+    "cmyk": "000064026000",
+    "rgb": "E87A90",
+    "color": "USUBENI",
+    "Drgb": [
+      232,
+      122,
+      144
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u4eca\u69d8",
+    "cmyk": "000075038020",
+    "rgb": "D05A6E",
+    "color": "IMAYOH",
+    "Drgb": [
+      208,
+      90,
+      110
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u4e2d\u7d05",
+    "cmyk": "005083040000",
+    "rgb": "DB4D6D",
+    "color": "NAKABENI",
+    "Drgb": [
+      219,
+      77,
+      109
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u685c",
+    "cmyk": "000017006000",
+    "rgb": "FEDFE1",
+    "color": "SAKURA",
+    "Drgb": [
+      254,
+      223,
+      225
+    ],
+    "color_series": "white",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u6885\u9f20",
+    "cmyk": "048059049000",
+    "rgb": "9E7A7A",
+    "color": "UMENEZUMI",
+    "Drgb": [
+      158,
+      122,
+      122
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u97d3\u7d05\u82b1",
+    "cmyk": "015098061000",
+    "rgb": "D0104C",
+    "color": "KARAKURENAI",
+    "Drgb": [
+      208,
+      16,
+      76
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u71d5\u8102",
+    "cmyk": "042093068006",
+    "rgb": "9F353A",
+    "color": "ENJI",
+    "Drgb": [
+      159,
+      53,
+      58
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7d05",
+    "cmyk": "000100065010",
+    "rgb": "CB1B45",
+    "color": "KURENAI",
+    "Drgb": [
+      203,
+      27,
+      69
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u9d07",
+    "cmyk": "002045027000",
+    "rgb": "EEA9A9",
+    "color": "TOKI",
+    "Drgb": [
+      238,
+      169,
+      169
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u9577\u6625",
+    "cmyk": "025070053000",
+    "rgb": "BF6766",
+    "color": "CYOHSYUN",
+    "Drgb": [
+      191,
+      103,
+      102
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u6df1\u7dcb",
+    "cmyk": "054075065014",
+    "rgb": "86473F",
+    "color": "KOKIAKE",
+    "Drgb": [
+      134,
+      71,
+      63
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u685c\u9f20",
+    "cmyk": "034046039000",
+    "rgb": "B19693",
+    "color": "SAKURANEZUMI",
+    "Drgb": [
+      177,
+      150,
+      147
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u751a\u4e09\u7d05",
+    "cmyk": "000065046000",
+    "rgb": "EB7A77",
+    "color": "JINZAMOMI",
+    "Drgb": [
+      235,
+      122,
+      119
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u5c0f\u8c46",
+    "cmyk": "048078066010",
+    "rgb": "954A45",
+    "color": "AZUKI",
+    "Drgb": [
+      149,
+      74,
+      69
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u8607\u82b3\u9999",
+    "cmyk": "042070058001",
+    "rgb": "A96360",
+    "color": "SUOHKOH",
+    "Drgb": [
+      169,
+      99,
+      96
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u8d64\u7d05",
+    "cmyk": "015085068000",
+    "rgb": "CB4042",
+    "color": "AKABENI",
+    "Drgb": [
+      203,
+      64,
+      66
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u771f\u6731",
+    "cmyk": "035085070002",
+    "rgb": "AB3B3A",
+    "color": "SHINSYU",
+    "Drgb": [
+      171,
+      59,
+      58
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7070\u685c",
+    "cmyk": "002012012010",
+    "rgb": "D7C4BB",
+    "color": "HAIZAKURA",
+    "Drgb": [
+      215,
+      196,
+      187
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u6817\u6885",
+    "cmyk": "050078068013",
+    "rgb": "904840",
+    "color": "KURIUME",
+    "Drgb": [
+      144,
+      72,
+      64
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u6d77\u8001\u8336",
+    "cmyk": "055077068027",
+    "rgb": "734338",
+    "color": "EBICHA",
+    "Drgb": [
+      115,
+      67,
+      56
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u9280\u6731",
+    "cmyk": "016086070000",
+    "rgb": "C73E3A",
+    "color": "GINSYU",
+    "Drgb": [
+      199,
+      62,
+      58
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u9ed2\u9cf6",
+    "cmyk": "071074069041",
+    "rgb": "554236",
+    "color": "KUROTOBI",
+    "Drgb": [
+      85,
+      66,
+      54
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7d05\u9cf6",
+    "cmyk": "045082072011",
+    "rgb": "994639",
+    "color": "BENITOBI",
+    "Drgb": [
+      153,
+      70,
+      57
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u66d9",
+    "cmyk": "000057047000",
+    "rgb": "F19483",
+    "color": "AKEBONO",
+    "Drgb": [
+      241,
+      148,
+      131
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u7d05\u6a3a",
+    "cmyk": "035087079001",
+    "rgb": "B54434",
+    "color": "BENIKABA",
+    "Drgb": [
+      181,
+      68,
+      52
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u6c34\u304c\u304d",
+    "cmyk": "030054046000",
+    "rgb": "B9887D",
+    "color": "MIZUGAKI",
+    "Drgb": [
+      185,
+      136,
+      125
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u73ca\u745a\u6731",
+    "cmyk": "000065058000",
+    "rgb": "F17C67",
+    "color": "SANGOSYU",
+    "Drgb": [
+      241,
+      124,
+      103
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u7d05\u6a9c\u76ae",
+    "cmyk": "052074070018",
+    "rgb": "884C3A",
+    "color": "BENIHIWADA",
+    "Drgb": [
+      136,
+      76,
+      58
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7329\u7329\u7dcb",
+    "cmyk": "000089079000",
+    "rgb": "E83015",
+    "color": "SYOJYOHI",
+    "Drgb": [
+      232,
+      48,
+      21
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u925b\u4e39",
+    "cmyk": "000072063007",
+    "rgb": "D75455",
+    "color": "ENTAN",
+    "Drgb": [
+      215,
+      84,
+      85
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u829d\u7feb\u8336",
+    "cmyk": "037072068000",
+    "rgb": "B55D4C",
+    "color": "SHIKANCHA",
+    "Drgb": [
+      181,
+      93,
+      76
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u6a9c\u76ae",
+    "cmyk": "049073070018",
+    "rgb": "854836",
+    "color": "HIWADA",
+    "Drgb": [
+      133,
+      72,
+      54
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u67ff\u6e0b",
+    "cmyk": "043072071004",
+    "rgb": "A35E47",
+    "color": "KAKISHIBU",
+    "Drgb": [
+      163,
+      94,
+      71
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7dcb",
+    "cmyk": "017079074000",
+    "rgb": "CC543A",
+    "color": "AKE",
+    "Drgb": [
+      204,
+      84,
+      58
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u9cf6",
+    "cmyk": "058073070026",
+    "rgb": "724832",
+    "color": "TOBI",
+    "Drgb": [
+      114,
+      72,
+      50
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7d05\u7dcb",
+    "cmyk": "000075074000",
+    "rgb": "F75C2F",
+    "color": "BENIHI",
+    "Drgb": [
+      247,
+      92,
+      47
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u6817\u76ae\u8336",
+    "cmyk": "058074072030",
+    "rgb": "6A4028",
+    "color": "KURIKAWACHA",
+    "Drgb": [
+      106,
+      64,
+      40
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u5f01\u67c4",
+    "cmyk": "044074075012",
+    "rgb": "9A5034",
+    "color": "BENGARA",
+    "Drgb": [
+      154,
+      80,
+      52
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7167\u67ff",
+    "cmyk": "024072072000",
+    "rgb": "C46243",
+    "color": "TERIGAKI",
+    "Drgb": [
+      196,
+      98,
+      67
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u6c5f\u6238\u8336",
+    "cmyk": "038070071003",
+    "rgb": "AF5F3C",
+    "color": "EDOCHA",
+    "Drgb": [
+      175,
+      95,
+      60
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u6d17\u6731",
+    "cmyk": "000054056000",
+    "rgb": "FB966E",
+    "color": "ARAISYU",
+    "Drgb": [
+      251,
+      150,
+      110
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u767e\u5869\u8336",
+    "cmyk": "061070068025",
+    "rgb": "724938",
+    "color": "MOMOSHIOCHA",
+    "Drgb": [
+      114,
+      73,
+      56
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u5510\u8336",
+    "cmyk": "038064065000",
+    "rgb": "B47157",
+    "color": "KARACHA",
+    "Drgb": [
+      180,
+      113,
+      87
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u3068\u304d\u304c\u3089\u8336",
+    "cmyk": "010055057000",
+    "rgb": "DB8E71",
+    "color": "TOKIGARACHA",
+    "Drgb": [
+      219,
+      142,
+      113
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u9ec4\u4e39",
+    "cmyk": "000072090000",
+    "rgb": "F05E1C",
+    "color": "OHNI",
+    "Drgb": [
+      240,
+      94,
+      28
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7e81",
+    "cmyk": "000065073000",
+    "rgb": "ED784A",
+    "color": "SOHI",
+    "Drgb": [
+      237,
+      120,
+      74
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u9060\u5dde\u8336",
+    "cmyk": "021064067000",
+    "rgb": "CA7853",
+    "color": "ENSYUCHA",
+    "Drgb": [
+      202,
+      120,
+      83
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u6a3a\u8336",
+    "cmyk": "036072076002",
+    "rgb": "B35C37",
+    "color": "KABACHA",
+    "Drgb": [
+      179,
+      92,
+      55
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7126\u8336",
+    "cmyk": "068073071040",
+    "rgb": "563F2E",
+    "color": "KOGECHA",
+    "Drgb": [
+      86,
+      63,
+      46
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u8d64\u9999",
+    "cmyk": "005055060000",
+    "rgb": "E3916E",
+    "color": "AKAKOH",
+    "Drgb": [
+      227,
+      145,
+      110
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u96c0\u8336",
+    "cmyk": "052069073015",
+    "rgb": "8F5A3C",
+    "color": "SUZUMECHA",
+    "Drgb": [
+      143,
+      90,
+      60
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u5b8d",
+    "cmyk": "000047050000",
+    "rgb": "F0A986",
+    "color": "SHISHI",
+    "Drgb": [
+      240,
+      169,
+      134
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u5b97\u4f1d\u5510\u8336",
+    "cmyk": "048066070006",
+    "rgb": "A0674B",
+    "color": "SODENKARACHA",
+    "Drgb": [
+      160,
+      103,
+      75
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u6a3a",
+    "cmyk": "026070078000",
+    "rgb": "C1693C",
+    "color": "KABA",
+    "Drgb": [
+      193,
+      105,
+      60
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u6df1\u652f\u5b50",
+    "cmyk": "000053065000",
+    "rgb": "FB9966",
+    "color": "KOKIKUCHINASHI",
+    "Drgb": [
+      251,
+      153,
+      102
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u80e1\u6843",
+    "cmyk": "051056057001",
+    "rgb": "947A6D",
+    "color": "KURUMI",
+    "Drgb": [
+      148,
+      122,
+      109
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u4ee3\u8d6d",
+    "cmyk": "038067082003",
+    "rgb": "A36336",
+    "color": "TAISYA",
+    "Drgb": [
+      163,
+      99,
+      54
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u6d17\u67ff",
+    "cmyk": "000053067000",
+    "rgb": "E79460",
+    "color": "ARAIGAKI",
+    "Drgb": [
+      231,
+      148,
+      96
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u9ec4\u6ae8\u67d3",
+    "cmyk": "055068078023",
+    "rgb": "7D532C",
+    "color": "KOHROZEN",
+    "Drgb": [
+      125,
+      83,
+      44
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u8d64\u673d\u8449",
+    "cmyk": "005052070014",
+    "rgb": "C78550",
+    "color": "AKAKUCHIBA",
+    "Drgb": [
+      199,
+      133,
+      80
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u792a\u8336",
+    "cmyk": "048066079007",
+    "rgb": "985F2A",
+    "color": "TONOCHA",
+    "Drgb": [
+      152,
+      95,
+      42
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u8d64\u767d\u6a61",
+    "cmyk": "006042055000",
+    "rgb": "E1A679",
+    "color": "AKASHIROTSURUBAMI",
+    "Drgb": [
+      225,
+      166,
+      121
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u714e\u8336",
+    "cmyk": "055066075014",
+    "rgb": "855B32",
+    "color": "SENCHA",
+    "Drgb": [
+      133,
+      91,
+      50
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u8431\u8349",
+    "cmyk": "000049072000",
+    "rgb": "FC9F4D",
+    "color": "KANZO",
+    "Drgb": [
+      252,
+      159,
+      77
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u6d12\u843d\u67ff",
+    "cmyk": "000036053000",
+    "rgb": "FFBA84",
+    "color": "SHAREGAKI",
+    "Drgb": [
+      255,
+      186,
+      132
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u7d05\u9b31\u91d1",
+    "cmyk": "000052080000",
+    "rgb": "E98B2A",
+    "color": "BENIUKON",
+    "Drgb": [
+      233,
+      139,
+      42
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u6885\u67d3",
+    "cmyk": "003045062000",
+    "rgb": "E9A368",
+    "color": "UMEZOME",
+    "Drgb": [
+      233,
+      163,
+      104
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u6787\u6777\u8336",
+    "cmyk": "035058075000",
+    "rgb": "B17844",
+    "color": "BIWACHA",
+    "Drgb": [
+      177,
+      120,
+      68
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u4e01\u5b50\u8336",
+    "cmyk": "050061076009",
+    "rgb": "96632E",
+    "color": "CHOJICHA",
+    "Drgb": [
+      150,
+      99,
+      46
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u61b2\u6cd5\u67d3",
+    "cmyk": "076071073047",
+    "rgb": "43341B",
+    "color": "KENPOHZOME",
+    "Drgb": [
+      67,
+      52,
+      27
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7425\u73c0",
+    "cmyk": "020058085000",
+    "rgb": "CA7A2C",
+    "color": "KOHAKU",
+    "Drgb": [
+      202,
+      122,
+      44
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u8584\u67ff",
+    "cmyk": "000034052000",
+    "rgb": "ECB88A",
+    "color": "USUGAKI",
+    "Drgb": [
+      236,
+      184,
+      138
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u4f3d\u7f85",
+    "cmyk": "058062072016",
+    "rgb": "78552B",
+    "color": "KYARA",
+    "Drgb": [
+      120,
+      85,
+      43
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u4e01\u5b50\u67d3",
+    "cmyk": "036057079000",
+    "rgb": "B07736",
+    "color": "CHOJIZOME",
+    "Drgb": [
+      176,
+      119,
+      54
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u67f4\u67d3",
+    "cmyk": "050056071005",
+    "rgb": "967249",
+    "color": "FUSHIZOME",
+    "Drgb": [
+      150,
+      114,
+      73
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u673d\u8449",
+    "cmyk": "007049080000",
+    "rgb": "E2943B",
+    "color": "KUCHIBA",
+    "Drgb": [
+      226,
+      148,
+      59
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u91d1\u8336",
+    "cmyk": "020056089000",
+    "rgb": "C7802D",
+    "color": "KINCHA",
+    "Drgb": [
+      199,
+      128,
+      45
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u72d0",
+    "cmyk": "046057080004",
+    "rgb": "9B6E23",
+    "color": "KITSUNE",
+    "Drgb": [
+      155,
+      110,
+      35
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7164\u7af9",
+    "cmyk": "062063073021",
+    "rgb": "6E552F",
+    "color": "SUSUTAKE",
+    "Drgb": [
+      110,
+      85,
+      47
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u8584\u9999",
+    "cmyk": "000034060000",
+    "rgb": "EBB471",
+    "color": "USUKOH",
+    "Drgb": [
+      235,
+      180,
+      113
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u7825\u7c89",
+    "cmyk": "005020038015",
+    "rgb": "D7B98E",
+    "color": "TONOKO",
+    "Drgb": [
+      215,
+      185,
+      142
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u9280\u7164\u7af9",
+    "cmyk": "054058076010",
+    "rgb": "82663A",
+    "color": "GINSUSUTAKE",
+    "Drgb": [
+      130,
+      102,
+      58
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u9ec4\u571f",
+    "cmyk": "031045066000",
+    "rgb": "B68E55",
+    "color": "OHDO",
+    "Drgb": [
+      182,
+      142,
+      85
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u767d\u8336",
+    "cmyk": "032040057000",
+    "rgb": "BC9F77",
+    "color": "SHIRACHA",
+    "Drgb": [
+      188,
+      159,
+      119
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u5a9a\u8336",
+    "cmyk": "058059078014",
+    "rgb": "876633",
+    "color": "KOBICHA",
+    "Drgb": [
+      135,
+      102,
+      51
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u9ec4\u5510\u8336",
+    "cmyk": "028048083000",
+    "rgb": "C18A26",
+    "color": "KIGARACHA",
+    "Drgb": [
+      193,
+      138,
+      38
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u5c71\u5439",
+    "cmyk": "000037087000",
+    "rgb": "FFB11B",
+    "color": "YAMABUKI",
+    "Drgb": [
+      255,
+      177,
+      27
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u5c71\u5439\u8336",
+    "cmyk": "017044089000",
+    "rgb": "D19826",
+    "color": "YAMABUKICHA",
+    "Drgb": [
+      209,
+      152,
+      38
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u6ae8\u67d3",
+    "cmyk": "008040083000",
+    "rgb": "DDA52D",
+    "color": "HAJIZOME",
+    "Drgb": [
+      221,
+      165,
+      45
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u6851\u8336",
+    "cmyk": "025044083000",
+    "rgb": "C99833",
+    "color": "KUWACHA",
+    "Drgb": [
+      201,
+      152,
+      51
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u7389\u5b50",
+    "cmyk": "000029074000",
+    "rgb": "F9BF45",
+    "color": "TAMAGO",
+    "Drgb": [
+      249,
+      191,
+      69
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u767d\u6a61",
+    "cmyk": "016030060000",
+    "rgb": "DCB879",
+    "color": "SHIROTSURUBAMI",
+    "Drgb": [
+      220,
+      184,
+      121
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u9ec4\u6a61",
+    "cmyk": "031044077000",
+    "rgb": "BA9132",
+    "color": "KITSURUBAMI",
+    "Drgb": [
+      186,
+      145,
+      50
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7389\u8700\u9ecd",
+    "cmyk": "004029071000",
+    "rgb": "E8B647",
+    "color": "TAMAMOROKOSHI",
+    "Drgb": [
+      232,
+      182,
+      71
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u82b1\u8449",
+    "cmyk": "000025072000",
+    "rgb": "F7C242",
+    "color": "HANABA",
+    "Drgb": [
+      247,
+      194,
+      66
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u751f\u58c1",
+    "cmyk": "058056070008",
+    "rgb": "7D6C46",
+    "color": "NAMAKABE",
+    "Drgb": [
+      125,
+      108,
+      70
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u9ce5\u306e\u5b50",
+    "cmyk": "014020039000",
+    "rgb": "DAC9A6",
+    "color": "TORINOKO",
+    "Drgb": [
+      218,
+      201,
+      166
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u6d45\u9ec4",
+    "cmyk": "000017053000",
+    "rgb": "FAD689",
+    "color": "USUKI",
+    "Drgb": [
+      250,
+      214,
+      137
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u9ec4\u673d\u8449",
+    "cmyk": "014033075000",
+    "rgb": "D9AB42",
+    "color": "KIKUCHIBA",
+    "Drgb": [
+      217,
+      171,
+      66
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u6894\u5b50",
+    "cmyk": "000025070000",
+    "rgb": "F6C555",
+    "color": "KUCHINASHI",
+    "Drgb": [
+      246,
+      197,
+      85
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u7c50\u9ec4",
+    "cmyk": "000025086000",
+    "rgb": "FFC408",
+    "color": "TOHOH",
+    "Drgb": [
+      255,
+      196,
+      8
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u9b31\u91d1",
+    "cmyk": "003029088000",
+    "rgb": "EFBB24",
+    "color": "UKON",
+    "Drgb": [
+      239,
+      187,
+      36
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u82a5\u5b50",
+    "cmyk": "000016070027",
+    "rgb": "CAAD5F",
+    "color": "KARASHI",
+    "Drgb": [
+      202,
+      173,
+      95
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u80a5\u5f8c\u7164\u7af9",
+    "cmyk": "055053082007",
+    "rgb": "8D742A",
+    "color": "HIGOSUSUTAKE",
+    "Drgb": [
+      141,
+      116,
+      42
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u5229\u4f11\u767d\u8336",
+    "cmyk": "036033054000",
+    "rgb": "B4A582",
+    "color": "RIKYUSHIRACHA",
+    "Drgb": [
+      180,
+      165,
+      130
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u7070\u6c41",
+    "cmyk": "058051060001",
+    "rgb": "877F6C",
+    "color": "AKU",
+    "Drgb": [
+      135,
+      127,
+      108
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u5229\u4f11\u8336",
+    "cmyk": "057050070003",
+    "rgb": "897D55",
+    "color": "RIKYUCHA",
+    "Drgb": [
+      137,
+      125,
+      85
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u8def\u8003\u8336",
+    "cmyk": "064057073010",
+    "rgb": "74673E",
+    "color": "ROKOHCHA",
+    "Drgb": [
+      116,
+      103,
+      62
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u83dc\u7a2e\u6cb9",
+    "cmyk": "046042084000",
+    "rgb": "A28C37",
+    "color": "NATANEYU",
+    "Drgb": [
+      162,
+      140,
+      55
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u9daf\u8336",
+    "cmyk": "064056078016",
+    "rgb": "6C6024",
+    "color": "UGUISUCHA",
+    "Drgb": [
+      108,
+      96,
+      36
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u9ec4\u6d77\u677e\u8336",
+    "cmyk": "057048078006",
+    "rgb": "867835",
+    "color": "KIMIRUCHA",
+    "Drgb": [
+      134,
+      120,
+      53
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u6d77\u677e\u8336",
+    "cmyk": "068059075022",
+    "rgb": "62592C",
+    "color": "MIRUCHA",
+    "Drgb": [
+      98,
+      89,
+      44
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u5208\u5b89",
+    "cmyk": "007015074000",
+    "rgb": "E9CD4C",
+    "color": "KARIYASU",
+    "Drgb": [
+      233,
+      205,
+      76
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u83dc\u306e\u82b1",
+    "cmyk": "002011075000",
+    "rgb": "F7D94C",
+    "color": "NANOHANA",
+    "Drgb": [
+      247,
+      217,
+      76
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u9ec4\u8617",
+    "cmyk": "000005073000",
+    "rgb": "FBE251",
+    "color": "KIHADA",
+    "Drgb": [
+      251,
+      226,
+      81
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u84b8\u6817",
+    "cmyk": "016015052000",
+    "rgb": "D9CD90",
+    "color": "MUSHIKURI",
+    "Drgb": [
+      217,
+      205,
+      144
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u9752\u673d\u8449",
+    "cmyk": "038031076000",
+    "rgb": "ADA142",
+    "color": "AOKUCHIBA",
+    "Drgb": [
+      173,
+      161,
+      66
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u5973\u90ce\u82b1",
+    "cmyk": "016009082000",
+    "rgb": "DDD23B",
+    "color": "OMINAESHI",
+    "Drgb": [
+      221,
+      210,
+      59
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u9db8\u8336",
+    "cmyk": "045033076000",
+    "rgb": "A5A051",
+    "color": "HIWACHA",
+    "Drgb": [
+      165,
+      160,
+      81
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u9db8",
+    "cmyk": "032015085000",
+    "rgb": "BEC23F",
+    "color": "HIWA",
+    "Drgb": [
+      190,
+      194,
+      63
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u9daf",
+    "cmyk": "067054084014",
+    "rgb": "6C6A2D",
+    "color": "UGUISU",
+    "Drgb": [
+      108,
+      106,
+      45
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u67f3\u8336",
+    "cmyk": "052037073000",
+    "rgb": "939650",
+    "color": "YANAGICHA",
+    "Drgb": [
+      147,
+      150,
+      80
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u82d4",
+    "cmyk": "062041083002",
+    "rgb": "838A2D",
+    "color": "KOKE",
+    "Drgb": [
+      131,
+      138,
+      45
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u9eb9\u5875",
+    "cmyk": "037023063000",
+    "rgb": "B1B479",
+    "color": "KIKUJIN",
+    "Drgb": [
+      177,
+      180,
+      121
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u7483\u5bdb\u8336",
+    "cmyk": "072058073019",
+    "rgb": "616138",
+    "color": "RIKANCHA",
+    "Drgb": [
+      97,
+      97,
+      56
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u85cd\u5a9a\u8336",
+    "cmyk": "076061074030",
+    "rgb": "4B4E2A",
+    "color": "AIKOBICHA",
+    "Drgb": [
+      75,
+      78,
+      42
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u6d77\u677e",
+    "cmyk": "072056078020",
+    "rgb": "5B622E",
+    "color": "MIRU",
+    "Drgb": [
+      91,
+      98,
+      46
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u5343\u6b73\u8336",
+    "cmyk": "077061070030",
+    "rgb": "4D5139",
+    "color": "SENSAICHA",
+    "Drgb": [
+      77,
+      81,
+      57
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u6885\u5e78\u8336",
+    "cmyk": "057038063000",
+    "rgb": "89916B",
+    "color": "BAIKOCHA",
+    "Drgb": [
+      137,
+      145,
+      107
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u9db8\u840c\u9ec4",
+    "cmyk": "056013077000",
+    "rgb": "90B44B",
+    "color": "HIWAMOEGI",
+    "Drgb": [
+      144,
+      180,
+      75
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u67f3\u67d3",
+    "cmyk": "056024065000",
+    "rgb": "91AD70",
+    "color": "YANAGIZOME",
+    "Drgb": [
+      145,
+      173,
+      112
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u88cf\u67f3",
+    "cmyk": "036010045000",
+    "rgb": "B5CAA0",
+    "color": "URAYANAGI",
+    "Drgb": [
+      181,
+      202,
+      160
+    ],
+    "color_series": "yellow",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u5ca9\u4e95\u8336",
+    "cmyk": "069052063007",
+    "rgb": "646A58",
+    "color": "IWAICHA",
+    "Drgb": [
+      100,
+      106,
+      88
+    ],
+    "color_series": "black",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u840c\u9ec4",
+    "cmyk": "070023086000",
+    "rgb": "7BA23F",
+    "color": "MOEGI",
+    "Drgb": [
+      123,
+      162,
+      63
+    ],
+    "color_series": "yellow",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u82d7",
+    "cmyk": "057001072000",
+    "rgb": "86C166",
+    "color": "NAE",
+    "Drgb": [
+      134,
+      193,
+      102
+    ],
+    "color_series": "green",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u67f3\u7164\u7af9",
+    "cmyk": "076057070017",
+    "rgb": "4A593D",
+    "color": "YANAGISUSUTAKE",
+    "Drgb": [
+      74,
+      89,
+      61
+    ],
+    "color_series": "green",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u677e\u8449",
+    "cmyk": "080055079020",
+    "rgb": "42602D",
+    "color": "MATSUBA",
+    "Drgb": [
+      66,
+      96,
+      45
+    ],
+    "color_series": "green",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u9752\u4e39",
+    "cmyk": "076051075012",
+    "rgb": "516E41",
+    "color": "AONI",
+    "Drgb": [
+      81,
+      110,
+      65
+    ],
+    "color_series": "green",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u8584\u9752",
+    "cmyk": "057019052000",
+    "rgb": "91B493",
+    "color": "USUAO",
+    "Drgb": [
+      145,
+      180,
+      147
+    ],
+    "color_series": "green",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u67f3\u9f20",
+    "cmyk": "061041053000",
+    "rgb": "808F7C",
+    "color": "YANAGINEZUMI",
+    "Drgb": [
+      128,
+      143,
+      124
+    ],
+    "color_series": "black",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u5e38\u78d0",
+    "cmyk": "082000078040",
+    "rgb": "1B813E",
+    "color": "TOKIWA",
+    "Drgb": [
+      27,
+      129,
+      62
+    ],
+    "color_series": "green",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u82e5\u7af9",
+    "cmyk": "068013059000",
+    "rgb": "5DAC81",
+    "color": "WAKATAKE",
+    "Drgb": [
+      93,
+      172,
+      129
+    ],
+    "color_series": "green",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u5343\u6b73\u7dd1",
+    "cmyk": "083055069022",
+    "rgb": "36563C",
+    "color": "CHITOSEMIDORI",
+    "Drgb": [
+      54,
+      86,
+      60
+    ],
+    "color_series": "green",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7dd1",
+    "cmyk": "086036070000",
+    "rgb": "227D51",
+    "color": "MIDORI",
+    "Drgb": [
+      34,
+      125,
+      81
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u767d\u7dd1",
+    "cmyk": "044000037000",
+    "rgb": "A8D8B9",
+    "color": "BYAKUROKU",
+    "Drgb": [
+      168,
+      216,
+      185
+    ],
+    "color_series": "green",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u8001\u7af9",
+    "cmyk": "071046060002",
+    "rgb": "6A8372",
+    "color": "OITAKE",
+    "Drgb": [
+      106,
+      131,
+      114
+    ],
+    "color_series": "green",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u6728\u8cca",
+    "cmyk": "086046070008",
+    "rgb": "2D6D4B",
+    "color": "TOKUSA",
+    "Drgb": [
+      45,
+      109,
+      75
+    ],
+    "color_series": "green",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u5fa1\u7d0d\u6238\u8336",
+    "cmyk": "081060068022",
+    "rgb": "465D4C",
+    "color": "ONANDOCHA",
+    "Drgb": [
+      70,
+      93,
+      76
+    ],
+    "color_series": "green",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7dd1\u9752",
+    "cmyk": "083023063000",
+    "rgb": "24936E",
+    "color": "ROKUSYOH",
+    "Drgb": [
+      36,
+      147,
+      110
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u9306\u9752\u78c1",
+    "cmyk": "058030045000",
+    "rgb": "86A697",
+    "color": "SABISEIJI",
+    "Drgb": [
+      134,
+      166,
+      151
+    ],
+    "color_series": "cyan",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u9752\u7af9",
+    "cmyk": "092028067000",
+    "rgb": "00896C",
+    "color": "AOTAKE",
+    "Drgb": [
+      0,
+      137,
+      108
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u30d3\u30ed\u30fc\u30c9",
+    "cmyk": "093054071020",
+    "rgb": "096148",
+    "color": "VELUDO",
+    "Drgb": [
+      9,
+      97,
+      72
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u866b\u8956",
+    "cmyk": "089055067017",
+    "rgb": "20604F",
+    "color": "MUSHIAO",
+    "Drgb": [
+      32,
+      96,
+      79
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u85cd\u6d77\u677e\u8336",
+    "cmyk": "089060067030",
+    "rgb": "0F4C3A",
+    "color": "AIMIRUCHA",
+    "Drgb": [
+      15,
+      76,
+      58
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u6c88\u9999\u8336",
+    "cmyk": "077050057004",
+    "rgb": "4F726C",
+    "color": "TONOCHA2",
+    "Drgb": [
+      79,
+      114,
+      108
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u9752\u7dd1",
+    "cmyk": "088000053000",
+    "rgb": "00AA90",
+    "color": "AOMIDORI",
+    "Drgb": [
+      0,
+      170,
+      144
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u9752\u78c1",
+    "cmyk": "061014034000",
+    "rgb": "69B0AC",
+    "color": "SEIJI",
+    "Drgb": [
+      105,
+      176,
+      172
+    ],
+    "color_series": "cyan",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u9244",
+    "cmyk": "090063066030",
+    "rgb": "26453D",
+    "color": "TETSU",
+    "Drgb": [
+      38,
+      69,
+      61
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u6c34\u6d45\u8471",
+    "cmyk": "068010033000",
+    "rgb": "66BAB7",
+    "color": "MIZUASAGI",
+    "Drgb": [
+      102,
+      186,
+      183
+    ],
+    "color_series": "cyan",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u9752\u78a7",
+    "cmyk": "085035050000",
+    "rgb": "268785",
+    "color": "SEIHEKI",
+    "Drgb": [
+      38,
+      135,
+      133
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u9306\u9244\u5fa1\u7d0d\u6238",
+    "cmyk": "083059060013",
+    "rgb": "405B55",
+    "color": "SABITETSUONANDO",
+    "Drgb": [
+      64,
+      91,
+      85
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u9ad8\u9e97\u7d0d\u6238",
+    "cmyk": "088058061015",
+    "rgb": "305A56",
+    "color": "KORAINANDO",
+    "Drgb": [
+      48,
+      90,
+      86
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u767d\u7fa4",
+    "cmyk": "052000020000",
+    "rgb": "78C2C4",
+    "color": "BYAKUGUN",
+    "Drgb": [
+      120,
+      194,
+      196
+    ],
+    "color_series": "cyan",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u5fa1\u53ec\u8336",
+    "cmyk": "087054054005",
+    "rgb": "376B6D",
+    "color": "OMESHICHA",
+    "Drgb": [
+      55,
+      107,
+      109
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u74f6\u8997",
+    "cmyk": "042000011000",
+    "rgb": "A5DEE4",
+    "color": "KAMENOZOKI",
+    "Drgb": [
+      165,
+      222,
+      228
+    ],
+    "color_series": "cyan",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u6df1\u5ddd\u9f20",
+    "cmyk": "063038040000",
+    "rgb": "77969A",
+    "color": "FUKAGAWANEZUMI",
+    "Drgb": [
+      119,
+      150,
+      154
+    ],
+    "color_series": "cyan",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u9306\u6d45\u8471",
+    "cmyk": "066030034000",
+    "rgb": "6699A1",
+    "color": "SABIASAGI",
+    "Drgb": [
+      102,
+      153,
+      161
+    ],
+    "color_series": "cyan",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u6c34",
+    "cmyk": "055006017000",
+    "rgb": "81C7D4",
+    "color": "MIZU",
+    "Drgb": [
+      129,
+      199,
+      212
+    ],
+    "color_series": "cyan",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u6d45\u8471",
+    "cmyk": "082018027000",
+    "rgb": "33A6B8",
+    "color": "ASAGI",
+    "Drgb": [
+      51,
+      166,
+      184
+    ],
+    "color_series": "cyan",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u5fa1\u7d0d\u6238",
+    "cmyk": "092065062025",
+    "rgb": "0C4842",
+    "color": "ONANDO",
+    "Drgb": [
+      12,
+      72,
+      66
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u85cd",
+    "cmyk": "095063056017",
+    "rgb": "0D5661",
+    "color": "AI",
+    "Drgb": [
+      13,
+      86,
+      97
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u65b0\u6a4b",
+    "cmyk": "095031030000",
+    "rgb": "0089A7",
+    "color": "SHINBASHI",
+    "Drgb": [
+      0,
+      137,
+      167
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u9306\u5fa1\u7d0d\u6238",
+    "cmyk": "087056052006",
+    "rgb": "336774",
+    "color": "SABIONANDO",
+    "Drgb": [
+      51,
+      103,
+      116
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u9244\u5fa1\u7d0d\u6238",
+    "cmyk": "090063059021",
+    "rgb": "255359",
+    "color": "TETSUONANDO",
+    "Drgb": [
+      37,
+      83,
+      89
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u82b1\u6d45\u8471",
+    "cmyk": "090032023000",
+    "rgb": "1E88A8",
+    "color": "HANAASAGI",
+    "Drgb": [
+      30,
+      136,
+      168
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u85cd\u9f20",
+    "cmyk": "078057052007",
+    "rgb": "566C73",
+    "color": "AINEZUMI",
+    "Drgb": [
+      86,
+      108,
+      115
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u821b\u82b1",
+    "cmyk": "078048042000",
+    "rgb": "577C8A",
+    "color": "MASUHANA",
+    "Drgb": [
+      87,
+      124,
+      138
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7a7a",
+    "cmyk": "072013007000",
+    "rgb": "58B2DC",
+    "color": "SORA",
+    "Drgb": [
+      88,
+      178,
+      220
+    ],
+    "color_series": "cyan",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u71a8\u6597\u76ee\u82b1",
+    "cmyk": "092060047004",
+    "rgb": "2B5F75",
+    "color": "NOSHIMEHANA",
+    "Drgb": [
+      43,
+      95,
+      117
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u5343\u8349",
+    "cmyk": "083031017000",
+    "rgb": "3A8FB7",
+    "color": "CHIGUSA",
+    "Drgb": [
+      58,
+      143,
+      183
+    ],
+    "color_series": "cyan",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u5fa1\u53ec\u5fa1\u7d0d\u6238",
+    "cmyk": "090063051007",
+    "rgb": "2E5C6E",
+    "color": "OMESHIONANDO",
+    "Drgb": [
+      46,
+      92,
+      110
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7e39",
+    "cmyk": "100060041002",
+    "rgb": "006284",
+    "color": "HANADA",
+    "Drgb": [
+      0,
+      98,
+      132
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u52ff\u5fd8\u8349",
+    "cmyk": "052010000000",
+    "rgb": "7DB9DE",
+    "color": "WASURENAGUSA",
+    "Drgb": [
+      125,
+      185,
+      222
+    ],
+    "color_series": "cyan",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u7fa4\u9752",
+    "cmyk": "067021000000",
+    "rgb": "51A8DD",
+    "color": "GUNJYO",
+    "Drgb": [
+      81,
+      168,
+      221
+    ],
+    "color_series": "cyan",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u9732\u8349",
+    "cmyk": "073020000000",
+    "rgb": "2EA9DF",
+    "color": "TSUYUKUSA",
+    "Drgb": [
+      46,
+      169,
+      223
+    ],
+    "color_series": "cyan",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u9ed2\u6a61",
+    "cmyk": "092078064048",
+    "rgb": "0B1013",
+    "color": "KUROTSURUBAMI",
+    "Drgb": [
+      11,
+      16,
+      19
+    ],
+    "color_series": "black",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7d3a",
+    "cmyk": "100085050024",
+    "rgb": "0F2540",
+    "color": "KON",
+    "Drgb": [
+      15,
+      37,
+      64
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u8910",
+    "cmyk": "100086060045",
+    "rgb": "08192D",
+    "color": "KACHI",
+    "Drgb": [
+      8,
+      25,
+      45
+    ],
+    "color_series": "black",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7460\u7483",
+    "cmyk": "097065000000",
+    "rgb": "005CAF",
+    "color": "RURI",
+    "Drgb": [
+      0,
+      92,
+      175
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7460\u7483\u7d3a",
+    "cmyk": "100085039004",
+    "rgb": "0B346E",
+    "color": "RURIKON",
+    "Drgb": [
+      11,
+      52,
+      110
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7d05\u78a7",
+    "cmyk": "064044000000",
+    "rgb": "7B90D2",
+    "color": "BENIMIDORI",
+    "Drgb": [
+      123,
+      144,
+      210
+    ],
+    "color_series": "cyan",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u85e4\u9f20",
+    "cmyk": "069056017000",
+    "rgb": "6E75A4",
+    "color": "FUJINEZUMI",
+    "Drgb": [
+      110,
+      117,
+      164
+    ],
+    "color_series": "cyan",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u9244\u7d3a",
+    "cmyk": "080065000077",
+    "rgb": "261E47",
+    "color": "TETSUKON",
+    "Drgb": [
+      38,
+      30,
+      71
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7d3a\u9752",
+    "cmyk": "100085015000",
+    "rgb": "113285",
+    "color": "KONJYO",
+    "Drgb": [
+      17,
+      50,
+      133
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7d05\u639b\u82b1",
+    "cmyk": "082070014000",
+    "rgb": "4E4F97",
+    "color": "BENIKAKEHANA",
+    "Drgb": [
+      78,
+      79,
+      151
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7d3a\u6854\u6897",
+    "cmyk": "100090042012",
+    "rgb": "211E55",
+    "color": "KONKIKYO",
+    "Drgb": [
+      33,
+      30,
+      85
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u85e4",
+    "cmyk": "058052000000",
+    "rgb": "8B81C3",
+    "color": "FUJI",
+    "Drgb": [
+      139,
+      129,
+      195
+    ],
+    "color_series": "cyan",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u4e8c\u85cd",
+    "cmyk": "072067021000",
+    "rgb": "70649A",
+    "color": "FUTAAI",
+    "Drgb": [
+      112,
+      100,
+      154
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u695d",
+    "cmyk": "042042000000",
+    "rgb": "9B90C2",
+    "color": "OUCHI",
+    "Drgb": [
+      155,
+      144,
+      194
+    ],
+    "color_series": "cyan",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u85e4\u7d2b",
+    "cmyk": "058060000000",
+    "rgb": "8A6BBE",
+    "color": "FUJIMURASAKI",
+    "Drgb": [
+      138,
+      107,
+      190
+    ],
+    "color_series": "cyan",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u6854\u6897",
+    "cmyk": "075075010000",
+    "rgb": "6A4C9C",
+    "color": "KIKYO",
+    "Drgb": [
+      106,
+      76,
+      156
+    ],
+    "color_series": "cyan",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7d2b\u82d1",
+    "cmyk": "055058001000",
+    "rgb": "8F77B5",
+    "color": "SHION",
+    "Drgb": [
+      143,
+      119,
+      181
+    ],
+    "color_series": "cyan",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u6ec5\u7d2b",
+    "cmyk": "082080048015",
+    "rgb": "533D5B",
+    "color": "MESSHI",
+    "Drgb": [
+      83,
+      61,
+      91
+    ],
+    "color_series": "purple",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u8584",
+    "cmyk": "043051000000",
+    "rgb": "B28FCE",
+    "color": "USU",
+    "Drgb": [
+      178,
+      143,
+      206
+    ],
+    "color_series": "purple",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u534a",
+    "cmyk": "055063000000",
+    "rgb": "986DB2",
+    "color": "HASHITA",
+    "Drgb": [
+      152,
+      109,
+      178
+    ],
+    "color_series": "purple",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u6c5f\u6238\u7d2b",
+    "cmyk": "060074000014",
+    "rgb": "77428D",
+    "color": "EDOMURASAKI",
+    "Drgb": [
+      119,
+      66,
+      141
+    ],
+    "color_series": "purple",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7d2b\u7d3a",
+    "cmyk": "088084060045",
+    "rgb": "3C2F41",
+    "color": "SHIKON",
+    "Drgb": [
+      60,
+      47,
+      65
+    ],
+    "color_series": "black",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u6df1\u7d2b",
+    "cmyk": "090093043016",
+    "rgb": "4A225D",
+    "color": "KOKIMURASAKI",
+    "Drgb": [
+      74,
+      34,
+      93
+    ],
+    "color_series": "purple",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u83eb",
+    "cmyk": "074083022000",
+    "rgb": "66327C",
+    "color": "SUMIRE",
+    "Drgb": [
+      102,
+      50,
+      124
+    ],
+    "color_series": "purple",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7d2b",
+    "cmyk": "081087040007",
+    "rgb": "592C63",
+    "color": "MURASAKI",
+    "Drgb": [
+      89,
+      44,
+      99
+    ],
+    "color_series": "purple",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u83d6\u84b2",
+    "cmyk": "071087014000",
+    "rgb": "6F3381",
+    "color": "AYAME",
+    "Drgb": [
+      111,
+      51,
+      129
+    ],
+    "color_series": "purple",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u85e4\u7164\u7af9",
+    "cmyk": "075070057025",
+    "rgb": "574C57",
+    "color": "FUJISUSUTAKE",
+    "Drgb": [
+      87,
+      76,
+      87
+    ],
+    "color_series": "black",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7d05\u85e4",
+    "cmyk": "038060000000",
+    "rgb": "B481BB",
+    "color": "BENIFUJI",
+    "Drgb": [
+      180,
+      129,
+      187
+    ],
+    "color_series": "purple",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u9ed2\u7d05",
+    "cmyk": "086085064050",
+    "rgb": "3F2B36",
+    "color": "KUROBENI",
+    "Drgb": [
+      63,
+      43,
+      54
+    ],
+    "color_series": "black",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u8304\u5b50\u7d3a",
+    "cmyk": "040073010073",
+    "rgb": "572A3F",
+    "color": "NASUKON",
+    "Drgb": [
+      87,
+      42,
+      63
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u8461\u8404\u9f20",
+    "cmyk": "073077054017",
+    "rgb": "5E3D50",
+    "color": "BUDOHNEZUMI",
+    "Drgb": [
+      94,
+      61,
+      80
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u9ce9\u7fbd\u9f20",
+    "cmyk": "068064051006",
+    "rgb": "72636E",
+    "color": "HATOBANEZUMI",
+    "Drgb": [
+      114,
+      99,
+      110
+    ],
+    "color_series": "black",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u675c\u82e5",
+    "cmyk": "077092048021",
+    "rgb": "622954",
+    "color": "KAKITSUBATA",
+    "Drgb": [
+      98,
+      41,
+      84
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u84b2\u8461",
+    "cmyk": "071089048012",
+    "rgb": "6D2E5B",
+    "color": "EBIZOME",
+    "Drgb": [
+      109,
+      46,
+      91
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7261\u4e39",
+    "cmyk": "025091008000",
+    "rgb": "C1328E",
+    "color": "BOTAN",
+    "Drgb": [
+      193,
+      50,
+      142
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u6885\u7d2b",
+    "cmyk": "045080037000",
+    "rgb": "A8497A",
+    "color": "UMEMURASAKI",
+    "Drgb": [
+      168,
+      73,
+      122
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u4f3c\u7d2b",
+    "cmyk": "075084062042",
+    "rgb": "562E37",
+    "color": "NISEMURASAKI",
+    "Drgb": [
+      86,
+      46,
+      55
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u8e91\u8e85",
+    "cmyk": "000080003000",
+    "rgb": "E03C8A",
+    "color": "TSUTSUJI",
+    "Drgb": [
+      224,
+      60,
+      138
+    ],
+    "color_series": "red",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u7d2b\u9cf6",
+    "cmyk": "070078061030",
+    "rgb": "60373E",
+    "color": "MURASAKITOBI",
+    "Drgb": [
+      96,
+      55,
+      62
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u767d\u7df4",
+    "cmyk": "000003011000",
+    "rgb": "FCFAF2",
+    "color": "SHIRONERI",
+    "Drgb": [
+      252,
+      250,
+      242
+    ],
+    "color_series": "white",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u80e1\u7c89",
+    "cmyk": "000000002000",
+    "rgb": "FFFFFB",
+    "color": "GOFUN",
+    "Drgb": [
+      255,
+      255,
+      251
+    ],
+    "color_series": "white",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u767d\u9f20",
+    "cmyk": "031023028000",
+    "rgb": "BDC0BA",
+    "color": "SHIRONEZUMI",
+    "Drgb": [
+      189,
+      192,
+      186
+    ],
+    "color_series": "white",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u9280\u9f20",
+    "cmyk": "052039036000",
+    "rgb": "91989F",
+    "color": "GINNEZUMI",
+    "Drgb": [
+      145,
+      152,
+      159
+    ],
+    "color_series": "black",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u925b",
+    "cmyk": "008000000073",
+    "rgb": "787878",
+    "color": "NAMARI",
+    "Drgb": [
+      120,
+      120,
+      120
+    ],
+    "color_series": "black",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7070",
+    "cmyk": "000000000070",
+    "rgb": "828282",
+    "color": "HAI",
+    "Drgb": [
+      130,
+      130,
+      130
+    ],
+    "color_series": "black",
+    "font_color": "dark"
+  },
+  {
+    "name": "\u7d20\u9f20",
+    "cmyk": "065053053000",
+    "rgb": "787D7B",
+    "color": "SUNEZUMI",
+    "Drgb": [
+      120,
+      125,
+      123
+    ],
+    "color_series": "black",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u5229\u4f11\u9f20",
+    "cmyk": "066050054001",
+    "rgb": "707C74",
+    "color": "RIKYUNEZUMI",
+    "Drgb": [
+      112,
+      124,
+      116
+    ],
+    "color_series": "black",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u920d",
+    "cmyk": "005000000080",
+    "rgb": "656765",
+    "color": "NIBI",
+    "Drgb": [
+      101,
+      103,
+      101
+    ],
+    "color_series": "black",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u9752\u920d",
+    "cmyk": "078063062020",
+    "rgb": "535953",
+    "color": "AONIBI",
+    "Drgb": [
+      83,
+      89,
+      83
+    ],
+    "color_series": "black",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u6e9d\u9f20",
+    "cmyk": "078065065030",
+    "rgb": "4F4F48",
+    "color": "DOBUNEZUMI",
+    "Drgb": [
+      79,
+      79,
+      72
+    ],
+    "color_series": "black",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u7d05\u6d88\u9f20",
+    "cmyk": "073069063030",
+    "rgb": "52433D",
+    "color": "BENIKESHINEZUMI",
+    "Drgb": [
+      82,
+      67,
+      61
+    ],
+    "color_series": "red",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u85cd\u58a8\u8336",
+    "cmyk": "086072068047",
+    "rgb": "373C38",
+    "color": "AISUMICHA",
+    "Drgb": [
+      55,
+      60,
+      56
+    ],
+    "color_series": "black",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u6ab3\u6994\u5b50\u67d3",
+    "cmyk": "079072072050",
+    "rgb": "3A3226",
+    "color": "BINROJIZOME",
+    "Drgb": [
+      58,
+      50,
+      38
+    ],
+    "color_series": "black",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u6d88\u70ad",
+    "cmyk": "000000000088",
+    "rgb": "434343",
+    "color": "KESHIZUMI",
+    "Drgb": [
+      67,
+      67,
+      67
+    ],
+    "color_series": "black",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u58a8",
+    "cmyk": "092078073066",
+    "rgb": "1C1C1C",
+    "color": "SUMI",
+    "Drgb": [
+      28,
+      28,
+      28
+    ],
+    "color_series": "black",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u9ed2",
+    "cmyk": "091084074071",
+    "rgb": "080808",
+    "color": "KURO",
+    "Drgb": [
+      8,
+      8,
+      8
+    ],
+    "color_series": "black",
+    "font_color": "bright"
+  },
+  {
+    "name": "\u5442",
+    "cmyk": "000000000100",
+    "rgb": "0C0C0C",
+    "color": "RO",
+    "Drgb": [
+      12,
+      12,
+      12
+    ],
+    "color_series": "black",
+    "font_color": "bright"
+  }
+]
