@@ -39,6 +39,7 @@ npm run serve
 ```
 
 #### 生产模式
+
 ```
 npm run build
 ```
@@ -66,6 +67,7 @@ cd ..
 npm run lint
 ```
 ### TODO
+
 - favor color
 - how to use pwa
 - better scroll experience
