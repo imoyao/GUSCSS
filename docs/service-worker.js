@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js");
 
 importScripts(
-  "/nippon-color/precache-manifest.9af87c777cd06087dba18bb141eb7833.js"
+  "/precache-manifest.34f24c43fe9eced525669f145856d224.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "Traditional-Chinese-Colors"});
