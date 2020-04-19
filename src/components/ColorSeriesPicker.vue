@@ -1,4 +1,5 @@
 <template>
+
   <div
     class="picker"
     @click="toggle">
@@ -6,10 +7,10 @@
       v-for="item in list"
       :key="item.hex"
       :data-color="item.color"
-      :style="`border:0.1rem solid #${borderColor==='b'?'fffffb':'0c0c0c'};background-color:#${item.hex};z-index:${item.color === currentColor?999:1};`"
+      :style="`border:0.1rem solid #${!isBright?'fffffb':'0c0c0c'};background-color:#${item.hex};z-index:${item.color === currentColor?999:1};`"
       class="circle" />
     <div
-      :style="`border:0.1rem solid #${borderColor==='b'?'fffffb':'0c0c0c'};z-index:${'all' === currentColor?999:1};`"
+      :style="`border:0.1rem solid #${!isBright?'fffffb':'0c0c0c'};z-index:${'all' === currentColor?999:1};`"
       class="circle linear-gradient"
       data-color="all" />
   </div>
@@ -19,9 +20,13 @@
 import anime from 'animejs'
 export default {
   props: {
+    isBright: {
+      type: Boolean,
+      default: true,
+    },
     borderColor: {
       type: String,
-      default: 'd',
+      default: 'dark',
     },
   },
   data () {
@@ -29,13 +34,12 @@ export default {
       isOpen: false,
       anime: null,
       list: [
-        { hex: 'fffffb', color: 'w' },
-        { hex: '0c0c0c', color: 'b' },
-        { hex: '8A6BBE', color: 'p' },
-        { hex: '00AA90', color: 'g' },
-        { hex: '86C166', color: 'c' },
-        { hex: 'F7C242', color: 'y' },
-        { hex: 'CB1B45', color: 'r' },
+        { hex: 'fffffb', color: 'white' },
+        { hex: '0c0c0c', color: 'black' },
+        { hex: '008000', color: 'green' },
+        { hex: '00FFFF', color: 'cyan' },
+        { hex: 'FFFF00', color: 'yellow' },
+        { hex: 'FF0000', color: 'red' },
       ],
       currentColor: null,
     }

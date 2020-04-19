@@ -7,6 +7,7 @@ NIPPON_COLOR_LOAD_FP = '_data/nippon-color.json'
 JSON_DUMP_FP = '_data/colors.json'
 YAML_DUMP_FP = '_data/colors.yml'
 CMYK_SCALE = 100
+JSON_COLORS_DATA_DUMP_FOR_FRONTEND = 'src/data/zhColors.json'
 
 CHINESE_COLORS_INFO = {
     'repo': 'https://github.com/zerosoul/chinese-colors',
@@ -14,20 +15,48 @@ CHINESE_COLORS_INFO = {
     'data_load_path': '_data/chinese-colors-in.json',
     'data_dump_path': '_data/chinese-colors-out.json'
 }
+FLINHONG_COLORS_INFO = {
+    'repo': 'https://github.com/flinhong/colors',
+    'site': ['https://colors.flinhong.com/'],
+    'data_load_path': '_data/colors-in.yml',
+    'data_dump_path': '_data/colors-out.json'
+}
 
 TRADITIONAL_CHINESE_COLORS_INFO = {
     'repo': 'https://github.com/BoxingP/traditional-chinese-colors',
     'site': ['http://boxingp.github.io/traditional-chinese-colors/'],
-    'data_load_path': '_data/Traditional-Chinese-Colors-in.json',
-    'data_dump_path': 'Traditional-Chinese-Colors-out.json'
+    'data_load_path': '_data/traditional-chinese-colors-in.json',
+    'data_dump_path': '_data/traditional-chinese-colors-out.json'
+}
+
+# 因为数据中“中国色颜色色谱”与FLINHONG_COLORS_INFO重复，所以只取“中国传统色彩标准色卡”
+CFS_COLOR_INFO = {
+    'repo': 'https://github.com/coolfishstudio/cfs-color/',
+    'site': ['https://coolfishstudio.github.io/cfs-color/'],
+    'data_load_path': '_data/sfs-color-in.json',
+    'data_dump_path': '_data/sfs-color-out.json'
+}
+
+ALL_IN_ONE_INFO = {
+    'repo': 'https://github.com/imoyao/Traditional-Chinese-Colors',
+    'site': ['https://colors.masantu.com/'],
+    'data_load_path': '',
+    'data_dump_path': '_data/all_in_one.json'
 }
 
 NIPPON_COLOR_INFO = {
     'repo': 'https://git.coding.net/ssshooter/nippon-color',
     'site': ['https://Traditional-Chinese-Colorss.com/', 'http://boxingp.github.io/traditional-chinese-colors/',
              'https://colors.flinhong.com/jp-colors/'],
-    'data_load_path': ['_data/nippon-color-in.json', '_data/jp-colors-in.yml'],
+    'data_load_path': '_data/nippon-color-in.json',
     'data_dump_path': '_data/nippon-color-out.json'
+}
+
+JIZHI_INFO = {
+    'repo': 'https://github.com/unicar9/jizhi',
+    'site': ['https://chrome.google.com/webstore/detail/%E5%87%A0%E6%9E%9D/hfohpokminpknagcgncibpacohagppjn'],
+    'data_load_path': '_data/wavesColors-in.json',
+    'data_dump_path': '_data/wavesColors-out.json'
 }
 # https://www.rapidtables.com/convert/color/rgb-to-hsv.html
 COLOR_BASE_MAP = {

@@ -11,13 +11,13 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.34f24c43fe9eced525669f145856d224.js"
+  "/precache-manifest.219e9ed0c6ac4a9e266099a0e95011c0.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "Traditional-Chinese-Colors"});
+workbox.core.setCacheNameDetails({prefix: "traditional-chinese-colors"});
 
 workbox.skipWaiting();
 workbox.clientsClaim();

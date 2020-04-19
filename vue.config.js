@@ -1,7 +1,7 @@
 var ImageminPlugin = require('imagemin-webpack-plugin').default
 
 module.exports = {
-  baseUrl: process.env.NODE_ENV === 'production' ? '/' : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/' : '/',
   // 输出文件目录
   outputDir: 'docs',
   pwa: {
@@ -19,7 +19,8 @@ module.exports = {
       msTileImage: 'img/icons/msapplication-icon-144x144.png',
     },
   },
-  lintOnSave: process.env.NODE_ENV !== 'production',
+  // lintOnSave: process.env.NODE_ENV !== 'production',
+  lintOnSave: false,
   devServer: {
     overlay: {
       warnings: true,
@@ -29,7 +30,8 @@ module.exports = {
   configureWebpack: {
     plugins: [
       new ImageminPlugin({
-        disable: process.env.NODE_ENV !== 'production', // Disable during development
+        disable: true, // Disable for windows
+        // disable: process.env.NODE_ENV !== 'production', // Disable during development
         pngquant: {
           quality: '80',
         },

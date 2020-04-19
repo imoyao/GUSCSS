@@ -1,0 +1,9 @@
+{
+  "repo": "https://github.com/imoyao/Traditional-Chinese-Colors",
+  "site": [
+    "https://colors.masantu.com/"
+  ],
+  "data_load_path": "",
+  "data_dump_path": "_data/all_in_one.json",
+  "data": []
+}

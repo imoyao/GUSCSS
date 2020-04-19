@@ -1,43 +1,49 @@
 <template>
   <div class="home">
     <div
-      :style="`background-color:#${colorSelected.rgb};`"
-      :class="{'color-bright':colorSelected.f === 'b'}"
+      :style="`background-color:${colorSelected.hex};`"
+      :class="{'color-bright':!colorSelected.is_bright}"
       class="display">
       <!-- 添加到喜爱颜色 -->
       <!-- 随机 -->
       <CopyButton
-        :fill-color="colorSelected.f"
+        :is-bright="colorSelected.is_bright"
         :copied="isCopied"
         class="copy"
-        @click.native="copy(colorSelected.rgb)" />
+        @click.native="copy(colorSelected.hex)" />
       <ShareButton
-        :fill-color="colorSelected.f"
+        :is-bright="colorSelected.is_bright"
         class="share"
         @click.native="share(colorSelected.name)" />
       <RandomButton
-        :fill-color="colorSelected.f"
+        :is-bright="colorSelected.is_bright"
         class="random"
         @click.native="random" />
       <ColorSeriesPicker
-        :border-color="colorSelected.f"
+        :is-bright="colorSelected.is_bright"
         class="series"
         @colorChange="changeColorSeries" />
+      <div class="color-remark">
+        {{ colorSelected.pinyin||'zhōng guó chuán tǒng sè' }}
+      </div>
       <div class="kanji">
         {{ colorSelected.name||'中国传统色' }}
       </div>
       <div class="romaji">
         {{ colorSelected.color||'The Traditional Colors of China' }}
       </div>
+      <div class="color-decs">
+        {{ colorSelected.desc|| '📢'+this.msg ||'梅子金黄杏子肥，麦花雪白菜花稀。' }}
+      </div>
       <div class="rgb-block">
         <div
           v-for="(el,i) in ['r','g','b']"
           :key="el"
-          :style="`width:${colorSelected.Drgb?(colorSelected.Drgb[i]/255*100):0}%`"
-          :class="{[el]:true,'bg-bright':colorSelected.f === 'b'}" />
+          :style="`width:${colorSelected.rgb?(colorSelected.rgb[i]/255*100):0}%`"
+          :class="{[el]:true,'bg-bright':!colorSelected.is_bright}" />
       </div>
       <div
-        v-if="colorSelected.Drgb"
+        v-if="colorSelected.rgb"
         class="rgb-number">
         <template v-for="el in ['R','G','B']">
           <div :key="el">{{ el }}</div>
@@ -50,19 +56,28 @@
         v-if="colorSelected.cmyk"
         class="cmyk-number">
         <div
-          v-for="el in ['c','m','y','k']"
-          :key="el"
-          :class="{[el]:true}"
-          class="n">0</div>
+          v-for="(el,index) in ['c','m','y','k']"
+          :class="{[el]:true}">
+          <CircleProgress
+            :is-bright="colorSelected.is_bright"
+            :id="index"
+            :radius="5"
+            :barColor="cymkList[index]"
+            :progress="colorSelected.cmyk[index]"
+            :backgroundColor="'rgba(255,255,255,0.7)'"
+            :widthPresent="1/colorSelected.cmyk.length"
+            :isAnimation="true"
+          > </CircleProgress>
+        </div>
       </div>
     </div>
     <div class="tab-wrapper">
       <div class="tab">
         <ColorTab
           v-for="color in colorList"
-          :key="color.name"
+          :key="color.id"
           :kanji="color.name"
-          :rgb="color.rgb"
+          :hex="color.hex"
           class="js-tab-item tab-item"
           @click.native="changeColor(color)" />
       </div>
@@ -72,12 +87,17 @@
 
 <script>
 import anime from 'animejs'
+const jinrishici=require('jinrishici')
 import ColorTab from '@/components/ColorTab.vue'
 import ColorSeriesPicker from '@/components/ColorSeriesPicker.vue'
 import ShareButton from '@/components/ShareButton.vue'
 import CopyButton from '@/components/CopyButton.vue'
 import RandomButton from '@/components/RandomButton.vue'
-import colorList from '@/data/color'
+import CircleProgress  from '@/plugins/CircleProgress.vue';
+// import colorList from '@/data/color'
+// TODO: 打包之后验证
+// import colorList from '@/data/zhColors.json'
+import colorData from '@/data/zhColors.json'
 
 import {
   checkInSight,
@@ -94,13 +114,21 @@ export default {
     ShareButton,
     CopyButton,
     RandomButton,
+    CircleProgress,
   },
   data () {
     return {
+      msg: String,
       colorList: [],
       colorSelected: {},
       isCopied: false,
       lastEls: null,
+      cymkList:[
+        '#00FFFF',
+        '#800080',
+        '#FFFF00',
+        '#000000',
+      ]
     }
   },
   watch: {
@@ -115,14 +143,14 @@ export default {
       })
     },
     $route (r) {
-      this.retrieveColorAndSelect(r.query.c)
+      this.retrieveColorAndSelect(r.query.colorId)
     },
   },
   mounted () {
     // trigger watch colorList
-    this.colorList = colorList
+    this.colorList = colorData.data
     // route to specific color
-    this.retrieveColorAndSelect(this.$route.query.c)
+    this.retrieveColorAndSelect(this.$route.query.colorId)
     document
       .querySelector('.tab-wrapper')
       .addEventListener('scroll', throttle(checkInSight(this.listAnime)))
@@ -130,46 +158,51 @@ export default {
       'resize',
       throttle(checkInSight(this.listAnime), 1000)
     )
+    this.loadSentence()
   },
   methods: {
-    retrieveColorAndSelect (rgb) {
-      if (rgb) {
-        let color = this.colorList.find(val => val.rgb === rgb)
-        this.colorSelected = color
+    retrieveColorAndSelect (colorId) {
+      if (colorId) {
+        this.colorSelected = this.colorList.find(val => val.id === colorId)
       } else {
         this.colorSelected = {
-          rgb: 'ffffff',
+          hex: '#ffffff',
+          is_bright: true,
         }
       }
     },
+    // 切换颜色分组
     changeColorSeries (color) {
       document.querySelector('.tab-wrapper').scrollTop = 0
-      if (color === 'all') this.colorList = colorList
-      else this.colorList = colorList.filter(val => val.c === color)
+      if (color === 'all') this.colorList = colorData.data
+      else this.colorList = colorData.data.filter(val => val.color_series === color)
       this.colorSelected = this.colorList[0]
     },
     changeColor (color) {
       // watch $route and change color
-      this.$router.push({ path: '/', query: { c: color.rgb } })
+      this.$router.push({ path: '/', query: { colorId: color.id } })
+      this.loadSentence()
     },
-    // TODO
+    // TODO 修改为访问仓库
     share (name) {
       // let location = window.location.href
       window.open(
         `https://github.com/imoyao/Traditional-Chinese-Colors`
       )
     },
+    // 复制按钮
     copy (hex) {
       if (!this.isCopied) {
-        clipboardCopy(`#${hex}`)
+        clipboardCopy(`${hex}`)
         this.isCopied = true
         setTimeout(() => {
           this.isCopied = false
         }, 1000)
       }
     },
+    // 随机选择
     random () {
-      let random = colorList[Math.floor(Math.random() * colorList.length)]
+      let random = colorList[Math.floor(Math.random() * colorData.data.length)]
       this.changeColor(random)
     },
     listAnime (el, isInit) {
@@ -188,7 +221,7 @@ export default {
       })
     },
     displayAnime () {
-      let monji = document.querySelectorAll('.display .kanji,.romaji')
+      let monji = document.querySelectorAll('.display .kanji,.romaji,.color-decs,color-remark')
       let rgb = document.querySelectorAll('.display .rgb-number .n')
       let cmyk = document.querySelectorAll('.display .cmyk-number .n')
       anime.remove([monji, rgb, cmyk])
@@ -201,21 +234,29 @@ export default {
       anime({
         targets: rgb,
         innerHTML: (el, i, l) => {
-          return this.colorSelected.Drgb[i]
+          return this.colorSelected.rgb[i]
         },
         round: 1,
         easing: 'easeOutSine',
       })
-      anime({
-        targets: cmyk,
-        innerHTML: (el, i, l) => {
-          return this.colorSelected.cmyk.slice(i * 3, (i + 1) * 3)
-        },
-        round: 1,
-        easing: 'easeOutSine',
-      })
+      // anime({
+      //   targets: cmyk,
+      //   innerHTML: (el, i, l) => {
+      //     return this.colorSelected.cmyk[i]
+      //   },
+      //   round: 1,
+      //   easing: 'easeOutSine',
+      // })
     },
-  },
+
+    loadSentence: function() {
+      jinrishici.load(result => {
+        this.msg = result.data.content
+      }, err => {
+        console.log("test");
+      })
+    }
+},
 }
 </script>
 
@@ -262,18 +303,48 @@ export default {
     .romaji {
       position: absolute;
       bottom: 1.5rem;
-      left: 5rem;
+      left: 6.5rem;
+      writing-mode: vertical-lr;
+      letter-spacing: 0.2rem;
+    }
+    .color-remark {
+      position: absolute;
+      bottom: 1.5rem;
+      left: 1.5rem;
       writing-mode: vertical-lr;
       letter-spacing: 0.2rem;
     }
     .kanji {
-      font-family: 'XANO';
+      font-family: 'FZQKBYSJT',serif;
       position: absolute;
       bottom: 1rem;
-      left: 1rem;
+      left: 3rem;
       writing-mode: vertical-lr;
       letter-spacing: 0.5rem;
       font-size: 3rem;
+    }
+    .color-decs {
+      font-family: 'FZQKBYSJT',serif;
+      position: absolute;
+      bottom: 1.5rem;
+      left: 8rem;
+      letter-spacing: 0.2rem;
+      line-height: 1rem;
+      width: 50%;
+      font-size: 0.8rem;
+      white-space:normal;
+      word-break:break-all;
+      overflow:hidden;
+      @include for-phone {
+        writing-mode: vertical-lr;
+        text-align: end;
+        height: 68%;
+      }
+      @include for-tablet {
+        writing-mode: vertical-lr;
+        text-align: end;
+        height: 68%;
+      }
     }
     .rgb-block {
       display: flex;
@@ -315,23 +386,23 @@ export default {
         }
       }
       .c {
-        &::after {
-          content: 'c';
+        &::before {
+          content: 'C';
         }
       }
       .m {
-        &::after {
-          content: 'm';
+        &::before {
+          content: 'M';
         }
       }
       .y {
-        &::after {
-          content: 'y';
+        &::before {
+          content: 'Y';
         }
       }
       .k {
-        &::after {
-          content: 'k';
+        &::before {
+          content: 'K';
         }
       }
     }

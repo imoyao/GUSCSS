@@ -648,7 +648,7 @@
         "id": "6-3",
         "hex": "#d6ecf0",
         "name": "月白",
-        "intro": "淡蓝色",
+        "intro": "淡蓝，因近似月色，故称。古人认为月亮的颜色并不是纯白，而是带着一点淡淡的蓝色。",
         "figure": "fenhua.png"
       },
       { "id": "6-4", "hex": "#f2ecde", "name": "缟", "intro": "白色", "figure": "meihua.pink.png" },

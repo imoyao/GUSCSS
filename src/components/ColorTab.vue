@@ -1,24 +1,24 @@
 <template>
   <div class="card">
     <div
-      :style="`background-color:#${rgb};`"
+      :style="`background-color:${hex};`"
       class="color-block"/>
     <div class="monji-block">
       <div class="kanji">{{ kanji }}</div>
-      <div class="rgb">{{ '#'+rgb }}</div>
+      <div class="rgb">{{ hex }}</div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'ColorTab',
   props: {
     kanji: {
       type: String,
       default: '-',
     },
-    rgb: {
+    hex: {
       type: String,
       default: '-',
     },
@@ -36,7 +36,7 @@ export default {
   height: 2.5rem;
   .color-block {
     height: 100%;
-    width: 0.5rem;
+    width: 0.618rem;
     margin-right: 0.5rem;
   }
   .monji-block {
@@ -51,7 +51,7 @@ export default {
     justify-content: center;
     align-items: flex-start;
     .kanji {
-      font-family: 'XANO';
+      font-family: 'FZQKBYSJT';
       width: 100%;
       text-align: left;
       overflow: hidden;

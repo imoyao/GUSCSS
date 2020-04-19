@@ -5,36 +5,33 @@ import os
 import json
 
 from backend.core import color_parse
-
 from backend import settings
 
 
-def write_colors():
-    _colors_data = color_parse.get_colors_data()
-    with open(settings.JSON_DUMP_FP, 'w') as jf:
-        json.dump(_colors_data, jf, ensure_ascii=False)  # 避免文字转为 unicode
+def get_frontend_path():
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    return os.path.join(current_dir, settings.JSON_COLORS_DATA_DUMP_FOR_FRONTEND)
 
-    if os.path.exists(settings.YAML_DUMP_FP):
-        os.remove(settings.YAML_DUMP_FP)
 
-    with open(settings.YAML_DUMP_FP, 'a+') as yf:
-        for color in _colors_data:
-            color_obj_str = '''- name: {name}
-  pinyin: {pinyin}
-  hex: {hex}
-  rgb: {rgb}
-  cmyk: {cmyk}
-                
-'''.format(**color)
-            yf.write(color_obj_str)
+def save_file_to_fe(all_info):
+    """
+    保存信息到前端目录
+    :param all_info:
+    :return:
+    """
+    save_fp = get_frontend_path()
+    bak_fp = '.'.join([save_fp, 'bak'])
+    print(bak_fp, save_fp)
+    # os.rename(settings.JSON_COLORS_DATA_DUMP_FOR_FRONTEND, bak_fp)
+    with open(save_fp, 'w') as jf:
+        json.dump(all_info, jf, ensure_ascii=False, indent=2)  # 避免文字转为 unicode
     return 0
 
 
 if __name__ == '__main__':
+    dump_data = True
     pd = color_parse.ParseData()
-    colors_data = pd.parse_zerosoul()
-    fp = settings.CHINESE_COLORS_INFO.get('data_dump_path')
-    with open(fp, 'w') as jf:
-        json.dump(colors_data, jf, ensure_ascii=False)  # 避免文字转为 unicode
-    print(colors_data)
+    all_data = pd.all_in_one(settings.ALL_IN_ONE_INFO, dump_data=dump_data)
+    if dump_data:
+        ret_code = save_file_to_fe(all_data)
     print('data dump success.')

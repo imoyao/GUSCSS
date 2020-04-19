@@ -1,6 +1,6 @@
 <template>
   <svg
-    :class="{'fill-bright':fillColor === 'b'}"
+    :class="{'fill-bright':!isBright}"
     width="200px"
     height="200.00px"
     viewBox="0 0 1024 1024"
@@ -13,9 +13,13 @@
 <script>
 export default {
   props: {
+    isBright: {
+      type: Boolean,
+      default: true,
+    },
     fillColor: {
       type: String,
-      default: 'd',
+      default: 'dark',
     },
   },
 }

@@ -7,8 +7,10 @@
 """
 import os
 import re
-import json
+from collections import defaultdict
 from functools import wraps, partial
+import itertools
+import json
 
 import yaml
 from pypinyin import lazy_pinyin, Style
@@ -102,8 +104,19 @@ class ConvertColor:
         v = max_c * 100
         return h, s, v
 
+    @staticmethod
+    def rgb_to_yuv(rgb_seq):
+        r, g, b = rgb_seq
+        y = 0.299 * r + 0.587 * g + 0.114 * b
+        u = - 0.1687 * r - 0.3313 * g + 0.5 * b + 128
+        v = 0.5 * r - 0.4187 * g - 0.0813 * b + 128
+        return y, u, v
+
 
 class ParseData:
+
+    def __init__(self):
+        pass
 
     @staticmethod
     def get_data_from_json(json_fp):
@@ -127,6 +140,19 @@ class ParseData:
             data = yaml.load(f, Loader=yaml.FullLoader)
         return data
 
+    @staticmethod
+    def dump_data_to_json(yaml_fp, colors_data):  # TODO: no test!
+        with open(yaml_fp, 'a+') as yf:
+            for color in colors_data:
+                color_obj_str = '''- name: {name}
+          pinyin: {pinyin}
+          hex: {hex}
+          rgb: {rgb}
+          cmyk: {cmyk}
+
+        '''.format(**color)
+                yf.write(color_obj_str)
+
     def sugar_data(self, data_info):
         """
         原始数据已经在data中，直接读取并解析
@@ -143,44 +169,150 @@ class ParseData:
             sugar = self.get_data_from_yaml(fp)
         return sugar
 
-    def parse_zerosoul(self):
+    @staticmethod
+    def color_object_maker(color_name, color_hex, color_rgb='', pinyin_str='', color_series='',
+                           color_cmyk='', color_desc='', color_figure='', is_simple=True):
+        """
+
+        组装颜色对象
+        :param color_name: str,必须，如果是繁体，则必须将is_simple置False
+        :param color_name:
+        :param color_hex:
+        :param color_rgb:
+        :param pinyin_str:
+        :param color_series:
+        :param color_cmyk:
+        :param color_desc:
+        :param color_figure:
+        :param is_simple:
+        :return:
+        """
+        assert color_hex != ''
+        color_id = converter.make_color_id(color_hex)
+        color_hex = color_hex.upper() if color_hex.islower() else color_hex
+        # 简/繁：此处为知道一个求另一个
+        if is_simple:  # TODO: 是否可以简化
+            color_simple_name = color_name
+            color_tra_name = trans_simple_or_trans(color_name, is_simple=is_simple)
+        else:
+            color_tra_name = color_name
+            color_simple_name = trans_simple_or_trans(color_name, is_simple=is_simple)
+
+        if color_rgb == '':
+            color_rgb = converter.hex_to_rgb(color_hex)
+
+        _color_hsv = converter.rgb_to_hsv(color_rgb)
+        is_bright = is_bright_color_hsv(_color_hsv)
+        font_color = 'dark' if is_bright else 'bright'
+
+        if color_cmyk == '':
+            color_cmyk = converter.rgb_to_cmyk(color_rgb)
+
+        if color_series == '':
+            find_color_series.set_color_name(color_simple_name)
+            color_series = find_color_series(color_rgb)  # 运算得到的
+        # http://pypinyin.mozillazg.com/zh_CN/master/api.html#pypinyin.lazy_pinyin
+        if pinyin_str == '':
+            pinyin_str = ' '.join(lazy_pinyin(color_simple_name, style=Style.TONE))
+        return {
+            'id': color_id,
+            'name': color_simple_name,
+            'tra_name': color_tra_name,
+            'color_series': color_series,
+            'pinyin': pinyin_str,
+            'font_color': font_color,
+            'is_bright': is_bright,
+            'rgb': color_rgb,
+            'hex': color_hex,
+            'cmyk': color_cmyk,
+            'desc': color_desc,
+            'figure': color_figure,
+        }
+
+    def parse_nippon_color(self):
+        data = self.sugar_data(settings.NIPPON_COLOR_INFO)
+        return data
+
+    def parse_flinhong(self, setting_obj, dump_data=False):
+        data = self.sugar_data(setting_obj)
+        fl_colors = []
+        for color in data:
+            color_hex = color.get('hex')
+            color_name = color.get('name')
+            pinyin_str = color.get('pinyin')
+            color_rgb = color.get('rgb')
+            color_cmyk = color.get('cmyk')
+            color_obj = self.color_object_maker(color_name, color_hex, color_rgb=color_rgb, pinyin_str=pinyin_str,
+                                                color_cmyk=color_cmyk, is_simple=False)
+            fl_colors.append(color_obj)
+        if dump_data:
+            self.dump_data_to_file(fl_colors, setting_obj)
+        return fl_colors
+
+    def parse_jizhi(self, setting_obj, dump_data=False):
+        """
+        :param setting_obj: setting.JIZHI_INFO
+        :param dump_data: bool,
+        :return:
+        """
+        _color_list = []
+        data = self.sugar_data(setting_obj)
+        for _color in data:
+            _color_simple_name = _color.get('name')
+            _color_rgb = _color.get('RGB')
+            color_cmyk = _color.get('CMYK')
+            _color_hex = _color.get('hex')
+
+            color_obj = self.color_object_maker(_color_simple_name, _color_hex, color_rgb=_color_rgb,
+                                                color_cmyk=color_cmyk)
+
+            _color_list.append(color_obj)
+        if dump_data:
+            self.dump_data_to_file(_color_list, setting_obj)
+        return _color_list
+
+    def parse_cfs_color(self, setting_obj, dump_data=False):
+        """
+        只取第二个列表并保存
+        :param setting_obj:
+        :param dump_data:
+        :return:
+        """
+        data = self.sugar_data(setting_obj)
+        _, cts = data
+        cts_data = cts.get('list', [])
+        _color_list = []
+        for _color in cts_data:
+            _color_simple_name = _color.get('name')
+            _color_hex = _color.get('hex')
+            color_obj = self.color_object_maker(_color_simple_name, _color_hex)
+
+            _color_list.append(color_obj)
+        if dump_data:
+            self.dump_data_to_file(_color_list, setting_obj)
+        return _color_list
+
+    def parse_zerosoul(self, setting_obj, dump_data=False):
+        """
+        :param setting_obj: settings.CHINESE_COLORS_INFO
+        :param dump_data:
+        :return:
+        """
         zs_colors = []
         self_check_list = []
-        data = self.sugar_data(settings.CHINESE_COLORS_INFO)
+        data = self.sugar_data(setting_obj)
 
         def make_color_series_list(cus_color_lists, know_color_series=''):
             color_series_lists = []
-            compute_color_series = ''
             for _color in cus_color_lists:
                 _color_simple_name = _color.get('name')
                 _color_hex = _color.get('hex')
                 color_desc = _color.get('intro', '')
                 color_figure = _color.get('figure', '')
-                pinyin_str = ' '.join(lazy_pinyin(_color_simple_name, style=Style.TONE))
-                color_tra_name = trans_simple_or_trans(_color_simple_name)
-                _color_rgb = converter.hex_to_rgb(_color_hex)
-                color_id = converter.make_color_id(_color_hex)
-                color_cmyk = converter.rgb_to_cmyk(_color_rgb)
 
-                if not know_color_series:
-                    find_color_series.set_color_name(_color_simple_name)
-                    compute_color_series = find_color_series(_color_rgb)  # 运算得到的
-                _color_series = know_color_series or compute_color_series
-
-                _color_hex = _color_hex.upper() if _color_hex.islower() else _color_hex
-                
-                color_obj = {
-                    'id': color_id,
-                    'name': _color_simple_name,
-                    'tra_name': color_tra_name,
-                    'color_series': _color_series,
-                    'pinyin': pinyin_str,
-                    'rgb': _color_rgb,
-                    'hex': _color_hex,
-                    'cmyk': color_cmyk,
-                    'desc': color_desc,
-                    'figure': color_figure,
-                }
+                color_obj = self.color_object_maker(_color_simple_name, _color_hex,
+                                                    color_series=know_color_series, color_desc=color_desc,
+                                                    color_figure=color_figure)
 
                 color_series_lists.append(color_obj)
             return color_series_lists
@@ -197,39 +329,67 @@ class ParseData:
                 color_lists = color_series_data.get('colors')
                 self_check_list.extend(color_lists)
 
-            color_info = make_color_series_list(self_check_list)
-            zs_colors.extend(color_info)
-        # settings.CHINESE_COLORS_INFO['colors'] = zs_colors
+        color_info = make_color_series_list(self_check_list)
+        zs_colors.extend(color_info)
+        if dump_data:
+            self.dump_data_to_file(zs_colors, setting_obj)
         return zs_colors
 
+    @staticmethod
+    def dump_data_to_file(dump_color_data, setting_obj=None, specific_fp=''):
+        if setting_obj is None:
+            setting_obj = dict()
+        fp = setting_obj.get('data_dump_path') if setting_obj else specific_fp
+        # 删旧存新
+        if os.path.exists(fp):
+            os.remove(fp)
 
-# def hue_calculate_org(round1, round2, delta, add_num):
-#     return ((round1 - round2) / delta + add_num) * 60
-#
-#
-# def rgb_to_hsv_org(rgb_seq):
-#     r, g, b = rgb_seq
-#     r_round = float(r) / 255
-#     g_round = float(g) / 255
-#     b_round = float(b) / 255
-#     max_c = max(r_round, g_round, b_round)
-#     min_c = min(r_round, g_round, b_round)
-#     delta = max_c - min_c
-#     h = None
-#     if delta == 0:
-#         h = 0
-#     elif max_c == r_round:
-#         h = ((g_round - b_round) / delta % 6) * 60
-#
-#     elif max_c == g_round:
-#         h = hue_calculate_org(b_round, r_round, delta, 2)
-#     elif max_c == b_round:
-#         h = hue_calculate_org(r_round, g_round, delta, 4)
-#     if max_c == 0:
-#         s = 0
-#     else:
-#         s = delta / max_c
-#     return h, s, max_c
+        with open(fp, 'w') as jf:
+            setting_obj['data'] = dump_color_data
+            json.dump(setting_obj, jf, ensure_ascii=False)  # 避免文字转为 unicode
+        return 0
+
+    def all_in_one(self, setting_obj, dump_data=False):
+        """
+        **注意**：setting和函数名必须对应上，不然会解析出错！
+        解析数据并导出（dump_data=True）到配置setting中的配置文件中
+        :param setting_obj: dict,
+        :param dump_data: bool,是否将运算结果数据导出到文件中
+        :return: list,
+        """
+        jizhi_data = self.parse_jizhi(settings.JIZHI_INFO, dump_data=dump_data)
+        chinese_colors_data = self.parse_zerosoul(settings.CHINESE_COLORS_INFO, dump_data=dump_data)
+        colors_data = self.parse_flinhong(settings.FLINHONG_COLORS_INFO, dump_data=dump_data)
+        cfs_color_data = self.parse_cfs_color(settings.CFS_COLOR_INFO, dump_data=dump_data)
+        # chinese_colors_data  放前面，因为有描述和图片
+        all_in_one = merge_iterables_of_dict('id', chinese_colors_data, jizhi_data, colors_data, cfs_color_data)
+        # print(type(all_in_one), all_in_one)
+        print('before_filter:', len(jizhi_data) + len(chinese_colors_data) + len(colors_data) + len(cfs_color_data))
+        print('after_filter:', len(all_in_one))
+        if dump_data:
+            self.dump_data_to_file(all_in_one, setting_obj)
+            setting_obj['data'] = all_in_one
+            return setting_obj
+        else:
+            return all_in_one
+
+
+def merge_iterables_of_dict(shared_key, *iterables):
+    """
+    see also:[🐍PyTricks | Python 中如何合并一个内字典列表？ | 别院牧志](https://imoyao.github.io/blog/2020-04-19/python-merge-two-list-of-dicts/)
+    chinese_colors_data  放前面，因为有描述和图片
+    :param shared_key:
+    :param iterables:
+    :return:
+    """
+    result = defaultdict(dict)
+    for dictionary in itertools.chain.from_iterable(iterables):
+        result[dictionary[shared_key]].update(dictionary)
+    # for dictionary in result.values():
+    #     dictionary.pop(shared_key)
+    # return result
+    result = list(result.values())  # 保证返回为list，否则：TypeError: Object of type dict_values is not JSON serializable
+    return result
 
 
 def update_by_value(v):
@@ -294,7 +454,7 @@ converter = ConvertColor()
 
 
 @find_color_series_by_name(name='')
-def find_color_series(rgb_seq):  # TODO:此处是否有更好实现？
+def find_color_series(rgb_seq):  # TODO:此处是否有更好实现？cmyk去判断是否是100%cmy颜色(黑色不判断)
     """
     TODO: see also: https://github.com/MisanthropicBit/colorise/blob/master/colorise/color_tools.py
     将rgb转为hsv之后根据h和v寻找色系
@@ -322,17 +482,6 @@ def find_color_series(rgb_seq):  # TODO:此处是否有更好实现？
     return cs
 
 
-def trans_tra_to_simple(tar_str):
-    """
-    将繁体字转为简体字
-    :param tar_str: str,繁体字
-    :return: str,简体字
-    """
-
-    simple_str = Converter('zh-hans').convert(tar_str)
-    return simple_str
-
-
 def trans_simple_or_trans(in_str, is_simple=True):
     """
     给繁体（必须同时制定is_simple=False），返简体；给简体，返繁体
@@ -346,6 +495,30 @@ def trans_simple_or_trans(in_str, is_simple=True):
         single = 'zh-hans'  # 繁to简
     out_str = Converter(single).convert(in_str)
     return out_str
+
+
+def is_bright_color_hsv(color_hsv_seq):
+    """
+    判断颜色是否是亮色（则文字为暗色）
+    以便在上面显示清晰文字
+    (255, 255, 255): True
+    (0, 0, 0): False
+    :param color_hsv_seq:
+    :return:
+    """
+    _, s, v_val = color_hsv_seq
+    return v_val > 50
+
+
+def is_bright_color_yuv(color_yuv_seq):
+    """
+    判断颜色是否是亮色（则文字为暗色）
+    以便在上面显示清晰文字
+    :param color_yuv_seq:
+    :return:
+    """
+    y_val, _, _ = color_yuv_seq
+    return y_val >= 192
 
 
 def unify_color_dict(color):
@@ -367,56 +540,13 @@ def unify_color_dict(color):
     return color_obj
 
 
-def get_colors_data():
-    """
-    处理数据并原地更新后返回
-    1. 从数据文件中导入数据并转化
-    2. 将获取到的json数据中的拼音声调化
-    3.hex全部转化为大写
-    """
-
-    data_list = get_data_from_json(settings.JSON_LOAD_FP)
-    new_color_lists = []
-    for color in data_list:
-        name = color.get('name')
-        hex_str = color.get('hex')
-        color_id = make_color_id(hex_str)
-        # see also: http://pypinyin.mozillazg.com/zh_CN/master/api.html#pypinyin.lazy_pinyin
-        pinyin_str = ' '.join(lazy_pinyin(name, style=Style.TONE))
-        color['id'] = color_id
-        color['pinyin'] = pinyin_str
-        color['hex'] = hex_str.upper()
-        j_color_obj = unify_color_dict(color)
-
-        new_color_lists.append(j_color_obj)
-        # new_color_lists.append({k.lower(): v for k, v in color.items()})
-    id_from_json = [c.get('id') for c in new_color_lists]
-
-    # print(len(id_from_json))
-    data_from_yaml = get_data_from_yaml(settings.YAML_LOAD_FP)
-    # print(len(trans2dict))
-    for color in data_from_yaml:
-        hex_str = color.get('hex')
-        tra_name = color.get('name')
-        color_id = make_color_id(hex_str)
-        simple_name = trans_tra_to_simple(tra_name)
-        color['id'] = color_id
-        color['name'] = simple_name
-        if color_id not in id_from_json:  # 去重
-            color_obj = unify_color_dict(color)
-            new_color_lists.append(color_obj)
-    # print(len(new_color_lists))
-    return new_color_lists
-
-
 if __name__ == '__main__':
-    # print(get_colors_data())
-    import colorsys
 
     color_list = settings.COLOR_BASE_MAP.values()
 
     for item in color_list:
         print(find_color_series(item))
+        # import colorsys
         # print(colorsys.rgb_to_hsv(*item))
         # print('rgb_to_hsv:', rgb_to_hsv(item))
         # print('rgb_to_hsv_org:', rgb_to_hsv_org(item))

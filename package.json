@@ -1,5 +1,5 @@
 {
-  "name": "Traditional-Chinese-Colors",
+  "name": "traditional-chinese-colors",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,10 +10,7 @@
   },
   "dependencies": {
     "animejs": "^2.2.0",
-    "browserslist": "^4.11.1",
-    "caniuse-lite": "^1.0.30001042",
-    "cross-spawn": "^7.0.2",
-    "exec-buffer": "^3.2.0",
+    "jinrishici": "^1.0.6",
     "normalize.css": "^8.0.0",
     "register-service-worker": "^1.0.0",
     "vue": "^2.5.17",
@@ -22,10 +19,10 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.1",
-    "@vue/cli-plugin-eslint": "^3.0.1",
+    "@vue/cli-plugin-eslint": "^3.12.1",
     "@vue/cli-plugin-pwa": "^3.0.1",
     "@vue/cli-plugin-unit-mocha": "^3.0.1",
-    "@vue/cli-service": "^3.0.1",
+    "@vue/cli-service": "^3.12.1",
     "@vue/eslint-config-standard": "^3.0.1",
     "@vue/test-utils": "^1.0.0-beta.20",
     "chai": "^4.1.2",
