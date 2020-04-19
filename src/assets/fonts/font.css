@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "FZQKBYSJT";
+  src: url("simple/FZQKBYSJT.woff2") format("woff2"),
+       url("simple/FZQKBYSJT.woff") format("woff"),
+       url("simple/FZQKBYSJT.ttf") format("truetype"),
+       url("simple/FZQKBYSJT.eot") format("embedded-opentype"),
+       url("simple/FZQKBYSJT.svg") format("svg"),
+       url("simple/FZQKBYSJT.otf") format("opentype");
+}
