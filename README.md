@@ -1,6 +1,7 @@
 # 中国传统色
 > 梅子金黄杏子肥，麦花雪白菜花稀。
   <right><br>——范成大 ·《四时田园杂兴·其二》</right>
+
 这是一个基于 Vue2 和 Python3 写的展示中国传统色的单页面静态网页。
 ## 预览
 - [Traditional-Chinese-Colors | 中国传统色](https://colors.masantu.com/)
@@ -67,6 +68,7 @@ cd ..
 
 ### 部署
 ~~执行 run deploy.sh ~~
+
 现在我们直接把其导出到 docs 目录，github 支持部署 docs 目录为项目文档。  
 参见[Simpler GitHub Pages publishing - The GitHub Blog](https://github.blog/2016-08-17-simpler-github-pages-publishing/)
 
