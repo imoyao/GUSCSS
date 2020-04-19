@@ -22,6 +22,7 @@ export function isInSight (el) {
 }
 
 export function checkInSightInit (operate) {
+  console.log(operate, '--------------')
   return () => {
     const imgs = document.querySelectorAll('.js-tab-item')
     let initialEl = []

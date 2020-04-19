@@ -71,9 +71,9 @@ export default {
   name: 'About',
   data () {
     return {
-      msg: 'Welcome to Traditional Chinese Colors'
+      msg: 'Welcome to Traditional Chinese Colors',
     }
-  }
+  },
 }
 </script>
 

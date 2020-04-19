@@ -33,7 +33,7 @@
         {{ colorSelected.color||'The Traditional Colors of China' }}
       </div>
       <div class="color-decs">
-        {{ colorSelected.desc|| '📢'+this.msg ||'梅子金黄杏子肥，麦花雪白菜花稀。' }}
+        {{ colorSelected.desc|| '📢'+ msg ||'梅子金黄杏子肥，麦花雪白菜花稀。' }}
       </div>
       <div class="rgb-block">
         <div
@@ -57,17 +57,17 @@
         class="cmyk-number">
         <div
           v-for="(el,index) in ['c','m','y','k']"
+          :key="index"
           :class="{[el]:true}">
           <CircleProgress
             :is-bright="colorSelected.is_bright"
             :id="index"
             :radius="5"
-            :barColor="cymkList[index]"
+            :bar-color="cymkList[index]"
             :progress="colorSelected.cmyk[index]"
-            :backgroundColor="'rgba(255,255,255,0.7)'"
-            :widthPresent="1/colorSelected.cmyk.length"
-            :isAnimation="true"
-          > </CircleProgress>
+            :background-color="'rgba(255,255,255,0.7)'"
+            :width-present="1/colorSelected.cmyk.length"
+            :is-animation="true"/>
         </div>
       </div>
     </div>
@@ -87,13 +87,12 @@
 
 <script>
 import anime from 'animejs'
-const jinrishici=require('jinrishici')
 import ColorTab from '@/components/ColorTab.vue'
 import ColorSeriesPicker from '@/components/ColorSeriesPicker.vue'
 import ShareButton from '@/components/ShareButton.vue'
 import CopyButton from '@/components/CopyButton.vue'
 import RandomButton from '@/components/RandomButton.vue'
-import CircleProgress  from '@/plugins/CircleProgress.vue';
+import CircleProgress from '@/plugins/CircleProgress.vue'
 // import colorList from '@/data/color'
 // TODO: 打包之后验证
 // import colorList from '@/data/zhColors.json'
@@ -105,6 +104,7 @@ import {
   throttle,
   clipboardCopy,
 } from '@/util.js'
+const jinrishici = require('jinrishici')
 
 export default {
   name: 'Home',
@@ -123,12 +123,12 @@ export default {
       colorSelected: {},
       isCopied: false,
       lastEls: null,
-      cymkList:[
+      cymkList: [
         '#00FFFF',
         '#800080',
         '#FFFF00',
         '#000000',
-      ]
+      ],
     }
   },
   watch: {
@@ -202,7 +202,7 @@ export default {
     },
     // 随机选择
     random () {
-      let random = colorList[Math.floor(Math.random() * colorData.data.length)]
+      let random = this.colorList[Math.floor(Math.random() * colorData.data.length)]
       this.changeColor(random)
     },
     listAnime (el, isInit) {
@@ -249,14 +249,15 @@ export default {
       // })
     },
 
-    loadSentence: function() {
+    loadSentence: function () {
       jinrishici.load(result => {
         this.msg = result.data.content
+        // eslint-disable-next-line handle-callback-err
       }, err => {
-        console.log("test");
+        console.log('test')
       })
-    }
-},
+    },
+  },
 }
 </script>
 

@@ -19,8 +19,7 @@ module.exports = {
       msTileImage: 'img/icons/msapplication-icon-144x144.png',
     },
   },
-  // lintOnSave: process.env.NODE_ENV !== 'production',
-  lintOnSave: false,
+  lintOnSave: process.env.NODE_ENV !== 'production',
   devServer: {
     overlay: {
       warnings: true,
