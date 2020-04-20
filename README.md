@@ -76,13 +76,12 @@ npm run lint
 ```
 ### BUG
 - [ ] 颜色描述返回的字典中很多desc都为空，导致只能加载每日诗词
-- [ ] 线上访问由于使用自定义字体导致访问很慢。
+- [x] 线上访问由于使用自定义字体导致访问很慢（使用CDN之后好多了）。
 ### TODO
 #### 高优先级
 - [ ] 接受数据修订（色系、亮色/暗色、颜色描述）
-- [ ] 数据返回时按照色系分组返回
+- [x] 数据返回时按照色系分组返回
 - [ ] 添加日本色页面；
-- [ ] 直接保存到目的（data）目录，不用手动复制数据；
 - [ ] 添加口红页面；
 - [ ] 点击弹框页面（参照[此处](https://colors.ichuantong.cn/)关于实现）；
 #### 次优先级
@@ -96,6 +95,9 @@ npm run lint
 - [x] 添加 cmky 环；
 - [x] 添加颜色描述，没有的时候使用 API 显示古诗。（基于[今日诗词](https://www.jinrishici.com/doc/)）
 - [x] 使用自定义字体；参考[此处](https://blog.csdn.net/lanseguhui/article/details/94629601)
+- [x] 直接保存到目的（data）目录，不用手动复制数据；
+- [x] 前端加载太慢（CDN）；
+    参考[Github+jsDelivr搭建自己的免费cdn](https://blog.csdn.net/cungudafa/article/details/104274949)
 
 ### 贡献/帮助我
 

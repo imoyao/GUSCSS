@@ -28,10 +28,16 @@ def save_file_to_fe(all_info):
     return 0
 
 
-if __name__ == '__main__':
-    dump_data = True
+def main(dump_data=settings.SHOULD_I_DUMP_RESULT_TO_FILE
+         , group_data=settings.SHOULD_I_GROUP_DATA):
     pd = color_parse.ParseData()
-    all_data = pd.all_in_one(settings.ALL_IN_ONE_INFO, dump_data=dump_data)
+    all_data = pd.all_in_one(settings.ALL_IN_ONE_INFO, group_data=group_data, dump_data=dump_data)
     if dump_data:
-        ret_code = save_file_to_fe(all_data)
+        save_file_to_fe(all_data)
+    return all_data
+
+
+if __name__ == '__main__':
+    data = main(dump_data=True, group_data=True)
+    print(data)
     print('data dump success.')

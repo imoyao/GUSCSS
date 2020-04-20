@@ -349,12 +349,15 @@ class ParseData:
             json.dump(setting_obj, jf, ensure_ascii=False)  # 避免文字转为 unicode
         return 0
 
-    def all_in_one(self, setting_obj, dump_data=False):
+    def all_in_one(self, setting_obj, group_data=False, dump_data=False, group_by='color_series'):
         """
+
         **注意**：setting和函数名必须对应上，不然会解析出错！
         解析数据并导出（dump_data=True）到配置setting中的配置文件中
         :param setting_obj: dict,
         :param dump_data: bool,是否将运算结果数据导出到文件中
+        :param group_data: bool,是否分组
+        :param group_by: str,分组依据
         :return: list,
         """
         jizhi_data = self.parse_jizhi(settings.JIZHI_INFO, dump_data=dump_data)
@@ -366,12 +369,49 @@ class ParseData:
         # print(type(all_in_one), all_in_one)
         print('before_filter:', len(jizhi_data) + len(chinese_colors_data) + len(colors_data) + len(cfs_color_data))
         print('after_filter:', len(all_in_one))
+
         if dump_data:
-            self.dump_data_to_file(all_in_one, setting_obj)
-            setting_obj['data'] = all_in_one
+            grouped_data = []
+            if group_data:  # 此处只在导出前分组，没有对各组数据分别分组
+                grouped_data = group_iterables_of_dicts_in_list_further_series(all_in_one, group_by=group_by)
+            dump_data_info = all_in_one if not group_data else grouped_data
+            self.dump_data_to_file(dump_data_info, setting_obj)
+            setting_obj['data'] = dump_data_info
             return setting_obj
         else:
             return all_in_one
+
+
+def group_iterables_of_dicts_in_list_further_series(iterables, group_by='color_series'):
+    """
+    先分组，然后对色系数据进行更新
+    :param iterables:
+    :param group_by:
+    :return:
+    """
+    row_by_key = defaultdict(list)
+    for _item in iterables:
+        row_by_key[_item[group_by]].append(_item)
+
+    further_color_series = dict()
+    for k, v in row_by_key.items():
+        series_info = settings.COLOR_BASE_MAP.get(k)
+        series_info.update({'colors': v})
+        further_color_series[k] = series_info
+    return further_color_series
+
+
+def group_iterables_of_dicts_in_list(group_key, iterables):
+    """
+    按照给定key对iter分组 see also:《Python cookbook》V3:1.15
+    :param group_key:
+    :param iterables:
+    :return:
+    """
+    row_by_key = defaultdict(list)
+    for _item in iterables:
+        row_by_key[_item[group_key]].append(_item)
+    return row_by_key
 
 
 def merge_iterables_of_dict(shared_key, *iterables):
