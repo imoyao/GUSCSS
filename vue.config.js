@@ -33,6 +33,8 @@ module.exports = {
     },
   },
   configureWebpack: {
+    // https://www.dongwm.com/post/optimize-vue-admin/
+    // see also: https://www.cnblogs.com/xbzhu/p/11815197.html
     // see also: https://blog.csdn.net/qq_35844177/article/details/78599064
     externals: process.env.NODE_ENV === 'production'
       ? getProdExternals() : {},

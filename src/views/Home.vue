@@ -257,6 +257,7 @@ export default {
     loadSentence: function () {
       jinrishici.load(result => {
         this.msg = result.data.content
+        console.log(this.msg, '------------')
         // eslint-disable-next-line handle-callback-err
       }, err => {
         console.log('test')
