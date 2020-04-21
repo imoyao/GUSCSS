@@ -20,17 +20,15 @@
         class="random"
         @click.native="random" />
       <ColorSeriesPicker
+        :color-series="colorSeries"
         :is-bright="colorSelected.is_bright"
         class="series"
         @colorChange="changeColorSeries" />
-      <div class="color-remark">
-        {{ colorSelected.pinyin||'zhōng guó chuán tǒng sè' }}
-      </div>
       <div class="kanji">
         {{ colorSelected.name||'中国传统色' }}
       </div>
       <div class="romaji">
-        {{ colorSelected.color||'The Traditional Colors of China' }}
+        {{ colorSelected.pinyin||'The Traditional Colors of China' }}
       </div>
       <div class="color-decs">
         {{ colorSelected.desc|| '📢'+ msg ||'梅子金黄杏子肥，麦花雪白菜花稀。' }}
@@ -49,7 +47,7 @@
           <div :key="el">{{ el }}</div>
           <div
             :key="el + 'n'"
-            class="n">0</div>
+            class="n cymk">0</div>
         </template>
       </div>
       <div
@@ -93,9 +91,6 @@ import ShareButton from '@/components/ShareButton.vue'
 import CopyButton from '@/components/CopyButton.vue'
 import RandomButton from '@/components/RandomButton.vue'
 import CircleProgress from '@/plugins/CircleProgress.vue'
-// import colorList from '@/data/color'
-// TODO: 打包之后验证
-// import colorList from '@/data/zhColors.json'
 import colorData from '@/data/zhColors.json'
 
 import {
@@ -129,6 +124,7 @@ export default {
         '#FFFF00',
         '#000000',
       ],
+      colorSeries: [],
     }
   },
   watch: {
@@ -148,7 +144,7 @@ export default {
   },
   mounted () {
     // trigger watch colorList
-    this.colorList = colorData.data
+    this.colorList = this.getColorList()
     // route to specific color
     this.retrieveColorAndSelect(this.$route.query.colorId)
     document
@@ -161,6 +157,17 @@ export default {
     this.loadSentence()
   },
   methods: {
+    getColorList () {
+      const realColorData = colorData.data
+      let colorLists = []
+      // TODO:大数组遍历性能问题，导致选择所有颜色时会卡顿
+      for (let [key, value] of Object.entries(realColorData)) {
+        this.colorSeries.push({ color: key, hex: value.hex })
+        const copyArr = Object.assign([], value.colors)
+        Array.prototype.push.apply(colorLists, copyArr)
+      }
+      return colorLists
+    },
     retrieveColorAndSelect (colorId) {
       if (colorId) {
         this.colorSelected = this.colorList.find(val => val.id === colorId)
@@ -174,8 +181,8 @@ export default {
     // 切换颜色分组
     changeColorSeries (color) {
       document.querySelector('.tab-wrapper').scrollTop = 0
-      if (color === 'all') this.colorList = colorData.data
-      else this.colorList = colorData.data.filter(val => val.color_series === color)
+      if (color === 'all') this.colorList = this.getColorList()
+      else this.colorList = colorData.data[color].colors
       this.colorSelected = this.colorList[0]
     },
     changeColor (color) {
@@ -183,9 +190,7 @@ export default {
       this.$router.push({ path: '/', query: { colorId: color.id } })
       this.loadSentence()
     },
-    // TODO 修改为访问仓库
-    share (name) {
-      // let location = window.location.href
+    share () {
       window.open(
         `https://github.com/imoyao/Traditional-Chinese-Colors`
       )
@@ -221,9 +226,9 @@ export default {
       })
     },
     displayAnime () {
-      let monji = document.querySelectorAll('.display .kanji,.romaji,.color-decs,color-remark')
-      let rgb = document.querySelectorAll('.display .rgb-number .n')
-      let cmyk = document.querySelectorAll('.display .cmyk-number .n')
+      let monji = document.querySelectorAll('.display .kanji,.romaji,.color-decs')
+      let rgb = document.querySelectorAll('.display .rgb-number .cymk')
+      let cmyk = document.querySelectorAll('.display .cmyk-number .cymk')
       anime.remove([monji, rgb, cmyk])
       anime({
         targets: monji,
@@ -239,14 +244,14 @@ export default {
         round: 1,
         easing: 'easeOutSine',
       })
-      // anime({
-      //   targets: cmyk,
-      //   innerHTML: (el, i, l) => {
-      //     return this.colorSelected.cmyk[i]
-      //   },
-      //   round: 1,
-      //   easing: 'easeOutSine',
-      // })
+      anime({
+        targets: cmyk,
+        innerHTML: (el, i, l) => {
+          return this.colorSelected.cmyk[i]
+        },
+        round: 1,
+        easing: 'easeOutSine',
+      })
     },
 
     loadSentence: function () {
@@ -304,14 +309,7 @@ export default {
     .romaji {
       position: absolute;
       bottom: 1.5rem;
-      left: 6.5rem;
-      writing-mode: vertical-lr;
-      letter-spacing: 0.2rem;
-    }
-    .color-remark {
-      position: absolute;
-      bottom: 1.5rem;
-      left: 1.5rem;
+      left: 5rem;
       writing-mode: vertical-lr;
       letter-spacing: 0.2rem;
     }
@@ -319,7 +317,7 @@ export default {
       font-family: 'FZQKBYSJT',serif;
       position: absolute;
       bottom: 1rem;
-      left: 3rem;
+      left: 1rem;
       writing-mode: vertical-lr;
       letter-spacing: 0.5rem;
       font-size: 3rem;
@@ -328,7 +326,7 @@ export default {
       font-family: 'FZQKBYSJT',serif;
       position: absolute;
       bottom: 1.5rem;
-      left: 8rem;
+      left: 7rem;
       letter-spacing: 0.2rem;
       line-height: 1rem;
       width: 50%;
@@ -363,14 +361,14 @@ export default {
       }
     }
     .rgb-number {
-      font-family: 'MONO';
+      font-family: 'MONO',sans-serif;
       font-size: 1.3rem;
       display: flex;
       justify-content: space-around;
     }
     // mononspace needed
     .cmyk-number {
-      font-family: 'MONO';
+      font-family: 'MONO',sans-serif;
       font-size: 1.3rem;
       display: flex;
       flex-direction: column;
@@ -435,9 +433,7 @@ export default {
         width: 100%;
         height: 100%;
         position: absolute;
-        background: url(../assets/64253519_p9.png);
-        background-attachment: local;
-        background-repeat: repeat;
+        background: url(https://cdn.jsdelivr.net/gh/masantu/statics/image/16163833_p9.jpg) repeat local;
         opacity: 0.3;
       }
       @include for-tablet-up {

@@ -51,7 +51,7 @@ export default {
     justify-content: center;
     align-items: flex-start;
     .kanji {
-      font-family: 'FZQKBYSJT';
+      font-family: 'FZQKBYSJT',serif;
       width: 100%;
       text-align: left;
       overflow: hidden;

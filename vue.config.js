@@ -1,5 +1,11 @@
 var ImageminPlugin = require('imagemin-webpack-plugin').default
-
+// 生产模式使用cdn
+function getProdExternals () {
+  return {
+    vue: 'Vue',
+    'vue-router': 'VueRouter',
+  }
+}
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production' ? '/' : '/',
   // 输出文件目录
@@ -27,6 +33,9 @@ module.exports = {
     },
   },
   configureWebpack: {
+    // see also: https://blog.csdn.net/qq_35844177/article/details/78599064
+    externals: process.env.NODE_ENV === 'production'
+      ? getProdExternals() : {},
     plugins: [
       new ImageminPlugin({
         disable: true, // Disable for windows

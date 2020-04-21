@@ -46,7 +46,7 @@
       <p
         v-if="!$slots.default"
         :class="{'fill-bright':isBright}"
-        class="title">{{ progress }}</p>
+        class="cymk">{{ progress }}</p>
       <slot/>
     </div>
   </div>

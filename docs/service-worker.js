@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.d28c81a16828f867c3248b565a69a03b.js"
+  "/precache-manifest.0a5be59eca9f532efa30590eee1d1264.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "traditional-chinese-colors"});
