@@ -364,8 +364,8 @@ class ParseData:
         chinese_colors_data = self.parse_zerosoul(settings.CHINESE_COLORS_INFO, dump_data=dump_data)
         colors_data = self.parse_flinhong(settings.FLINHONG_COLORS_INFO, dump_data=dump_data)
         cfs_color_data = self.parse_cfs_color(settings.CFS_COLOR_INFO, dump_data=dump_data)
-        # chinese_colors_data  放前面，因为有描述和图片
-        all_in_one = merge_iterables_of_dict('id', chinese_colors_data, jizhi_data, colors_data, cfs_color_data)
+        # chinese_colors_data  放后面，因为有描述和图片
+        all_in_one = merge_iterables_of_dict('id', jizhi_data, colors_data, cfs_color_data, chinese_colors_data)
         # print(type(all_in_one), all_in_one)
         print('before_filter:', len(jizhi_data) + len(chinese_colors_data) + len(colors_data) + len(cfs_color_data))
         print('after_filter:', len(all_in_one))
