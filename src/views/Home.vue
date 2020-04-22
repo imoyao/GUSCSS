@@ -11,10 +11,6 @@
         :copied="isCopied"
         class="copy"
         @click.native="copy(colorSelected.hex)" />
-      <ShareButton
-        :is-bright="colorSelected.is_bright"
-        class="share"
-        @click.native="share(colorSelected.name)" />
       <RandomButton
         :is-bright="colorSelected.is_bright"
         class="random"
@@ -31,7 +27,7 @@
         {{ colorSelected.pinyin||'The Traditional Colors of China' }}
       </div>
       <div class="color-decs">
-        {{ colorSelected.desc|| '📢'+ msg ||'梅子金黄杏子肥，麦花雪白菜花稀。' }}
+        {{ colorSelected.desc|| loadSentSuccess? '📢'+ msg : '梅子金黄杏子肥，麦花雪白菜花稀。' }}
       </div>
       <div class="rgb-block">
         <div
@@ -68,6 +64,10 @@
             :is-animation="true"/>
         </div>
       </div>
+      <div class="footer-info">
+        <footer><p>© 2020 别院牧志 | <router-link to="/nippon/"><button>🇯🇵</button></router-link>
+        </p></footer>
+      </div>
     </div>
     <div class="tab-wrapper">
       <div class="tab">
@@ -76,6 +76,7 @@
           :key="color.id"
           :kanji="color.name"
           :hex="color.hex"
+          :disabled="isColorDisabled"
           class="js-tab-item tab-item"
           @click.native="changeColor(color)" />
       </div>
@@ -125,6 +126,9 @@ export default {
         '#000000',
       ],
       colorSeries: [],
+      isColorDisabled: false,
+      loadSentSuccess: false,
+      popover: 'hahhhahah',
     }
   },
   watch: {
@@ -160,12 +164,14 @@ export default {
     getColorList () {
       const realColorData = colorData.data
       let colorLists = []
-      // TODO:大数组遍历性能问题，导致选择所有颜色时会卡顿
+      // TODO:大数组赋值性能问题，导致选择所有颜色时会卡顿
+      let allColorSeries = []
       for (let [key, value] of Object.entries(realColorData)) {
-        this.colorSeries.push({ color: key, hex: value.hex })
+        allColorSeries.push({ color: key, hex: value.hex })
         const copyArr = Object.assign([], value.colors)
         Array.prototype.push.apply(colorLists, copyArr)
       }
+      this.colorSeries = Array.from(new Set(allColorSeries))
       return colorLists
     },
     retrieveColorAndSelect (colorId) {
@@ -186,9 +192,15 @@ export default {
       this.colorSelected = this.colorList[0]
     },
     changeColor (color) {
+      this.isColorDisabled = true
       // watch $route and change color
-      this.$router.push({ path: '/', query: { colorId: color.id } })
+      // see also:https://github.com/vuejs/vue-router/issues/2872#issuecomment-519073998
+      // eslint-disable-next-line handle-callback-err
+      this.$router.push({ path: '/', query: { colorId: color.id } }).catch(err => {})
       this.loadSentence()
+      setTimeout(() => {
+        this.isColorDisabled = false
+      }, 1000)
     },
     share () {
       window.open(
@@ -207,8 +219,12 @@ export default {
     },
     // 随机选择
     random () {
-      let random = this.colorList[Math.floor(Math.random() * colorData.data.length)]
+      let colorLength = this.colorList.length
+      let random = this.colorList[Math.floor(Math.random() * colorLength)]
       this.changeColor(random)
+    },
+    hello () {
+      console.log('say hello')
     },
     listAnime (el, isInit) {
       if (this.lastEls && isInit) {
@@ -257,10 +273,9 @@ export default {
     loadSentence: function () {
       jinrishici.load(result => {
         this.msg = result.data.content
-        console.log(this.msg, '------------')
+        this.loadSentSuccess = true
         // eslint-disable-next-line handle-callback-err
       }, err => {
-        console.log('test')
       })
     },
   },
@@ -287,7 +302,7 @@ export default {
       position: absolute;
       height: 1.2rem;
       width: 1.2rem;
-      bottom: 1.5rem;
+      bottom: 2.5rem;
     }
     .share,
     .copy,
@@ -298,18 +313,15 @@ export default {
     .series {
       right: 1+1.6 * 0rem;
     }
-    .share {
+    .copy {
       right: 1+1.6 * 1rem;
     }
-    .copy {
-      right: 1+1.6 * 2rem;
-    }
     .random {
-      right: 1+1.6 * 3rem;
+      right: 1+1.6 * 2rem;
     }
     .romaji {
       position: absolute;
-      bottom: 1.5rem;
+      bottom: 2.5rem;
       left: 5rem;
       writing-mode: vertical-lr;
       letter-spacing: 0.2rem;
@@ -317,7 +329,7 @@ export default {
     .kanji {
       font-family: 'FZQKBYSJT',serif;
       position: absolute;
-      bottom: 1rem;
+      bottom: 2rem;
       left: 1rem;
       writing-mode: vertical-lr;
       letter-spacing: 0.5rem;
@@ -326,7 +338,7 @@ export default {
     .color-decs {
       font-family: 'FZQKBYSJT',serif;
       position: absolute;
-      bottom: 1.5rem;
+      bottom: 2.5rem;
       left: 7rem;
       letter-spacing: 0.2rem;
       line-height: 1rem;
@@ -374,7 +386,7 @@ export default {
       display: flex;
       flex-direction: column;
       align-items: flex-end;
-      margin: 2rem 1rem;
+      margin: 1rem 1rem;
       .n {
         &::after {
           margin-bottom: 0.5rem;
@@ -404,6 +416,16 @@ export default {
         &::before {
           content: 'K';
         }
+      }
+    }
+    .footer-info{
+      position: fixed;
+      bottom: 0.5rem;
+      left: 1.2rem;
+      p{
+        margin: 0;
+        line-height: 0.8rem;
+        font-size: .5rem;
       }
     }
   }
