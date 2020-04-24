@@ -8,6 +8,7 @@ JSON_DUMP_FP = '_data/colors.json'
 YAML_DUMP_FP = '_data/colors.yml'
 CMYK_SCALE = 100
 JSON_COLORS_DATA_DUMP_FOR_FRONTEND = 'src/data/zhColors.json'
+JSON_COLORS_DATA_DUMP_FOR_FRONTEND_NIPPON = 'src/data/nipponColors.json'
 SHOULD_I_DUMP_RESULT_TO_FILE = True  # 是否导出数据到文件
 SHOULD_I_GROUP_DATA = True  # 是否数据分组
 
@@ -59,6 +60,13 @@ JIZHI_INFO = {
     'site': ['https://chrome.google.com/webstore/detail/%E5%87%A0%E6%9E%9D/hfohpokminpknagcgncibpacohagppjn'],
     'data_load_path': '_data/wavesColors-in.json',
     'data_dump_path': '_data/wavesColors-out.json'
+}
+
+LIPSTICK_INFO = {
+    'repo': 'https://github.com/Ovilia/lipstick',
+    'site': ['http://zhangwenli.com/lipstick/'],
+    'data_load_path': '_data/lipstick-in.json',
+    'data_dump_path': '_data/lipstick-out.json'
 }
 # https://www.rapidtables.com/convert/color/rgb-to-hsv.html
 COLOR_BASE_MAP = {

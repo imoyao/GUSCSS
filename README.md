@@ -83,17 +83,19 @@ npm run lint
 ### TODO
 #### 高优先级
 - [ ] 接受数据修订（色系、亮色/暗色、pinyin、颜色描述）
-- [x] 数据返回时按照色系分组返回
-- [x] RGB文字间距太大
-- [ ] 添加日本色页面；
+- [ ] RGB文字间距太大
+- [x] 添加日本色页面；
 - [ ] 添加口红页面；
 - [ ] 点击弹框页面（参照[此处](https://colors.ichuantong.cn/)关于实现）；
 #### 次优先级
+- [ ] 日本色界面desc用俳句代替；
+    [日本有哪些隽永的俳句？ - 知乎](https://www.zhihu.com/question/20776491)
 - [ ] favorite 颜色本地记录
 - [ ] 卡顿改进（有吗？😐）
 - [ ] hover & active 视觉改进
 - [ ] 添加关于页面（解析 readme 为 about），参考[Creating a Simple Blog using Vue with Markdown - DEV Community 👩‍💻👨‍💻](https://dev.to/vycoder/creating-a-simple-blog-using-vue-with-markdown-2omd)
 #### 已完成
+- [x] 数据返回时按照色系分组返回
 - [x] 使用 Python 解析各种数据并返回给 Vue；
 - [x] cmky 数据返回为列表，而代码中使用的是字符串；
 - [x] 添加 cmky 环；

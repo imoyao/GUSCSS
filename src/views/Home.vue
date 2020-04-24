@@ -64,10 +64,8 @@
             :is-animation="true"/>
         </div>
       </div>
-      <div class="footer-info">
-        <footer><p>© 2020 别院牧志 | <router-link to="/nippon/"><button>🇯🇵</button></router-link>
-        </p></footer>
-      </div>
+      <ColorFooter
+        :url-href="urlHref"/>
     </div>
     <div class="tab-wrapper">
       <div class="tab">
@@ -92,6 +90,7 @@ import ShareButton from '@/components/ShareButton.vue'
 import CopyButton from '@/components/CopyButton.vue'
 import RandomButton from '@/components/RandomButton.vue'
 import CircleProgress from '@/plugins/CircleProgress.vue'
+import ColorFooter from '../components/ColorFooter'
 import colorData from '@/data/zhColors.json'
 
 import {
@@ -111,6 +110,7 @@ export default {
     CopyButton,
     RandomButton,
     CircleProgress,
+    ColorFooter,
   },
   data () {
     return {
@@ -118,6 +118,7 @@ export default {
       colorList: [],
       colorSelected: {},
       isCopied: false,
+      urlHref: '/nippon/',
       lastEls: null,
       cymkList: [
         '#00FFFF',
@@ -162,7 +163,7 @@ export default {
   },
   methods: {
     getColorList () {
-      const realColorData = colorData.data
+      let realColorData = colorData.data
       let colorLists = []
       // TODO:大数组赋值性能问题，导致选择所有颜色时会卡顿
       let allColorSeries = []
@@ -416,16 +417,6 @@ export default {
         &::before {
           content: 'K';
         }
-      }
-    }
-    .footer-info{
-      position: fixed;
-      bottom: 0.5rem;
-      left: 1.2rem;
-      p{
-        margin: 0;
-        line-height: 0.8rem;
-        font-size: .5rem;
       }
     }
   }

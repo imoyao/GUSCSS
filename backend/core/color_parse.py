@@ -171,7 +171,7 @@ class ParseData:
 
     @staticmethod
     def color_object_maker(color_name, color_hex, color_rgb='', pinyin_str='', color_series='',
-                           color_cmyk='', color_desc='', color_figure='', is_simple=True):
+                           color_cmyk='', color_desc='', color_figure='', font_color='', is_simple=True):
         """
 
         组装颜色对象
@@ -184,6 +184,7 @@ class ParseData:
         :param color_cmyk:
         :param color_desc:
         :param color_figure:
+        :param font_color:
         :param is_simple:
         :return:
         """
@@ -200,10 +201,12 @@ class ParseData:
 
         if color_rgb == '':
             color_rgb = converter.hex_to_rgb(color_hex)
-
-        _color_hsv = converter.rgb_to_hsv(color_rgb)
-        is_bright = is_bright_color_hsv(_color_hsv)
-        font_color = 'dark' if is_bright else 'bright'
+        if font_color:
+            is_bright = font_color == 'dark'
+        else:
+            _color_hsv = converter.rgb_to_hsv(color_rgb)
+            is_bright = is_bright_color_hsv(_color_hsv)
+            font_color = 'dark' if is_bright else 'bright'
 
         if color_cmyk == '':
             color_cmyk = converter.rgb_to_cmyk(color_rgb)
@@ -228,10 +231,45 @@ class ParseData:
             'desc': color_desc,
             'figure': color_figure,
         }
+    def parse_lipstick(self):
+        pass
 
-    def parse_nippon_color(self):
-        data = self.sugar_data(settings.NIPPON_COLOR_INFO)
-        return data
+    def parse_nippon_color(self, group_data=False, dump_data=False, group_by='color_series'):
+        nippon_data = self.sugar_data(settings.NIPPON_COLOR_INFO)
+        nippor_list = []
+        for color in nippon_data:
+            color_series = color.get('color_series')
+            font_color = color.get('font_color')
+            jp_pinyin_str = color.get('color')
+            color_hex = ''.join(['#', color.get('rgb')])
+            color_name = color.get('name')
+            color_rgb = color.get('Drgb')
+            color_obj = self.color_object_maker(color_name, color_hex, color_rgb=color_rgb, pinyin_str=jp_pinyin_str,
+                                                color_series=color_series, font_color=font_color, is_simple=False)
+            nippor_list.append(color_obj)
+
+        jp_list = []
+        jp_data = self.sugar_data(settings.FLINHONG_COLORS_INFO)
+        for color in jp_data:
+            name = color.get('name')
+            jp_pinyin_str = color.get('en-name')
+            color_hex = color.get('hex')
+            color_rgb = color.get('rgb')
+            color_cmyk = color.get('cmyk')
+            color_obj = self.color_object_maker(name, color_hex, color_rgb=color_rgb, pinyin_str=jp_pinyin_str,
+                                                color_cmyk=color_cmyk, is_simple=False)
+            jp_list.append(color_obj)
+        all_in_one = merge_iterables_of_dict('id', nippor_list, jp_list)
+        if dump_data:
+            grouped_data = []
+            if group_data:  # 此处只在导出前分组，没有对各组数据分别分组
+                grouped_data = group_iterables_of_dicts_in_list_further_series(all_in_one, group_by=group_by)
+            dump_data_info = all_in_one if not group_data else grouped_data
+            self.dump_data_to_file(dump_data_info, settings.FLINHONG_COLORS_INFO)
+            settings.FLINHONG_COLORS_INFO['data'] = dump_data_info
+            return settings.FLINHONG_COLORS_INFO
+        else:
+            return all_in_one
 
     def parse_flinhong(self, setting_obj, dump_data=False):
         data = self.sugar_data(setting_obj)

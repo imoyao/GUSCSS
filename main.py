@@ -8,24 +8,38 @@ from backend.core import color_parse
 from backend import settings
 
 
-def get_frontend_path():
+def get_frontend_path(is_chinese=True):
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    return os.path.join(current_dir, settings.JSON_COLORS_DATA_DUMP_FOR_FRONTEND)
+    if is_chinese:
+        fp = os.path.join(current_dir, settings.JSON_COLORS_DATA_DUMP_FOR_FRONTEND)
+    else:
+        fp = os.path.join(current_dir, settings.JSON_COLORS_DATA_DUMP_FOR_FRONTEND_NIPPON)
+    return fp
 
 
-def save_file_to_fe(all_info):
+def save_file_to_fe(all_info, is_chinese=True):
     """
     保存信息到前端目录
     :param all_info:
+    :param is_chinese:bool,
     :return:
     """
-    save_fp = get_frontend_path()
+    save_fp = get_frontend_path(is_chinese=is_chinese)
     bak_fp = '.'.join([save_fp, 'bak'])
     print(bak_fp, save_fp)
     # os.rename(settings.JSON_COLORS_DATA_DUMP_FOR_FRONTEND, bak_fp)
     with open(save_fp, 'w') as jf:
         json.dump(all_info, jf, ensure_ascii=False, indent=2)  # 避免文字转为 unicode
     return 0
+
+
+def nippon_main(dump_data=settings.SHOULD_I_DUMP_RESULT_TO_FILE
+                , group_data=settings.SHOULD_I_GROUP_DATA):
+    pd = color_parse.ParseData()
+    all_data = pd.parse_nippon_color(group_data=group_data, dump_data=dump_data)
+    if dump_data:
+        save_file_to_fe(all_data, is_chinese=False)
+    return all_data
 
 
 def main(dump_data=settings.SHOULD_I_DUMP_RESULT_TO_FILE
@@ -38,6 +52,8 @@ def main(dump_data=settings.SHOULD_I_DUMP_RESULT_TO_FILE
 
 
 if __name__ == '__main__':
-    data = main(dump_data=True, group_data=True)
-    print(data)
+    chinese_data = main(dump_data=True, group_data=True)
+    nippon_data = nippon_main(dump_data=True, group_data=True)
+    print(chinese_data)
+    print(nippon_data)
     print('data dump success.')

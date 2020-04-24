@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="base">
     <div
       :style="`background-color:${colorSelected.hex};`"
       :class="{'color-bright':!colorSelected.is_bright}"
@@ -21,14 +21,13 @@
         class="series"
         @colorChange="changeColorSeries" />
       <div class="kanji">
-        {{ colorSelected.tra_name||'日本の伝統色' }}
+        {{ colorSelected.name||'中国传统色' }}
       </div>
       <div class="romaji">
-        {{ colorSelected.pinyin||'The Traditional Colors of Japan' }}
+        {{ colorSelected.pinyin||'The Traditional Colors of China' }}
       </div>
-      <div
-        class="color-decs">
-        {{ (colorSelected && loadSentSuccess) ? (colorSelected.desc || '📢'+ msg ): '我庭の小草萌えいでぬ限りなき天地今やよみがへるらし.' }}
+      <div class="color-decs">
+        {{ colorSelected.desc|| loadSentSuccess? '📢'+ msg : '梅子金黄杏子肥，麦花雪白菜花稀。' }}
       </div>
       <div class="rgb-block">
         <div
@@ -65,15 +64,14 @@
             :is-animation="true"/>
         </div>
       </div>
-      <ColorFooter
-        :url-href="urlHref"/>
+      <ColorFooter/>
     </div>
     <div class="tab-wrapper">
       <div class="tab">
         <ColorTab
           v-for="color in colorList"
           :key="color.id"
-          :kanji="color.tra_name"
+          :kanji="color.name"
           :hex="color.hex"
           :disabled="isColorDisabled"
           class="js-tab-item tab-item"
@@ -90,9 +88,10 @@ import ColorSeriesPicker from '@/components/ColorSeriesPicker.vue'
 import ShareButton from '@/components/ShareButton.vue'
 import CopyButton from '@/components/CopyButton.vue'
 import RandomButton from '@/components/RandomButton.vue'
+import ColorFooter from '@/components/ColorFooter.vue'
 import CircleProgress from '@/plugins/CircleProgress.vue'
-import ColorFooter from '../components/ColorFooter'
-import colorData from '@/data/nipponColors.json'
+
+import colorData from '@/data/zhColors.json'
 
 import {
   checkInSight,
@@ -103,7 +102,7 @@ import {
 const jinrishici = require('jinrishici')
 
 export default {
-  name: 'NipponColors',
+  name: 'BasePage',
   components: {
     ColorTab,
     ColorSeriesPicker,
@@ -113,14 +112,35 @@ export default {
     CircleProgress,
     ColorFooter,
   },
+  props: {
+    colorData: {
+      type: Object,
+      default: () => {},
+    },
+    isBright: {
+      type: Boolean,
+      default: true,
+    },
+    copied: {
+      type: Boolean,
+      default: false,
+    },
+    colorList: {
+      type: Array,
+      default: () => [],
+    },
+    colorSeries: {
+      type: Array,
+      default: () => [],
+    },
+  },
   data () {
     return {
       msg: String,
+      // eslint-disable-next-line vue/no-dupe-keys
       colorList: [],
       colorSelected: {},
       isCopied: false,
-      thisRouter: '/nippon',
-      urlHref: '/',
       lastEls: null,
       cymkList: [
         '#00FFFF',
@@ -128,10 +148,10 @@ export default {
         '#FFFF00',
         '#000000',
       ],
+      // eslint-disable-next-line vue/no-dupe-keys
       colorSeries: [],
       isColorDisabled: false,
       loadSentSuccess: false,
-      popover: 'hahhhahah',
     }
   },
   watch: {
@@ -151,7 +171,7 @@ export default {
   },
   mounted () {
     // trigger watch colorList
-    this.colorList = this.getColorList()
+    // this.colorList = this.getColorList()
     // route to specific color
     this.retrieveColorAndSelect(this.$route.query.colorId)
     document
@@ -165,7 +185,7 @@ export default {
   },
   methods: {
     getColorList () {
-      let realColorData = colorData.data
+      const realColorData = colorData.data
       let colorLists = []
       // TODO:大数组赋值性能问题，导致选择所有颜色时会卡顿
       let allColorSeries = []
@@ -199,7 +219,7 @@ export default {
       // watch $route and change color
       // see also:https://github.com/vuejs/vue-router/issues/2872#issuecomment-519073998
       // eslint-disable-next-line handle-callback-err
-      this.$router.push({ path: this.thisRouter, query: { colorId: color.id } }).catch(err => {})
+      this.$router.push({ path: '/', query: { colorId: color.id } }).catch(err => {})
       this.loadSentence()
       setTimeout(() => {
         this.isColorDisabled = false
@@ -225,9 +245,6 @@ export default {
       let colorLength = this.colorList.length
       let random = this.colorList[Math.floor(Math.random() * colorLength)]
       this.changeColor(random)
-    },
-    hello () {
-      console.log('say hello')
     },
     listAnime (el, isInit) {
       if (this.lastEls && isInit) {
@@ -273,7 +290,7 @@ export default {
       })
     },
 
-    loadSentence: function () {
+    loadSentence () {
       jinrishici.load(result => {
         this.msg = result.data.content
         this.loadSentSuccess = true
@@ -281,13 +298,18 @@ export default {
       }, err => {
       })
     },
+    goNippon () {
+      // eslint-disable-next-line handle-callback-err
+      this.$router.push({ path: '/nippon' }).catch(err => {})
+      console.log('i Need nippon')
+    },
   },
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import '@/mixin.scss';
-.home {
+.base {
   height: 100%;
   display: flex;
   justify-content: center;
