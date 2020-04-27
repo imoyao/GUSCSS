@@ -3,7 +3,7 @@ var ImageminPlugin = require('imagemin-webpack-plugin').default
 function getProdExternals () {
   return {
     vue: 'Vue',
-    'vue-router': 'VueRouter',
+    'element-ui': 'ElementUI',
   }
 }
 module.exports = {
