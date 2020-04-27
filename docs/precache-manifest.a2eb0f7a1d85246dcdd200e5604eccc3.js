@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/fonts/XANO-mincho-U32.b5470313.ttf"
   },
   {
-    "revision": "24d0ca1595d9a9ebdd1e4e87df3bfb1b",
+    "revision": "d21b25eb617ac804721cc86c1887b9c8",
     "url": "/index.html"
   },
   {
