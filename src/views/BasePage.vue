@@ -15,27 +15,35 @@
         :is-bright="colorSelected.is_bright"
         class="random"
         @click.native="random" />
-      <ColorSeriesPicker
-        :color-series="colorSeries"
-        :is-bright="colorSelected.is_bright"
-        class="series"
-        @colorChange="changeColorSeries" />
+
+      <slot> 此处插入切换色系内容 </slot>
+
       <div class="kanji">
-        {{ colorSelected.name||'中国传统色' }}
+        {{ selfRouter==='/nippon'?colorSelected.tra_name: (colorSelected.name||landShow.title) }}
       </div>
       <div class="romaji">
-        {{ colorSelected.pinyin||'The Traditional Colors of China' }}
+        {{ colorSelected.pinyin||landShow.eng }}
       </div>
       <div class="color-decs">
-        {{ colorSelected.desc|| loadSentSuccess? '📢'+ msg : '梅子金黄杏子肥，麦花雪白菜花稀。' }}
+        {{ colorSelected.desc|| loadSentSuccess? '📢'+ msg : landShow.desc }}
       </div>
-      <div class="rgb-block">
-        <div
-          v-for="(el,i) in ['r','g','b']"
-          :key="el"
-          :style="`width:${colorSelected.rgb?(colorSelected.rgb[i]/255*100):0}%`"
-          :class="{[el]:true,'bg-bright':!colorSelected.is_bright}" />
+      <div >
+        <el-progress
+          v-for="(rgb,index) in colorSelected.rgb"
+          :key="index"
+          :text-inside="true"
+          :stroke-width="6"
+          :color="RGBList[index]"
+          :percentage="parseInt(`${rgb}`)/255*100"
+          status="success"/>
       </div>
+      <!--      <div class="rgb-block">-->
+      <!--        <div-->
+      <!--          v-for="(el,i) in ['r','g','b']"-->
+      <!--          :key="el"-->
+      <!--          :style="`width:${colorSelected.rgb?(colorSelected.rgb[i]/255*100):0}%`"-->
+      <!--          :class="{[el]:true,'bg-bright':!colorSelected.is_bright}" />-->
+      <!--      </div>-->
       <div
         v-if="colorSelected.rgb"
         class="rgb-number">
@@ -84,28 +92,22 @@
 <script>
 import anime from 'animejs'
 import ColorTab from '@/components/ColorTab.vue'
-import ColorSeriesPicker from '@/components/ColorSeriesPicker.vue'
 import ShareButton from '@/components/ShareButton.vue'
 import CopyButton from '@/components/CopyButton.vue'
 import RandomButton from '@/components/RandomButton.vue'
 import ColorFooter from '@/components/ColorFooter.vue'
 import CircleProgress from '@/plugins/CircleProgress.vue'
-
-import colorData from '@/data/zhColors.json'
-
 import {
   checkInSight,
   checkInSightInit,
   throttle,
   clipboardCopy,
 } from '@/util.js'
-const jinrishici = require('jinrishici')
 
 export default {
   name: 'BasePage',
   components: {
     ColorTab,
-    ColorSeriesPicker,
     ShareButton,
     CopyButton,
     RandomButton,
@@ -113,14 +115,18 @@ export default {
     ColorFooter,
   },
   props: {
-    colorData: {
+    landShow: {
       type: Object,
       default: () => {},
     },
-    isBright: {
-      type: Boolean,
-      default: true,
+    selfRouter: {
+      type: String,
+      default: '',
     },
+    // colorSelected: {
+    //   type: Object,
+    //   default: () => {},
+    // },
     copied: {
       type: Boolean,
       default: false,
@@ -129,17 +135,13 @@ export default {
       type: Array,
       default: () => [],
     },
-    colorSeries: {
-      type: Array,
-      default: () => [],
-    },
   },
   data () {
     return {
       msg: String,
-      // eslint-disable-next-line vue/no-dupe-keys
-      colorList: [],
-      colorSelected: {},
+      colorSelected: {
+        is_bright: true,
+      },
       isCopied: false,
       lastEls: null,
       cymkList: [
@@ -148,8 +150,11 @@ export default {
         '#FFFF00',
         '#000000',
       ],
-      // eslint-disable-next-line vue/no-dupe-keys
-      colorSeries: [],
+      RGBList: [
+        '#ff4949',
+        '#13ce66',
+        '#20a0ff',
+      ],
       isColorDisabled: false,
       loadSentSuccess: false,
     }
@@ -171,9 +176,9 @@ export default {
   },
   mounted () {
     // trigger watch colorList
-    // this.colorList = this.getColorList()
+    // this.colorList = this.getColorList(colorData)
     // route to specific color
-    this.retrieveColorAndSelect(this.$route.query.colorId)
+    // this.sendToParent(this.$route.query.colorId)
     document
       .querySelector('.tab-wrapper')
       .addEventListener('scroll', throttle(checkInSight(this.listAnime)))
@@ -184,43 +189,29 @@ export default {
     this.loadSentence()
   },
   methods: {
-    getColorList () {
-      const realColorData = colorData.data
-      let colorLists = []
-      // TODO:大数组赋值性能问题，导致选择所有颜色时会卡顿
-      let allColorSeries = []
-      for (let [key, value] of Object.entries(realColorData)) {
-        allColorSeries.push({ color: key, hex: value.hex })
-        const copyArr = Object.assign([], value.colors)
-        Array.prototype.push.apply(colorLists, copyArr)
-      }
-      this.colorSeries = Array.from(new Set(allColorSeries))
-      return colorLists
-    },
+    // TODO: 切换之后保持 keep-alive
     retrieveColorAndSelect (colorId) {
-      if (colorId) {
-        this.colorSelected = this.colorList.find(val => val.id === colorId)
-      } else {
-        this.colorSelected = {
-          hex: '#ffffff',
-          is_bright: true,
-        }
-      }
+      this.colorSelected = this.common.retrieveColorAndSelect(colorId, this.colorList)
     },
-    // 切换颜色分组
-    changeColorSeries (color) {
-      document.querySelector('.tab-wrapper').scrollTop = 0
-      if (color === 'all') this.colorList = this.getColorList()
-      else this.colorList = colorData.data[color].colors
-      this.colorSelected = this.colorList[0]
-    },
+    // sendToParent (colorId) {
+    //   this.$emit('selectColor', colorId)
+    // },
+    // // 切换颜色分组
+    // changeColorSeries (color) {
+    //   console.log('-----1111-----cccc----------')
+    //   let obj = this.common.changeColorSeries(color, colorData)
+    //   this.colorList = obj.cl
+    //   this.colorSelected = obj.cSelected
+    // },
     changeColor (color) {
       this.isColorDisabled = true
       // watch $route and change color
       // see also:https://github.com/vuejs/vue-router/issues/2872#issuecomment-519073998
       // eslint-disable-next-line handle-callback-err
-      this.$router.push({ path: '/', query: { colorId: color.id } }).catch(err => {})
-      this.loadSentence()
+      this.$router.push({ path: this.selfRouter, query: { colorId: color.id } }).catch(err => {})
+      let loadObj = this.common.loadSentence()
+      this.msg = loadObj.msg
+      this.loadSentSuccess = loadObj.success
       setTimeout(() => {
         this.isColorDisabled = false
       }, 1000)
@@ -290,18 +281,10 @@ export default {
       })
     },
 
-    loadSentence () {
-      jinrishici.load(result => {
-        this.msg = result.data.content
-        this.loadSentSuccess = true
-        // eslint-disable-next-line handle-callback-err
-      }, err => {
-      })
-    },
-    goNippon () {
-      // eslint-disable-next-line handle-callback-err
-      this.$router.push({ path: '/nippon' }).catch(err => {})
-      console.log('i Need nippon')
+    loadSentence: function () {
+      let loadObj = this.common.loadSentence()
+      this.msg = loadObj.msg
+      this.loadSentSuccess = loadObj.success
     },
   },
 }
@@ -331,6 +314,7 @@ export default {
     }
     .share,
     .copy,
+    .select-brand
     .random {
       transition: all 1s;
       fill: #0c0c0c;
@@ -343,6 +327,12 @@ export default {
     }
     .random {
       right: 1+1.6 * 2rem;
+    }
+    .select-brand {
+      position: absolute;
+      bottom: 2.5rem;
+      height: 1.2rem;
+      right: 1+1.6 * 3rem;
     }
     .romaji {
       position: absolute;
@@ -507,5 +497,9 @@ export default {
 .js-tab-item {
   // for animate initial state
   opacity: 0;
+}
+.el-progress-bar__inner {
+  background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+  background-size: 1rem 1rem;
 }
 </style>

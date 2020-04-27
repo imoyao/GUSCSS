@@ -7,8 +7,9 @@ NIPPON_COLOR_LOAD_FP = '_data/nippon-color.json'
 JSON_DUMP_FP = '_data/colors.json'
 YAML_DUMP_FP = '_data/colors.yml'
 CMYK_SCALE = 100
-JSON_COLORS_DATA_DUMP_FOR_FRONTEND = 'src/data/zhColors.json'
+JSON_COLORS_DATA_DUMP_FOR_FRONTEND_CHINESE = 'src/data/zhColors.json'
 JSON_COLORS_DATA_DUMP_FOR_FRONTEND_NIPPON = 'src/data/nipponColors.json'
+JSON_COLORS_DATA_DUMP_FOR_FRONTEND_LIPSTICKS = 'src/data/lipsticks.json'
 SHOULD_I_DUMP_RESULT_TO_FILE = True  # 是否导出数据到文件
 SHOULD_I_GROUP_DATA = True  # 是否数据分组
 

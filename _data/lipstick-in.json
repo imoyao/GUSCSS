@@ -298,12 +298,12 @@
             },
             {
               "id": "216",
-              "color": "#DE455A",
+              "color": "#AA5157",
               "name": "RED CLASH"
             },
             {
               "id": "217",
-              "color": "#DE455A",
+              "color": "#B76E75",
               "name": "NUDE TROUBLE"
             }
           ]
@@ -1098,13 +1098,17 @@
             },
             {
               "id": "999",
-              "color": "#A82628",
-              "name": ""
+              "color": "#BE120E",
+              "name": "999哑光"
             },
             {
               "id": "999",
-              "color": "#A82628",
+              "color": "#A80F09",
               "name": "Metallic"
+            },{
+              "id": "999",
+              "color": "#C90205",
+              "name": "999滋润"
             },
             {
               "id": "207",

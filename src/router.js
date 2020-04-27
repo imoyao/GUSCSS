@@ -22,10 +22,18 @@ export default new Router({
     {
       path: '/nippon',
       name: 'nippon-color',
+      // route level code-splitting TODO
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('./views/NipponColors.vue'),
+    },
+    {
+      path: '/lipsticks',
+      name: 'lipsticks',
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/NipponColors.vue'),
+      component: () => import('./views/Lipsticks'),
     },
   ],
 })

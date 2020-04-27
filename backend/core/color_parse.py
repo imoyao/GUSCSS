@@ -231,8 +231,47 @@ class ParseData:
             'desc': color_desc,
             'figure': color_figure,
         }
+
     def parse_lipstick(self):
-        pass
+        lipstick_data = self.sugar_data(settings.LIPSTICK_INFO)
+        brand_list = []
+        for brand in lipstick_data.get('brands'):
+            series_list = []
+            brand_zh_name = brand.get('name','')
+            brand_en_name = brand.get('en_name','')
+            if not brand_en_name:
+                brand_en_name = '_'.join(lazy_pinyin(brand_zh_name))
+            series_name = brand.get('series')
+            for series in series_name:
+                series_name = series.get('name')
+                series_en_name = brand.get('en_name', '')
+                if not series_en_name:
+                    series_en_name = '_'.join(lazy_pinyin(series_name))
+                series_lipsticks = series.get('lipsticks')
+                lipsticks_lists = []
+                for lipstick in series_lipsticks:
+                    lipstick_origin_id = lipstick.get('id')
+                    lipstick_hex = lipstick.get('color')
+                    lipstick_name = lipstick.get('name')
+                    lipstick_obj = self.color_object_maker(lipstick_name, lipstick_hex)
+                    lipstick_obj.update({'origin_id': lipstick_origin_id})
+                    lipsticks_lists.append(lipstick_obj)
+                series_dict = {
+                    'name': series_name,
+                    'letter': series_en_name,
+                    'lipsticks': lipsticks_lists,
+                }
+                series_list.append(series_dict)
+            brand_dict = {
+                'name': brand_zh_name,
+                'letter': brand_en_name,
+                'series': series_list
+            }
+
+            brand_list.append(brand_dict)
+        all_in_one = {
+            'brands': brand_list}
+        return all_in_one
 
     def parse_nippon_color(self, group_data=False, dump_data=False, group_by='color_series'):
         nippon_data = self.sugar_data(settings.NIPPON_COLOR_INFO)

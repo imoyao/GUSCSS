@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "animejs": "^2.2.0",
+    "element-ui": "^2.13.1",
     "jinrishici": "^1.0.6",
     "normalize.css": "^8.0.0",
     "register-service-worker": "^1.0.0",
-    "v-tooltip": "^2.0.3",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
