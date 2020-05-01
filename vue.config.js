@@ -2,7 +2,6 @@ var ImageminPlugin = require('imagemin-webpack-plugin').default
 // 生产模式使用cdn
 function getProdExternals () {
   return {
-    vue: 'Vue',
     'element-ui': 'ElementUI',
   }
 }
