@@ -17,10 +17,10 @@
 <script>
 export default {
   props: {
-    fillColor: {
-      type: String,
-      default: 'dark',
-    },
+    // fillColor: {
+    //   type: String,
+    //   default: 'dark',
+    // },
     isBright: {
       type: Boolean,
       default: true,

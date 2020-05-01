@@ -28,7 +28,7 @@ export default {
     return {
       // for 循环写进base
       landShow: {
-        title: '口红可视化',
+        title: '不问色号',
         desc: '小山重迭金明灭，鬓云欲度香腮雪。懒起画蛾眉，弄妆梳洗迟。\n' + '照花前后镜，花面交相映。新帖绣罗襦，双双金鹧鸪。',
         eng: 'six colors six life',
       },
@@ -39,9 +39,6 @@ export default {
         is_bright: true,
       },
       isCopied: false,
-      // provide: {
-      //   send: '/lipsticks',
-      // },
       lastEls: null,
       isColorDisabled: false,
       selectedOptions: [],
@@ -50,9 +47,7 @@ export default {
       colorSet: new Set(),
     }
   },
-  watch: {
-  },
-  mounted () {
+  created () {
     this.lipData = this.formatTree(colorData.brands)
   },
   methods: {
@@ -119,9 +114,11 @@ export default {
 }
 .base .display .select-brand {
     position: absolute;
-    bottom: 2.8rem;
     height: 1.2rem;
     right: 6.2rem;
+}
+.lip-select/deep/.el-input.el-input--suffix{
+  bottom: .35rem;
 }
 .lip-select/deep/.el-input{
   width:auto;

@@ -19,60 +19,41 @@
       <slot> 此处插入切换色系内容 </slot>
 
       <div class="kanji">
-        {{ selfRouter==='/nippon'?colorSelected.tra_name: (colorSelected.name||landShow.title) }}
+        {{ bigTitle() }}
       </div>
       <div class="romaji">
         {{ colorSelected.pinyin||landShow.eng }}
       </div>
       <div class="color-decs">
-        {{ colorSelected.desc|| loadSentSuccess? '📢'+ msg : landShow.desc }}
+        {{ colorDesc() }}
       </div>
-      <div >
-        <el-progress
+      <div class="color-rgb-progress">
+        <e-progress
           v-for="(rgb,index) in colorSelected.rgb"
           :key="index"
+          :is-bright="colorSelected.is_bright"
           :text-inside="true"
-          :stroke-width="6"
+          :stroke-width="12"
+          :format="formatPercent"
           :color="RGBList[index]"
-          :percentage="parseInt(`${rgb}`)/255*100"
-          status="success"/>
-      </div>
-      <!--      <div class="rgb-block">-->
-      <!--        <div-->
-      <!--          v-for="(el,i) in ['r','g','b']"-->
-      <!--          :key="el"-->
-      <!--          :style="`width:${colorSelected.rgb?(colorSelected.rgb[i]/255*100):0}%`"-->
-      <!--          :class="{[el]:true,'bg-bright':!colorSelected.is_bright}" />-->
-      <!--      </div>-->
-      <div
-        v-if="colorSelected.rgb"
-        class="rgb-number">
-        <template v-for="el in ['R','G','B']">
-          <div :key="el">{{ el }}</div>
-          <div
-            :key="el + 'n'"
-            class="n cymk">0</div>
-        </template>
+          :percentage="rgbPercent(`${rgb}`)"/>
       </div>
       <div
         v-if="colorSelected.cmyk"
         class="cmyk-number">
-        <div
-          v-for="(el,index) in ['c','m','y','k']"
+        <e-progress
+          v-for="(cmykVal,index) in colorSelected.cmyk"
+          :is-bright="colorSelected.is_bright"
           :key="index"
-          :class="{[el]:true}">
-          <CircleProgress
-            :is-bright="colorSelected.is_bright"
-            :id="index"
-            :radius="5"
-            :bar-color="cymkList[index]"
-            :progress="colorSelected.cmyk[index]"
-            :background-color="'rgba(255,255,255,0.7)'"
-            :width-present="1/colorSelected.cmyk.length"
-            :is-animation="true"/>
-        </div>
+          :width="50"
+          :format="formatCMYKPercent"
+          :color="cymkList[index]"
+          :percentage="parseInt(`${cmykVal}`)"
+          type="circle"/>
       </div>
-      <ColorFooter/>
+      <ColorFooter
+        :href="selfRouter"
+        :is-bright="colorSelected.is_bright"/>
     </div>
     <div class="tab-wrapper">
       <div class="tab">
@@ -96,7 +77,7 @@ import ShareButton from '@/components/ShareButton.vue'
 import CopyButton from '@/components/CopyButton.vue'
 import RandomButton from '@/components/RandomButton.vue'
 import ColorFooter from '@/components/ColorFooter.vue'
-import CircleProgress from '@/plugins/CircleProgress.vue'
+import EProgress from '@/plugins/Progress.vue'
 import {
   checkInSight,
   checkInSightInit,
@@ -111,8 +92,8 @@ export default {
     ShareButton,
     CopyButton,
     RandomButton,
-    CircleProgress,
     ColorFooter,
+    EProgress,
   },
   props: {
     landShow: {
@@ -123,10 +104,6 @@ export default {
       type: String,
       default: '',
     },
-    // colorSelected: {
-    //   type: Object,
-    //   default: () => {},
-    // },
     copied: {
       type: Boolean,
       default: false,
@@ -141,6 +118,7 @@ export default {
       msg: String,
       colorSelected: {
         is_bright: true,
+        tra_name: '',
       },
       isCopied: false,
       lastEls: null,
@@ -176,33 +154,26 @@ export default {
   },
   mounted () {
     // trigger watch colorList
-    // this.colorList = this.getColorList(colorData)
     // route to specific color
-    // this.sendToParent(this.$route.query.colorId)
+    this.retrieveColorAndSelect(this.$route.query.colorId)
     document
       .querySelector('.tab-wrapper')
       .addEventListener('scroll', throttle(checkInSight(this.listAnime)))
+    window.addEventListener('pageshow', throttle(checkInSight(this.listAnime)))
+    window.addEventListener('click', throttle(checkInSight(this.listAnime), 1000)) // 页面跳转（不太友好）
     window.addEventListener(
       'resize',
       throttle(checkInSight(this.listAnime), 1000)
     )
-    this.loadSentence()
   },
   methods: {
+    rgbPercent (rgbNum) {
+      return parseInt(rgbNum) / 255 * 100
+    },
     // TODO: 切换之后保持 keep-alive
     retrieveColorAndSelect (colorId) {
       this.colorSelected = this.common.retrieveColorAndSelect(colorId, this.colorList)
     },
-    // sendToParent (colorId) {
-    //   this.$emit('selectColor', colorId)
-    // },
-    // // 切换颜色分组
-    // changeColorSeries (color) {
-    //   console.log('-----1111-----cccc----------')
-    //   let obj = this.common.changeColorSeries(color, colorData)
-    //   this.colorList = obj.cl
-    //   this.colorSelected = obj.cSelected
-    // },
     changeColor (color) {
       this.isColorDisabled = true
       // watch $route and change color
@@ -286,6 +257,28 @@ export default {
       this.msg = loadObj.msg
       this.loadSentSuccess = loadObj.success
     },
+    formatPercent (percentage) {
+      return Math.round(percentage / 100 * 255) // 四舍五入
+    },
+    formatCMYKPercent (percentage) {
+      return parseInt(percentage)
+    },
+    bigTitle () {
+      if (this.selfRouter === '/nippon') {
+        return this.colorSelected.tra_name || this.landShow.title
+      } else {
+        return this.colorSelected.name || this.landShow.title
+      }
+    },
+    colorDesc () {
+      let firstDesc = this.colorSelected.desc
+      if (firstDesc) {
+        return firstDesc
+      } else {
+        return this.loadSentSuccess ? '📢' + this.msg : this.landShow.desc
+      }
+    },
+
   },
 }
 </script>
@@ -310,7 +303,7 @@ export default {
       position: absolute;
       height: 1.2rem;
       width: 1.2rem;
-      bottom: 2.5rem;
+      bottom: 3rem;
     }
     .share,
     .copy,
@@ -330,13 +323,13 @@ export default {
     }
     .select-brand {
       position: absolute;
-      bottom: 2.5rem;
+      bottom: 3rem;
       height: 1.2rem;
       right: 1+1.6 * 3rem;
     }
     .romaji {
       position: absolute;
-      bottom: 2.5rem;
+      bottom: 3rem;
       left: 5rem;
       writing-mode: vertical-lr;
       letter-spacing: 0.2rem;
@@ -344,7 +337,7 @@ export default {
     .kanji {
       font-family: 'FZQKBYSJT',serif;
       position: absolute;
-      bottom: 2rem;
+      bottom: 3rem;
       left: 1rem;
       writing-mode: vertical-lr;
       letter-spacing: 0.5rem;
@@ -353,7 +346,7 @@ export default {
     .color-decs {
       font-family: 'FZQKBYSJT',serif;
       position: absolute;
-      bottom: 2.5rem;
+      bottom: 3rem;
       left: 7rem;
       letter-spacing: 0.2rem;
       line-height: 1rem;
@@ -501,5 +494,15 @@ export default {
 .el-progress-bar__inner {
   background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
   background-size: 1rem 1rem;
+}
+/*去除背景色*/
+.color-rgb-progress/deep/.el-progress-bar__outer{
+  background-color: transparent;
+}
+.el-progress.el-progress--circle{
+  margin-bottom: 0.5rem;
+}
+.color-rgb-progress/deep/.el-progress-bar__innerText{
+  margin-top: -0.56rem;
 }
 </style>

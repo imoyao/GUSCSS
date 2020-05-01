@@ -17,10 +17,10 @@ export default {
       type: Boolean,
       default: true,
     },
-    fillColor: {
-      type: String,
-      default: 'dark',
-    },
+    // fillColor: {
+    //   type: String,
+    //   default: 'dark',
+    // },
   },
 }
 </script>

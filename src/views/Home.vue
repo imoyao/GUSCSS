@@ -42,19 +42,15 @@ export default {
       },
       selfRouter: '/',
       isCopied: false,
-      // provide: {
-      //   send: 'hello',
-      // },
       lastEls: null,
       colorSeries: [],
       isColorDisabled: false,
       loadSentSuccess: false,
     }
   },
-  mounted () {
+  created () {
     this.colorList = this.getColorList(colorData)
   },
-
   methods: {
     // 从父组件调用
     changeColorSeries (color) {
@@ -68,14 +64,7 @@ export default {
       return colorObj.colorLists
     },
     retrieveColorAndSelect (colorId) {
-      // console.log(this.colorList, '------11----')
-      // if (this.colorList.length === 0) { // 从子组件传过来list为空
-      //   this.colorList = this.getColorList(colorData)
-      // }
       this.colorSelected = this.common.retrieveColorAndSelect(colorId, this.colorList)
-      // console.log(this.colorSelected, '--do it--------')
-      // eslint-disable-next-line handle-callback-err
-      // this.$refs.basePage.changeColor(this.colorSelected)
     },
   },
 }

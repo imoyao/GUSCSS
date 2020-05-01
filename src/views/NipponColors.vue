@@ -47,9 +47,8 @@ export default {
       loadSentSuccess: false,
     }
   },
-  mounted () {
+  created () {
     this.colorList = this.getColorList(colorData)
-    this.retrieveColorAndSelect(this.$route.query.colorId) // 刷新时根据路由初始化颜色
   },
 
   methods: {
@@ -65,7 +64,6 @@ export default {
       return colorObj.colorLists
     },
     retrieveColorAndSelect (colorId) {
-      console.log('do this in parent------')
       this.colorSelected = this.common.retrieveColorAndSelect(colorId, this.colorList)
     },
   },
