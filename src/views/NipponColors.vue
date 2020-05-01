@@ -3,8 +3,7 @@
     :color-list="colorList"
     :color-selected="colorSelected"
     :self-router="selfRouter"
-    :land-show="landShow"
-    @selectColor="retrieveColorAndSelect">
+    :land-show="landShow">
     <div>
       <ColorSeriesPicker
         :color-series="colorSeries"

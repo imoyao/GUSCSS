@@ -48,7 +48,9 @@
           :width="50"
           :format="formatCMYKPercent"
           :color="cymkList[index]"
+          :class="cymkStr[index]"
           :percentage="parseInt(`${cmykVal}`)"
+          class="n"
           type="circle"/>
       </div>
       <ColorFooter
@@ -128,6 +130,7 @@ export default {
         '#FFFF00',
         '#000000',
       ],
+      cymkStr: ['c', 'y', 'm', 'k'],
       RGBList: [
         '#ff4949',
         '#13ce66',
@@ -390,17 +393,17 @@ export default {
     // mononspace needed
     .cmyk-number {
       font-family: 'MONO',sans-serif;
-      font-size: 1.3rem;
+      /*font-size: 1.3rem;*/
       display: flex;
       flex-direction: column;
       align-items: flex-end;
       margin: 1rem 1rem;
       .n {
         &::after {
-          margin-bottom: 0.5rem;
+          /*margin-bottom: 0.5rem;*/
           margin-left: -0.5rem;
           display: inline-block;
-          font-size: 1rem;
+          font-size: 0.5rem;
           position: relative;
           top: -0.8rem;
         }
@@ -504,5 +507,8 @@ export default {
 }
 .color-rgb-progress/deep/.el-progress-bar__innerText{
   margin-top: -0.56rem;
+}
+.el-progress--circle .el-progress__text, .el-progress--dashboard .el-progress__text{
+  top: 65% !important;
 }
 </style>

@@ -4,8 +4,7 @@
     :color-list="colorList"
     :color-selected="colorSelected"
     :self-router="selfRouter"
-    :land-show="landShow"
-    @selectColor="retrieveColorAndSelect($event)">
+    :land-show="landShow">
     <div>
       <ColorSeriesPicker
         :color-series="colorSeries"
