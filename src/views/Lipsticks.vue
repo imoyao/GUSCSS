@@ -12,6 +12,18 @@
         class="select-brand"
         @change="handleChange"/>
     </div>
+    <div class="lip-img">
+      <div
+        v-for="fit in fits"
+        :key="fit"
+        class="block">
+        <el-image
+          :src="url"
+          :fit="fit"
+          :preview-src-list="srcList"/>
+      </div>
+
+    </div>
   </base-page>
 
 </template>
@@ -45,6 +57,12 @@ export default {
       lipData: [],
       selectedLipstrik: [],
       colorSet: new Set(),
+      fits: ['cover'],
+      url: '//img4.xiji.com/images/19/01/6efcdf3646ab405e003d3feefa2d463ac20b9d3a.jpg',
+      srcList: [
+        '//ci.xiaohongshu.com/26cd24f8-1440-5c74-a82a-fcbee522bade?imageView2/2/w/1080/format/jpg',
+        '//ci.xiaohongshu.com/7d62a4a7-2006-4aeb-a3f7-050f6152e1f5@r_1280w_1280h.jpg',
+      ],
     }
   },
   created () {
@@ -108,6 +126,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '@/mixin.scss';
 /*https://www.helloweba.net/javascript/295.html*/
 .select-brand{
   width: 20px;
@@ -119,6 +138,9 @@ export default {
 }
 .lip-select/deep/.el-input.el-input--suffix{
   bottom: .35rem;
+  @include for-phone {
+    bottom: .7rem;
+  }
 }
 .lip-select/deep/.el-input{
   width:auto;
