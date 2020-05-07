@@ -570,7 +570,7 @@ def find_color_series_by_name(name=''):
 converter = ConvertColor()
 
 
-@find_color_series_by_name(name='')
+# @find_color_series_by_name(name='')
 def find_color_series(rgb_seq):  # TODO:此处是否有更好实现？cmyk去判断是否是100%cmy颜色(黑色不判断)
     """
     TODO: see also: https://github.com/MisanthropicBit/colorise/blob/master/colorise/color_tools.py
@@ -659,14 +659,7 @@ def unify_color_dict(color):
 
 if __name__ == '__main__':
 
-    color_list = settings.COLOR_BASE_MAP.values()
+    color_list = [[22, 24, 35], [36, 134, 185], [234, 137, 88], [32, 161, 98], [100, 106, 88]]
 
     for item in color_list:
         print(find_color_series(item))
-        # import colorsys
-        # print(colorsys.rgb_to_hsv(*item))
-        # print('rgb_to_hsv:', rgb_to_hsv(item))
-        # print('rgb_to_hsv_org:', rgb_to_hsv_org(item))
-    print('------------------')
-    a = [100, 106, 88]
-    print(find_color_series(a))

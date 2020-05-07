@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # Created by imoyao at 2020/4/12 21:52
+import os
+
 JSON_LOAD_FP = '_data/Traditional-Chinese-Colors.json'
 YAML_LOAD_FP = '_data/colors-source.yml'
 NIPPON_COLOR_LOAD_FP = '_data/nippon-color.json'
@@ -111,3 +113,10 @@ single_color = {
     'cmyk': [0, 59, 61, 28],
     'desc': '朱砂的颜色，比大红活泼，也称铅朱朱色丹色（在YM对等的情况下，适量减少红色的成分就是该色的色彩系列感觉）'
 }
+
+TEST_IMAGE_FP = ['../../_data/lipsticks/999_zirun.jpg', '../../_data/lipsticks/999_metal.jpg']
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+
+def full_path():
+    return os.path.join(current_dir, TEST_IMAGE_FP)
