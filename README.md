@@ -1,11 +1,17 @@
-# 中国传统色
+# GUSCSS（Give You Some Color See See）
+给你点颜色瞧瞧！
+一个基于 Vue2 和 Python3 写的展示各种颜色的单页面静态网页，（目前）主要由三部分构成：
+- 中国传统色
 > 梅子金黄杏子肥，麦花雪白菜花稀。
   <right><br>——范成大 ·《四时田园杂兴·其二》</right>
+- nippon colors
+日本传统色
+- 不问色号
+送给女性和追女孩子的男性的福利，一个展示各种口红色号及实际使用效果与感受（仅PC）的网页。
 
-这是一个基于 Vue2 和 Python3 写的展示中国传统色的单页面静态网页。
 ## 预览
 - [Traditional-Chinese-Colors | 中国传统色](https://colors.masantu.com/)
-- 源码：[imoyao/Traditional-Chinese-Colors](https://github.com/imoyao/Traditional-Chinese-Colors)
+- 源码：[imoyao/Traditional-Chinese-Colors](https://github.com/imoyao/GUSCSS/)
 ## 说明
 本项目主要用于 Python 代码的练习，同时对 Vue2 更加深入地了解。实现一个**伪**前后端分离的小项目。前端参考了[nippon-color:PWA build with vue-cli 3](https://github.com/ssshooter/nippon-color)，后端使用 Python 对各种采集的数据进行了风格统一。
 
