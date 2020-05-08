@@ -117,6 +117,10 @@ single_color = {
 TEST_IMAGE_FP = ['../../_data/lipsticks/999_zirun.jpg', '../../_data/lipsticks/999_metal.jpg']
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
+DIOR_LYLJ_URL = 'https://www.xiji.com/product-127266.html'
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4121.0 Safari/537.36 Edg/84.0.495.2'}
+
 
 def full_path():
     return os.path.join(current_dir, TEST_IMAGE_FP)
