@@ -85,6 +85,7 @@ COLOR_BASE_MAP = {
 }
 # 因为黑白我们的算法基本可以识别所以此处不列出
 REG_COLOR_SERES = r'\w*([灰|红|黄|绿|青|蓝|紫])\w*'
+REG_LYLJ_SUBTITLE_EXP = r'.+\((.+)\)'
 # 'black', 'gray', 'white', 'red', 'yellow', 'green', 'cyan', 'blue', 'purple'
 COLOR_SERIES_MAP = {
     'black': '黑',
@@ -118,6 +119,7 @@ TEST_IMAGE_FP = ['../../_data/lipsticks/999_zirun.jpg', '../../_data/lipsticks/9
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
 DIOR_LYLJ_URL = 'https://www.xiji.com/product-127266.html'
+LYLJ_IMG_DIR = '../../_data/lipsticks/Dior/lylj'
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4121.0 Safari/537.36 Edg/84.0.495.2'}
 

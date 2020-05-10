@@ -46,6 +46,9 @@ class BaiduOCR:
         return ret_data
 
 
+baidu_ocr = BaiduOCR()
+
+
 def time_it(func):
     @wraps(func)
     def wrapper(*args, **kwargs):
@@ -58,7 +61,7 @@ def time_it(func):
     return wrapper
 
 
-@time_it
+# @time_it
 def get_rgb_of_img_getpixel(fp):
     """
     此处说这个方法比下面的慢，测试相反，需要进一步验证：https://www.cnblogs.com/chimeiwangliang/p/7130434.html
@@ -66,12 +69,11 @@ def get_rgb_of_img_getpixel(fp):
     :return:
     """
     img = Image.open(fp)
-    # img.show()
     rgb_color = img.getpixel((96, 720))
     return rgb_color
 
 
-@time_it
+# @time_it
 def get_rgb_of_img_load(fp):
     im = Image.open(fp)  # Can be many different formats.
     pix = im.load()

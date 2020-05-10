@@ -13,7 +13,7 @@ from backend import settings
 
 class LYLJ:
     """
-     烈艳蓝金系列唇膏爬虫
+    烈艳蓝金系列唇膏爬虫
     """
     start_link = settings.DIOR_LYLJ_URL
 
@@ -49,13 +49,11 @@ class LYLJ:
     def mk_dir(self):
         dir_name = '../../_data/lipsticks/Dior/{sn}'.format(sn=self.__class__.__name__.lower())
         if not os.path.exists(dir_name):
-            # [Python安全创建目录的方法](https: // majing.io / posts / 10000007281150)
+            # [Python安全创建目录的方法](https://majing.io/posts/10000007281150)
             pathlib.Path(dir_name).mkdir(parents=True, exist_ok=True)
         return dir_name
 
     def load_content(self):
-        # parser = etree.HTMLParser()  # 自定义解析器
-        # result = etree.parse('../../_data/xiji/products.html', parser)
         result = self.get_item_element_tree(self.start_link)
         links = result.xpath('//*[@id="product_spec"]/ul/li/span[2]/ul/li/a/@href')
         item_ids = result.xpath('//*[@id="product_spec"]/ul/li/span[2]/ul/li/a/@rel')
@@ -103,7 +101,6 @@ class LYLJ:
         :return:
         """
         content = Request(item_url, headers=settings.HEADERS)
-        # content = urllib.request.urlopen(url)  # 发出请求并且接收返回文本对象
         response = urlopen(content, timeout=10)
         html = response.read()  # 调用read()进行读取
         result = etree.HTML(html)
