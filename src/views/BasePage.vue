@@ -457,7 +457,7 @@ export default {
         width: 100%;
         height: 100%;
         position: absolute;
-        background: url(https://cdn.jsdelivr.net/gh/masantu/statics/image/16163833_p9.jpg) repeat local;
+        background: url(https://raw.githubusercontent.com/masantu/statics/master/images/16163833_p9.jpg) repeat local;
         opacity: 0.3;
       }
       @include for-tablet-up {
@@ -510,5 +510,8 @@ export default {
 }
 .el-progress--circle .el-progress__text, .el-progress--dashboard .el-progress__text{
   top: 65% !important;
+}
+.el-progress-bar__innerText{
+   padding-bottom: 1rem;
 }
 </style>
