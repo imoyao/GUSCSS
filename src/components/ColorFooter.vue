@@ -56,7 +56,7 @@ export default {
       },
       repoInfo: {
         title: '源码',
-        href: 'https://github.com/imoyao/Traditional-Chinese-Colors/',
+        href: 'https://github.com/imoyao/GUSCSS/',
       },
       footerLinks:
         [{ title: '中国传统色', href: '/' }, { title: '日本の伝統色', href: '/nippon' }, { title: '不问色号', href: '/lipsticks' },
