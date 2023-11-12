@@ -9,14 +9,13 @@ import os
 import re
 from collections import defaultdict
 from functools import wraps, partial
-import itertools
 import json
 
 import yaml
 from pypinyin import lazy_pinyin, Style
 from backend.libs.zhtools.langconv import Converter
 
-from backend import settings
+from backend import settings, utils
 
 
 class ConvertColor:
@@ -237,8 +236,8 @@ class ParseData:
         brand_list = []
         for brand in lipstick_data.get('brands'):
             series_list = []
-            brand_zh_name = brand.get('name','')
-            brand_en_name = brand.get('en_name','')
+            brand_zh_name = brand.get('name', '')
+            brand_en_name = brand.get('en_name', '')
             if not brand_en_name:
                 brand_en_name = '_'.join(lazy_pinyin(brand_zh_name))
             series_name = brand.get('series')
@@ -298,7 +297,7 @@ class ParseData:
             color_obj = self.color_object_maker(name, color_hex, color_rgb=color_rgb, pinyin_str=jp_pinyin_str,
                                                 color_cmyk=color_cmyk, is_simple=False)
             jp_list.append(color_obj)
-        all_in_one = merge_iterables_of_dict('id', nippor_list, jp_list)
+        all_in_one = utils.merge_iterables_of_dict('id', nippor_list, jp_list)
         if dump_data:
             grouped_data = []
             if group_data:  # 此处只在导出前分组，没有对各组数据分别分组
@@ -442,7 +441,7 @@ class ParseData:
         colors_data = self.parse_flinhong(settings.FLINHONG_COLORS_INFO, dump_data=dump_data)
         cfs_color_data = self.parse_cfs_color(settings.CFS_COLOR_INFO, dump_data=dump_data)
         # chinese_colors_data  放后面，因为有描述和图片
-        all_in_one = merge_iterables_of_dict('id', jizhi_data, colors_data, cfs_color_data, chinese_colors_data)
+        all_in_one = utils.merge_iterables_of_dict('id', jizhi_data, colors_data, cfs_color_data, chinese_colors_data)
         # print(type(all_in_one), all_in_one)
         print('before_filter:', len(jizhi_data) + len(chinese_colors_data) + len(colors_data) + len(cfs_color_data))
         print('after_filter:', len(all_in_one))
@@ -489,24 +488,6 @@ def group_iterables_of_dicts_in_list(group_key, iterables):
     for _item in iterables:
         row_by_key[_item[group_key]].append(_item)
     return row_by_key
-
-
-def merge_iterables_of_dict(shared_key, *iterables):
-    """
-    see also:[🐍PyTricks | Python 中如何合并一个内字典列表？ | 别院牧志](https://imoyao.github.io/blog/2020-04-19/python-merge-two-list-of-dicts/)
-    chinese_colors_data  放前面，因为有描述和图片
-    :param shared_key:
-    :param iterables:
-    :return:
-    """
-    result = defaultdict(dict)
-    for dictionary in itertools.chain.from_iterable(iterables):
-        result[dictionary[shared_key]].update(dictionary)
-    # for dictionary in result.values():
-    #     dictionary.pop(shared_key)
-    # return result
-    result = list(result.values())  # 保证返回为list，否则：TypeError: Object of type dict_values is not JSON serializable
-    return result
 
 
 def update_by_value(v):
@@ -570,7 +551,7 @@ def find_color_series_by_name(name=''):
 converter = ConvertColor()
 
 
-@find_color_series_by_name(name='')
+# @find_color_series_by_name(name='')
 def find_color_series(rgb_seq):  # TODO:此处是否有更好实现？cmyk去判断是否是100%cmy颜色(黑色不判断)
     """
     TODO: see also: https://github.com/MisanthropicBit/colorise/blob/master/colorise/color_tools.py
@@ -659,14 +640,7 @@ def unify_color_dict(color):
 
 if __name__ == '__main__':
 
-    color_list = settings.COLOR_BASE_MAP.values()
+    color_list = [[22, 24, 35], [36, 134, 185], [234, 137, 88], [32, 161, 98], [100, 106, 88]]
 
     for item in color_list:
         print(find_color_series(item))
-        # import colorsys
-        # print(colorsys.rgb_to_hsv(*item))
-        # print('rgb_to_hsv:', rgb_to_hsv(item))
-        # print('rgb_to_hsv_org:', rgb_to_hsv_org(item))
-    print('------------------')
-    a = [100, 106, 88]
-    print(find_color_series(a))
