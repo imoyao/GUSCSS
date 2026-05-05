@@ -14,9 +14,9 @@
 送给女性和追女孩子的男性的福利，一个展示各种口红色号及实际使用效果与感受（仅PC）的网页。
 
 ### 关于色彩数据来源的说明
-中国传统色数据来源请参考[此处](https://github.com/imoyao/GUSCSS/issues/6)
-日本传统色数据来源于[NIPPON COLORS - 日本の伝統色](https://nipponcolors.com/)，根据作者的说明，主要出处为：Color data cited: “日本の伝統色 The Traditional Colors of Japan”. PIE BOOKS, 2007.
-不问色号数据来自于对主流购物网站口红色彩数据提取，由本人之前独立完成
+- 中国传统色数据来源请参考[此处](https://github.com/imoyao/GUSCSS/issues/6)
+- 日本传统色数据来源于[NIPPON COLORS - 日本の伝統色](https://nipponcolors.com/)，根据作者的说明，主要出处为：Color data cited: “日本の伝統色 The Traditional Colors of Japan”. PIE BOOKS, 2007.
+- 不问色号数据来自于对主流购物网站口红色彩数据提取，由本人之前独立完成
 
 ## 预览
 - [Traditional-Chinese-Colors | 中国传统色](https://colors.masantu.com/)
