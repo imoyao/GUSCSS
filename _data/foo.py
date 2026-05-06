@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Created by Administrator at 2020/4/14 23:18
+# Created by imoyao at 2020/4/14 23:18
 # // f for fontColor / d for dark / b for bright
 # // c for color series
 # // r red ;b black ;w white ;p purple ;c cyan ;g green ;y yellow ;

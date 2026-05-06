@@ -53,6 +53,7 @@
           class="n"
           type="circle"/>
       </div>
+      <slot name="lip-img"/>
       <ColorFooter
         :href="selfRouter"
         :is-bright="colorSelected.is_bright"/>
@@ -345,6 +346,19 @@ export default {
       writing-mode: vertical-lr;
       letter-spacing: 0.5rem;
       font-size: 3rem;
+    }
+    .lip-img{
+      position: absolute;
+      bottom: 15rem;
+      left: 10rem;
+      right: 8rem;
+      @include for-phone {
+        display:none;
+      }
+      @include for-tablet {
+        bottom: 25rem;
+        right: 5rem;
+      }
     }
     .color-decs {
       font-family: 'FZQKBYSJT',serif;
